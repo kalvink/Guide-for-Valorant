@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f1923"
+    tools:context=".ui.agents.AgentsFragment">
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/cypher" />
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="311dp"
+        android:layout_toStartOf="@+id/test3"
+        android:layout_toEndOf="@+id/test"
+        android:background="@drawable/cypher" />
+
+    <Button
+        android:id="@+id/test3"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/cypher" />
+
+    <Button
+        android:id="@+id/test4"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="475dp"
+        android:background="@drawable/cypher" />
+
+    <Button
+        android:id="@+id/test5"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/cypher" />
+
+    <Button
+        android:id="@+id/test6"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/cypher" />
+</RelativeLayout>
