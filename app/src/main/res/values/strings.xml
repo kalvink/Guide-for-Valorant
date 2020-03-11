@@ -17,5 +17,7 @@
     <string name="maps">Maps</string>
     <string name="media">Media</string>
     <string name="info">Info</string>
+    <string name="wallpaper">wallpaper</string>
+    <string name="video">video</string>
 
 </resources>
