@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.google.android.material.navigation.NavigationView;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
@@ -32,14 +33,16 @@ public class HomeFragment extends Fragment {
         final Button btn_maps = root.findViewById(R.id.btn_maps);
         final Button btn_media = root.findViewById(R.id.btn_media);
         final Button btn_info = root.findViewById(R.id.btn_info);
+        final NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
 
         btn_agents.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
                 mFragment = new AgentsFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Agents");
+                navigationView.getMenu().getItem(1).setChecked(true);
             }
         });
         btn_maps.setOnClickListener(new View.OnClickListener() {
@@ -47,8 +50,10 @@ public class HomeFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new MapsFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Maps");
+                navigationView.getMenu().getItem(2).setChecked(true);
+
             }
         });
         btn_media.setOnClickListener(new View.OnClickListener() {
@@ -56,8 +61,10 @@ public class HomeFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new MediaFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Media");
+                navigationView.getMenu().getItem(3).setChecked(true);
+
             }
         });
         btn_info.setOnClickListener(new View.OnClickListener() {
@@ -65,8 +72,10 @@ public class HomeFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new InfoFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Information");
+                navigationView.getMenu().getItem(4).setChecked(true);
+
             }
         });
         return root;

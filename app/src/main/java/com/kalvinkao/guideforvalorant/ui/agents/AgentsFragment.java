@@ -1,5 +1,7 @@
 package com.kalvinkao.guideforvalorant.ui.agents;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +12,7 @@ import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -19,11 +22,12 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.google.android.material.navigation.NavigationView;
 import com.kalvinkao.guideforvalorant.MainActivity;
+import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
 
 import java.util.Objects;
 
-public class AgentsFragment extends Fragment {
+public class AgentsFragment extends Fragment implements OnBackPressed {
 
     private AgentsViewModel agentsViewModel;
 
@@ -47,7 +51,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new ViperFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Viper");
             }
         });
@@ -56,7 +60,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new CypherFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Cypher");
             }
         });
@@ -65,7 +69,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new JettFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Jett");
             }
         });
@@ -74,7 +78,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new SageFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Sage");
             }
         });
@@ -83,7 +87,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new BrimstoneFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Brimstone");
             }
         });
@@ -92,7 +96,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new PhoenixFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Phoenix");
             }
         });
@@ -101,7 +105,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new SovaFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Sova");
             }
         });
@@ -110,7 +114,7 @@ public class AgentsFragment extends Fragment {
                 Fragment mFragment = null;
                 mFragment = new OmenFragment();
                 FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).commit();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Omen");
 
             }
@@ -120,6 +124,8 @@ public class AgentsFragment extends Fragment {
         return root;
     }
 
-
-
+    @Override
+    public void onBackPressed(){
+        getActivity().getSupportFragmentManager().popBackStack();
+    }
 }

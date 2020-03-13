@@ -5,8 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.fragment.app.Fragment;
 
+import com.kalvinkao.guideforvalorant.MainActivity;
+import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
 
 
@@ -15,7 +18,7 @@ import com.kalvinkao.guideforvalorant.R;
  * Use the {@link OmenFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class OmenFragment extends Fragment {
+public class OmenFragment extends Fragment implements OnBackPressed {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -54,6 +57,8 @@ public class OmenFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override
@@ -62,4 +67,10 @@ public class OmenFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_omen, container, false);
     }
+
+    @Override
+    public void onBackPressed(){
+        getActivity().getSupportFragmentManager().popBackStack();
+    }
+
 }
