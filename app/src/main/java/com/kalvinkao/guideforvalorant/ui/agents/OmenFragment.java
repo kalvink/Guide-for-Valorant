@@ -1,6 +1,8 @@
 package com.kalvinkao.guideforvalorant.ui.agents;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,13 +14,16 @@ import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
 
+import java.util.List;
+import java.util.Objects;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link OmenFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class OmenFragment extends Fragment implements OnBackPressed {
+public class OmenFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -53,9 +58,12 @@ public class OmenFragment extends Fragment implements OnBackPressed {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MainActivity.previousTitle = "Agents";
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
 
 
@@ -67,10 +75,4 @@ public class OmenFragment extends Fragment implements OnBackPressed {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_omen, container, false);
     }
-
-    @Override
-    public void onBackPressed(){
-        getActivity().getSupportFragmentManager().popBackStack();
-    }
-
 }

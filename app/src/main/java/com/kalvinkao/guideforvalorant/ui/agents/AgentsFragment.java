@@ -45,6 +45,7 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
         final ImageButton phoenix = root.findViewById(R.id.btn_phoenix);
         final ImageButton sova = root.findViewById(R.id.btn_sova);
         final ImageButton omen = root.findViewById(R.id.btn_omen);
+        MainActivity.previousTitle = "Home";
 
         viper.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -121,8 +122,10 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
         });
 
 
+
         return root;
     }
+
 
     @Override
     public void onBackPressed(){

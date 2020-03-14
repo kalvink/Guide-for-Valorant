@@ -19,5 +19,6 @@ public class BaseFragment extends Fragment implements OnBackPressed {
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
-    public void onBackPressed() {}
+    public void onBackPressed() {
+    }
 }

@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 
 public class MediaFragment extends Fragment {
@@ -22,6 +23,8 @@ public class MediaFragment extends Fragment {
         mediaViewModel =
                 ViewModelProviders.of(this).get(MediaViewModel.class);
         View root = inflater.inflate(R.layout.fragment_media, container, false);
+        MainActivity.previousTitle = "Home";
+
         mediaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

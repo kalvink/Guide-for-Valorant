@@ -30,6 +30,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    public static String previousTitle = "Home";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         tellFragments();
+        getSupportActionBar().setTitle(previousTitle);
         super.onBackPressed();
 
     }

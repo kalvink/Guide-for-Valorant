@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 
 public class MapsFragment extends Fragment {
@@ -23,6 +24,8 @@ public class MapsFragment extends Fragment {
         mapsViewModel =
                 ViewModelProviders.of(this).get(MapsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_maps, container, false);
+
+        MainActivity.previousTitle = "Home";
 
         return root;
     }
