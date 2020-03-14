@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:orientation="horizontal">
@@ -29,16 +29,10 @@
             android:contentDescription="@string/cypher"
             android:src="@drawable/cypher" />
 
-        <ImageButton
-            android:id="@+id/btn_jett"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/jett" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -56,13 +50,26 @@
             android:layout_weight="1"
             android:src="@drawable/brimstone" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_jett"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/jett" />
+
         <ImageButton
             android:id="@+id/btn_phoenix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/phoenix" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -85,4 +92,5 @@
             android:src="@drawable/omen" />
 
     </LinearLayout>
+
 </LinearLayout>
