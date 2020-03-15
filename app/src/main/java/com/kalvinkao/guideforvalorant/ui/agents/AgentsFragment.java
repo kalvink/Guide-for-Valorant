@@ -1,5 +1,6 @@
 package com.kalvinkao.guideforvalorant.ui.agents;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
+import com.kalvinkao.guideforvalorant.Viper;
 import com.kalvinkao.guideforvalorant.ui.agents.viper.ViperFragment;
 
 public class AgentsFragment extends Fragment implements OnBackPressed {
@@ -24,7 +26,7 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
                              ViewGroup container, Bundle savedInstanceState) {
         agentsViewModel =
                 ViewModelProviders.of(this).get(AgentsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_agents, container, false);
+        final View root = inflater.inflate(R.layout.fragment_agents, container, false);
 
         final ImageButton viper = root.findViewById(R.id.btn_viper);
         final ImageButton cypher = root.findViewById(R.id.btn_cypher);
@@ -38,10 +40,12 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
 
         viper.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new ViperFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
+
+                Intent intent = new Intent(getActivity(), Viper.class);
+                root.getContext().startActivity(intent);
+
+
+
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Viper");
             }
         });
