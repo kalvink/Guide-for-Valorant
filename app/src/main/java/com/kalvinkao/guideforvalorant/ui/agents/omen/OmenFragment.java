@@ -1,21 +1,14 @@
-package com.kalvinkao.guideforvalorant.ui.agents;
+package com.kalvinkao.guideforvalorant.ui.agents.omen;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.activity.OnBackPressedCallback;
 import androidx.fragment.app.Fragment;
 
 import com.kalvinkao.guideforvalorant.MainActivity;
-import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
-
-import java.util.List;
-import java.util.Objects;
 
 
 /**

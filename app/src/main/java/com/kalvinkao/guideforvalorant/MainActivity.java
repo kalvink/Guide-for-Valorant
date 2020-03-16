@@ -19,6 +19,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.tabs.TabLayout;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -116,11 +117,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void tellFragments() {
-        List<Fragment> fragments = getSupportFragmentManager().getFragments();
-        for (Fragment f : fragments) {
-            if (f != null && f instanceof BaseFragment)
-                ((BaseFragment) f).onBackPressed();
-        }
+            List<Fragment> fragments = getSupportFragmentManager().getFragments();
+            for (Fragment f : fragments) {
+                if (f != null && f instanceof BaseFragment)
+                    ((BaseFragment) f).onBackPressed();
+            }
     }
 
 }

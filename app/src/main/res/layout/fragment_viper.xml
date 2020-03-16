@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.agents.viper.ViperFragment">
+    android:background="@color/valorantColor"
+    tools:context=".ui.agents.viper.main.PlaceholderFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/viper" />
+
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla aliquet porttitor. Proin sagittis nisl rhoncus mattis rhoncus urna neque. Quam quisque id diam vel quam elementum. Non tellus orci ac auctor augue mauris augue. Aliquet porttitor lacus luctus accumsan. Eget aliquet nibh praesent tristique magna sit. Amet nisl suscipit adipiscing bibendum est. Diam phasellus vestibulum lorem sed. Sed odio morbi quis commodo odio aenean sed adipiscing diam. Arcu cursus vitae congue mauris rhoncus aenean vel elit.  Lorem ipsum dolor sit amet consectetur adipiscing. Eget sit amet tellus cras adipiscing enim. Dui ut ornare lectus sit amet est placerat. Lorem sed risus ultricies tristique nulla aliquet. Bibendum at varius vel pharetra vel turpis nunc. Ultricies mi quis hendrerit dolor magna. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. In egestas erat imperdiet sed euismod nisi. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Suspendisse sed nisi lacus sed. Sed felis eget velit aliquet sagittis id consectetur. Pretium aenean pharetra magna ac placerat. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare. Egestas pretium aenean pharetra magna ac placerat vestibulum.  Tellus at urna condimentum mattis pellentesque id. Sit amet tellus cras adipiscing enim eu. Sed pulvinar proin gravida hendrerit lectus a. Quam quisque id diam vel. Varius quam quisque id diam vel. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. In ante metus dictum at tempor commodo ullamcorper. Arcu non sodales neque sodales ut etiam sit amet. Id velit ut tortor pretium viverra suspendisse potenti nullam. Interdum consectetur libero id faucibus nisl. Proin libero nunc consequat interdum varius sit amet mattis. Praesent semper feugiat nibh sed. Tempor orci eu lobortis elementum nibh tellus molestie nunc non.  Nam aliquam sem et tortor consequat id. Nam at lectus urna duis convallis. Interdum velit laoreet id donec ultrices. Id volutpat lacus laoreet non curabitur gravida arcu. Nunc sed augue lacus viverra. At tempor commodo ullamcorper a lacus. Est sit amet facilisis magna etiam. Sagittis nisl rhoncus mattis rhoncus. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Sit amet facilisis magna etiam tempor. Tristique senectus et netus et malesuada fames ac. Volutpat maecenas volutpat blandit aliquam etiam erat. Placerat orci nulla pellentesque dignissim enim sit. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.  Sed viverra tellus in hac habitasse. Convallis aenean et tortor at risus viverra adipiscing at in. Pellentesque pulvinar pellentesque habitant morbi. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Vitae auctor eu augue ut lectus arcu bibendum at varius. Dolor purus non enim praesent elementum facilisis leo. Lobortis scelerisque fermentum dui faucibus in. Quisque id diam vel quam elementum pulvinar etiam non. Nunc non blandit massa enim. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. Viverra nam libero justo laoreet sit. Ut porttitor leo a diam sollicitudin tempor." />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

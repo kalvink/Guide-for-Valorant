@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.main;
+package com.kalvinkao.guideforvalorant.ui.agents.viper.main;
 
 import android.content.Context;
 
@@ -39,9 +39,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         return mContext.getResources().getString(TAB_TITLES[position]);
     }
 
+
+
     @Override
     public int getCount() {
-        // Show 2 total pages.
         return 3;
     }
 }

@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.agents;
+package com.kalvinkao.guideforvalorant.ui.agents.sova;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

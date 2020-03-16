@@ -9,8 +9,6 @@
         android:roundIcon="@drawable/circle"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -23,12 +21,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Viper"
-            android:label="@string/app_name"
+            android:name=".ui.agents.viper.Viper"
+            android:label="@string/viper"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
-
+        <activity
+            android:name=".ui.agents.cypher.Cypher"
+            android:label="@string/cypher"
+            android:theme="@style/AppTheme">
+        </activity>
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data

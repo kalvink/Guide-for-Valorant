@@ -15,17 +15,20 @@ import androidx.lifecycle.ViewModelProviders;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.Viper;
-import com.kalvinkao.guideforvalorant.ui.agents.viper.ViperFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.brimstone.BrimstoneFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.cypher.Cypher;
+import com.kalvinkao.guideforvalorant.ui.agents.jett.JettFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.omen.OmenFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.phoenix.PhoenixFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.sage.SageFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.sova.SovaFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.viper.Viper;
 
 public class AgentsFragment extends Fragment implements OnBackPressed {
 
-    private AgentsViewModel agentsViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        agentsViewModel =
-                ViewModelProviders.of(this).get(AgentsViewModel.class);
+
         final View root = inflater.inflate(R.layout.fragment_agents, container, false);
 
         final ImageButton viper = root.findViewById(R.id.btn_viper);
@@ -40,80 +43,53 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
 
         viper.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 Intent intent = new Intent(getActivity(), Viper.class);
                 root.getContext().startActivity(intent);
-
-
-
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Viper");
             }
         });
         cypher.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new CypherFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Cypher");
+                Intent intent = new Intent(getActivity(), Cypher.class);
+                root.getContext().startActivity(intent);
             }
         });
         jett.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new JettFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Jett");
+                Intent intent = new Intent(getActivity(), Cypher.class);
+                root.getContext().startActivity(intent);
             }
         });
         sage.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new SageFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Sage");
+                Intent intent = new Intent(getActivity(), Cypher.class);
+                root.getContext().startActivity(intent);
             }
         });
         brimstone.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new BrimstoneFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Brimstone");
+                Intent intent = new Intent(getActivity(), Cypher.class);
+                root.getContext().startActivity(intent);
             }
         });
         phoenix.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new PhoenixFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Phoenix");
+                Intent intent = new Intent(getActivity(), PhoenixFragment.class);
+                root.getContext().startActivity(intent);
             }
         });
         sova.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new SovaFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Sova");
+                Intent intent = new Intent(getActivity(), SovaFragment.class);
+                root.getContext().startActivity(intent);
             }
         });
         omen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Fragment mFragment = null;
-                mFragment = new OmenFragment();
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Omen");
+                Intent intent = new Intent(getActivity(), SovaFragment.class);
+                root.getContext().startActivity(intent);
 
             }
         });
-
 
 
         return root;
@@ -121,7 +97,7 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
 
 
     @Override
-    public void onBackPressed(){
+    public void onBackPressed() {
         getActivity().getSupportFragmentManager().popBackStack();
     }
 }

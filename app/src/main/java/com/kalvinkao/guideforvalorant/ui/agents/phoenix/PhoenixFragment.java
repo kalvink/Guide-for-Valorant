@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.agents;
+package com.kalvinkao.guideforvalorant.ui.agents.phoenix;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,10 +13,10 @@ import com.kalvinkao.guideforvalorant.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link JettFragment#newInstance} factory method to
+ * Use the {@link PhoenixFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class JettFragment extends Fragment {
+public class PhoenixFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -26,7 +26,7 @@ public class JettFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public JettFragment() {
+    public PhoenixFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class JettFragment extends Fragment {
      * @return A new instance of fragment viperFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static JettFragment newInstance(String param1, String param2) {
-        JettFragment fragment = new JettFragment();
+    public static PhoenixFragment newInstance(String param1, String param2) {
+        PhoenixFragment fragment = new PhoenixFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -63,6 +63,6 @@ public class JettFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_jett, container, false);
+        return inflater.inflate(R.layout.fragment_phoenix, container, false);
     }
 }

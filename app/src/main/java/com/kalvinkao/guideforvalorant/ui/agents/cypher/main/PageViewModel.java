@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.main;
+package com.kalvinkao.guideforvalorant.ui.agents.cypher.main;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;
