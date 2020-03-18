@@ -21,6 +21,18 @@ android {
         }
     }
 
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res/layouts/agents',
+                            'src/main/res/layouts',
+                            'src/main/res'
+                    ]
+        }
+    }
+
+
 }
 
 dependencies {
@@ -39,3 +51,4 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
 
 }
+

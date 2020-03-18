@@ -12,9 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+
 import com.kalvinkao.guideforvalorant.R;
-
-
 
 
 public class PlaceholderFragment extends Fragment {
@@ -41,34 +40,31 @@ public class PlaceholderFragment extends Fragment {
             index = getArguments().getInt(ARG_SECTION_NUMBER);
         }
         pageViewModel.setIndex(index);
-
-
-
     }
+
+    View root;
 
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-
-        View root = inflater.inflate(R.layout.fragment_viper, container, false);
-        final TextView textView = root.findViewById(R.id.section_label);
-        pageViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-
+        switch (getArguments().getInt(ARG_SECTION_NUMBER)) {
+            case 1: {
+                root = inflater.inflate(R.layout.fragment_viper, container, false);
+                break;
             }
-
-        });
-
-
-
-
-
+            case 2: {
+                root = inflater.inflate(R.layout.fragment_viper_tab_abilities, container, false);
+                break;
+            }
+            case 3: {
+                root = inflater.inflate(R.layout.fragment_viper_tab_story, container, false);
+                break;
+            }
+        }
         return root;
-
     }
 
 
 }
+
