@@ -87,12 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         adLoader.loadAd(new AdRequest.Builder().build());
 
-
-
-
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -117,11 +112,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void tellFragments() {
-            List<Fragment> fragments = getSupportFragmentManager().getFragments();
-            for (Fragment f : fragments) {
-                if (f != null && f instanceof BaseFragment)
-                    ((BaseFragment) f).onBackPressed();
-            }
+        List<Fragment> fragments = getSupportFragmentManager().getFragments();
+        for (Fragment f : fragments) {
+            if (f != null && f instanceof BaseFragment)
+                ((BaseFragment) f).onBackPressed();
+        }
     }
 
 }
