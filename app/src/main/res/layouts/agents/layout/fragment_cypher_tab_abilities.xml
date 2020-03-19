@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/snakebite"
+                    android:text="Trapwire "
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -95,7 +95,7 @@
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="4dp"
                     android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/poison_cloud"
+                    android:text="Cyber Cage"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -148,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
                     android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/toxic_screen"
+                    android:text="Spycam"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -214,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
                     android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/viper_s_pit"
+                    android:text="Neural Theft"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 

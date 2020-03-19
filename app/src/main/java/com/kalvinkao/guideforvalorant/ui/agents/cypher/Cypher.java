@@ -9,7 +9,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.viper.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.agents.cypher.main.SectionsPagerAdapter;
 
 
 public class Cypher extends AppCompatActivity {
@@ -18,15 +18,13 @@ public class Cypher extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_viper);
+        setContentView(R.layout.activity_cypher);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
-
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
         // Back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

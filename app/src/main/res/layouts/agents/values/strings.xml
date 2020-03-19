@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="signature">Signature</string>
     <string name="ability">Ability:</string>
+    <string name="signature">Signature</string>
     <string name="ultimate">Ultimate</string>
-    <string name="viper_s_pit">Viper\'s Pit</string>
+    <!--viper-->
     <string name="snakebite">Snakebite</string>
+    <string name="toxic_screen">Toxic Screen</string>
+    <string name="poison_cloud">Poison Cloud</string>
+    <string name="viper_s_pit">Viper\'s Pit</string>
     <string name="viper_ability1_desc">Fire a projectile that explodes into a pool of damaging acid.</string>
     <string name="viper_ability2_desc">Throw a gas emitter that you can reactivate to create a poisonous smoke cloud at the cost of fuel. The emitter can be picked up and thrown again after a short cooldown.</string>
     <string name="viper_ability3_desc">Deploy a long line of gas emitters that you can reactivate to create a tall wall of toxic gas at the cost of fuel.</string>
     <string name="viper_ult_desc">Emit a massive toxic cloud in a large area that lasts as long as Viper stays inside the cloud. Enemies inside the cloud are highlighted to Viper.</string>
-    <string name="toxic_screen">Toxic Screen</string>
-    <string name="poison_cloud">Poison Cloud</string>
+    <string name="viper_summary">Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy’s vision. If the toxins don’t kill her prey, her mind games surely will. A predator that deals in poison and chemical warfare. She has exploding projectiles that spill acid on the battlefield, as well as a poison-gas emitter and a toxic gas screen to prevent passage. Her ultimate emits a toxic cloud that conceals her location and highlights enemies who wander into it.</string>
+    <string name="viper_desc">Description: Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy’s vision. If the toxins don’t kill her prey, her mind games surely will.</string>
+
+    <string name="summary">SUMMARY</string>
+    <string name="abilities">ABILITIES</string>
+    <string name="origin_united_states">Origin: United States</string>
+    <string name="tab_text_4">Gallery</string>
+    <string name="origin_morroco">Origin: Morroco</string>
+    <string name="cypher_desc">Description: Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</string>
+    <string name="cypher_summary">Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching. If intel is your thing, Cypher might be your Agent. This Moroccan surveillant has abilities that trap and reveal the locations of enemies that get stuck in them, as well as an actual spycam he can place on the map to watch the action from afar. His ultimate extracts information from an enemy corpse to temporarily reveal the location of remaining characters on the opposing team.</string>
+    <string name="sage">Sage</string>
+    <string name="origin_china">Origin: China</string>
+    <string name="sage_desc">Description: Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.</string>
+    <string name="sage_summary">Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. The most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
+
+
 </resources>
