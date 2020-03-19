@@ -14,7 +14,7 @@
             android:title="@string/menu_agents" />
         <item
             android:id="@+id/nav_maps"
-            android:icon="@drawable/map"
+            android:icon="@drawable/map_icon"
             android:title="@string/menu_maps" />
         <item
             android:id="@+id/nav_media"

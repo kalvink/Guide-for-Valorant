@@ -35,12 +35,10 @@
         tools:layout="@layout/fragment_maps" />
     <fragment
         android:id="@+id/nav_media"
-        android:name="com.kalvinkao.guideforvalorant.ui.maps.MapsFragment"
-        android:label="@string/media"
-        tools:layout="@layout/fragment_media" />
+        android:name="com.kalvinkao.guideforvalorant.ui.media.MediaFragment"
+        android:label="@string/media" />
     <fragment
         android:id="@+id/nav_info"
-        android:name="com.kalvinkao.guideforvalorant.ui.maps.MapsFragment"
-        android:label="@string/info"
-        tools:layout="@layout/fragment_info" />
+        android:name="com.kalvinkao.guideforvalorant.ui.info.InfoFragment"
+        android:label="@string/info" />
 </navigation>

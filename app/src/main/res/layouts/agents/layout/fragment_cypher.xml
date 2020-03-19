@@ -79,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/cypher_ability1"
+                    android:src="@drawable/ability_unknown"
                     android:contentDescription="@string/snakebite" />
 
                 <ImageView
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/cypher_ability2"
+                    android:src="@drawable/ability_unknown"
                     android:contentDescription="@string/poison_cloud" />
 
                 <ImageView
@@ -95,7 +95,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/cypher_ability3"
+                    android:src="@drawable/ability_unknown"
                     android:contentDescription="@string/toxic_screen" />
 
                 <ImageView
@@ -103,8 +103,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/cypher_ability4"
-                    android:contentDescription="@string/cypher_s_pit" />
+                    android:src="@drawable/ability_unknown"
+                    android:contentDescription="" />
 
             </LinearLayout>
 

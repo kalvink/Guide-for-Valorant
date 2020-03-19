@@ -9,19 +9,17 @@ import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.brimstone.BrimstoneFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.brimstone.Brimstone;
 import com.kalvinkao.guideforvalorant.ui.agents.cypher.Cypher;
-import com.kalvinkao.guideforvalorant.ui.agents.jett.JettFragment;
-import com.kalvinkao.guideforvalorant.ui.agents.omen.OmenFragment;
-import com.kalvinkao.guideforvalorant.ui.agents.phoenix.PhoenixFragment;
-import com.kalvinkao.guideforvalorant.ui.agents.sage.SageFragment;
-import com.kalvinkao.guideforvalorant.ui.agents.sova.SovaFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.jett.Jett;
+import com.kalvinkao.guideforvalorant.ui.agents.omen.Omen;
+import com.kalvinkao.guideforvalorant.ui.agents.phoenix.Phoenix;
+import com.kalvinkao.guideforvalorant.ui.agents.sage.Sage;
+import com.kalvinkao.guideforvalorant.ui.agents.sova.Sova;
 import com.kalvinkao.guideforvalorant.ui.agents.viper.Viper;
 
 public class AgentsFragment extends Fragment implements OnBackPressed {
@@ -55,37 +53,37 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
         });
         jett.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Cypher.class);
+                Intent intent = new Intent(getActivity(), Jett.class);
                 root.getContext().startActivity(intent);
             }
         });
         sage.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Cypher.class);
+                Intent intent = new Intent(getActivity(), Sage.class);
                 root.getContext().startActivity(intent);
             }
         });
         brimstone.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Cypher.class);
+                Intent intent = new Intent(getActivity(), Brimstone.class);
                 root.getContext().startActivity(intent);
             }
         });
         phoenix.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), PhoenixFragment.class);
+                Intent intent = new Intent(getActivity(), Phoenix.class);
                 root.getContext().startActivity(intent);
             }
         });
         sova.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), SovaFragment.class);
+                Intent intent = new Intent(getActivity(), Sova.class);
                 root.getContext().startActivity(intent);
             }
         });
         omen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), SovaFragment.class);
+                Intent intent = new Intent(getActivity(), Omen.class);
                 root.getContext().startActivity(intent);
 
             }

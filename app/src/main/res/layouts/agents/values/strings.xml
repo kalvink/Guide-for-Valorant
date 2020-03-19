@@ -22,10 +22,16 @@
     <string name="origin_morroco">Origin: Morroco</string>
     <string name="cypher_desc">Description: Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</string>
     <string name="cypher_summary">Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching. If intel is your thing, Cypher might be your Agent. This Moroccan surveillant has abilities that trap and reveal the locations of enemies that get stuck in them, as well as an actual spycam he can place on the map to watch the action from afar. His ultimate extracts information from an enemy corpse to temporarily reveal the location of remaining characters on the opposing team.</string>
-    <string name="sage">Sage</string>
+    <string name="sage">SAGE</string>
     <string name="origin_china">Origin: China</string>
     <string name="sage_desc">Description: Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.</string>
     <string name="sage_summary">Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. The most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
+    <string name="owl_drone">Owl Drone</string>
+    <string name="barrier_orb">Barrier Orb</string>
+    <string name="resurrection">Resurrection</string>
+    <string name="orbital_strike">Orbital Strike</string>
+    <string name="brim_ult_desc">Use your map to target a location, launching a devastating orbital strike that pulses for high damage over several seconds.</string>
+    <string name="sky_smoke">Sky Smoke</string>
 
 
 </resources>

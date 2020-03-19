@@ -31,7 +31,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/snakebite"
-                    android:src="@drawable/viper_ability1" />
+                    android:src="@drawable/ability_unknown" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -85,7 +85,7 @@
                     android:id="@+id/viper_poison_cloud"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/viper_ability2"
+                    android:src="@drawable/ability_unknown"
                     android:contentDescription="@string/poison_cloud" />
 
                 <TextView
@@ -140,7 +140,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/toxic_screen"
-                    android:src="@drawable/viper_ability3" />
+                    android:src="@drawable/ability_unknown" />
 
                 <TextView
                     android:id="@+id/toxic_screen"
@@ -206,7 +206,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/viper_s_pit"
-                    android:src="@drawable/viper_ability4" />
+                    android:src="@drawable/ability_unknown" />
 
                 <TextView
                     android:id="@+id/viper_pit"

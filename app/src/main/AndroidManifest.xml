@@ -30,6 +30,36 @@
             android:label="@string/cypher"
             android:theme="@style/AppTheme">
         </activity>
+        <activity
+            android:name=".ui.agents.sage.Sage"
+            android:label="@string/sage"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.agents.sova.Sova"
+            android:label="SOVA"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.agents.brimstone.Brimstone"
+            android:label="BRIMSTONE"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.agents.jett.Jett"
+            android:label="JETT"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.agents.omen.Omen"
+            android:label="OMEN"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.agents.phoenix.Phoenix"
+            android:label="PHOENIX"
+            android:theme="@style/AppTheme">
+        </activity>
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data

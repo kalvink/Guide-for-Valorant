@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantColor"
+    tools:context=".ui.agents.viper.Viper">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_viper_ability1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/snakebite"
+                    android:src="@drawable/ability_unknown"
+                    app:srcCompat="@drawable/ability_unknown" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_toEndOf="@+id/img_viper_ability1"
+                    android:text="Paranoia"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viper_ability1_desc"
+                    android:layout_width="293dp"
+                    android:layout_height="76dp"
+                    android:layout_below="@+id/viper_ability1_text_ability"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_toEndOf="@+id/img_viper_ability1"
+                    android:text="Send out an Ethereal shadow in a straight line, Nearsighting anyone it touches. "
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/viper_ability1_text_ability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_toEndOf="@+id/img_viper_ability1"
+                    android:text="@string/ability"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/viper_poison_cloud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/poison_cloud"
+                    android:src="@drawable/ability_unknown"
+                    app:srcCompat="@drawable/ability_unknown" />
+
+                <TextView
+                    android:id="@+id/poison_cloud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/viper_poison_cloud"
+                    android:text="Shadow Walk "
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viper_ability2_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viper_ability2_text_ability"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toEndOf="@+id/viper_poison_cloud"
+                    android:text="After a delay, dematerialize and teleport a short distance. "
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/viper_ability2_text_ability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_toEndOf="@+id/viper_poison_cloud"
+                    android:text="@string/ability"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_viper_ability3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/toxic_screen"
+                    android:src="@drawable/ability_unknown"
+                    app:srcCompat="@drawable/ability_unknown" />
+
+                <TextView
+                    android:id="@+id/toxic_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_toEndOf="@+id/img_viper_ability3"
+                    android:text="Dark Cover "
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viper_sig_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/viper_signature"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_toEndOf="@+id/img_viper_ability3"
+                    android:text="Cast out a stealthed ethereal orb that bursts into an obscuring sphere of shadow at its final location. Can be charged to increase distance. "
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/viper_ability3_text_ability"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_toEndOf="@+id/img_viper_ability3"
+                    android:text="@string/ability"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viper_signature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toxic_screen"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/viper_ability3_text_ability"
+                    android:text="@string/signature" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#FFFFFF">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/viper_ult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/viper_s_pit"
+                    android:src="@drawable/ability_unknown"
+                    app:srcCompat="@drawable/ability_unknown" />
+
+                <TextView
+                    android:id="@+id/viper_pit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_toEndOf="@+id/viper_ult"
+                    android:text="From the Shadows"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viper_ult_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_vipers_pit"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_toEndOf="@+id/viper_ult"
+                    android:text="Select anywhere on the map to teleport and reform. When arriving, appear as a Shade, that will go back to your original location if killed. Once the teleport is complete, become Incorporeal for a short time. "
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/viper_ult_txt_ability"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viper_pit"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/viper_ult"
+                    android:text="@string/ability"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_vipers_pit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viper_pit"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/viper_ult_txt_ability"
+                    android:text="@string/ultimate" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+
