@@ -21,12 +21,10 @@ import com.kalvinkao.guideforvalorant.ui.media.MediaFragment;
 
 public class HomeFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
+
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         final Button btn_agents = root.findViewById(R.id.btn_agents);

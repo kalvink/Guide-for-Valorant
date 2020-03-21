@@ -22,12 +22,19 @@
         <action
             android:id="@+id/action_nav_home_to_nav_maps"
             app:destination="@id/nav_maps" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_weapons"
+            app:destination="@id/nav_weapons" />
     </fragment>
     <fragment
         android:id="@+id/nav_agents"
         android:name="com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment"
         android:label="@string/agents"
         tools:layout="@layout/fragment_agents" />
+    <fragment
+        android:id="@+id/nav_weapons"
+        android:name="com.kalvinkao.guideforvalorant.ui.weapons.WeaponsFragment"
+        android:label="@string/weapons" />
     <fragment
         android:id="@+id/nav_maps"
         android:name="com.kalvinkao.guideforvalorant.ui.maps.MapsFragment"

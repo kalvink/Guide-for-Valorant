@@ -32,6 +32,12 @@
     <string name="orbital_strike">Orbital Strike</string>
     <string name="brim_ult_desc">Use your map to target a location, launching a devastating orbital strike that pulses for high damage over several seconds.</string>
     <string name="sky_smoke">Sky Smoke</string>
+    <string name="info_features"><![CDATA[Features:\n• 128-tick servers\n• at least 30 frames per second on most min-spec computers (even dating back a decade)\n• 60-144+ FPS on modern gaming rigs\n• a global spread of datacenters aimed at <35ms for players in major cities around the world\n• Strong focus on netcode and anti-cheat system]]></string>
+    <string name="info_obj">Objective:\nTwo teams of five agents play against each other, agents with special unique abilities and use an economy system to purchase utilities and weapons. In the main game mode, the attacking team has a bomb, called the Spike, that they need to plant on a site. If the attacking team successfully protects the bomb and it detonates, they get a point. If the defending team successfully defuses the bomb, or the 100-second round timer expires, the defending team gets a point. Eliminating all opposing team members also earns a round win. The first team to win the best of 25 rounds wins the match.</string>
+    <string name="info_overview">Riot Games presents a new competitive stage for you to shine from. A 5v5 character-based tactical shooter where creativity is your greatest weapon.</string>
+    <string name="weapons">Weapons</string>
+    <string name="actions_about">About</string>
+    <string name="actions_credits">Credits</string>
 
 
 </resources>

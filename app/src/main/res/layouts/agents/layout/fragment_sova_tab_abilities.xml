@@ -15,8 +15,8 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
@@ -46,12 +46,11 @@
                 <TextView
                     android:id="@+id/viper_ability1_desc"
                     android:layout_width="293dp"
-                    android:layout_height="76dp"
+                    android:layout_height="match_parent"
                     android:layout_below="@+id/viper_ability1_text_ability"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_toEndOf="@+id/img_viper_ability1"
                     android:text="Deploy a pilotable drone that can fire a dart that will reveal enemies on impact. "
                     android:textAlignment="viewStart" />

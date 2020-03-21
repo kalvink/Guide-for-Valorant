@@ -28,12 +28,12 @@
             app:cardElevation="10dp">
 
 
-        <TextView
+            <TextView
                 android:id="@+id/info_overview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/info_overview" />
+                android:text="By: Kalvin Kao" />
 
         </androidx.cardview.widget.CardView>
 
@@ -48,7 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/info_features" />
+                android:text="Icons: \nhttps://www.flaticon.com/free-icon/target_149231" />
 
         </androidx.cardview.widget.CardView>
 

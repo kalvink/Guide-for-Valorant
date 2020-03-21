@@ -13,6 +13,10 @@
             android:icon="@drawable/agents"
             android:title="@string/menu_agents" />
         <item
+            android:id="@+id/nav_weapons"
+            android:icon="@drawable/target"
+            android:title="@string/weapons" />
+        <item
             android:id="@+id/nav_maps"
             android:icon="@drawable/map_icon"
             android:title="@string/menu_maps" />

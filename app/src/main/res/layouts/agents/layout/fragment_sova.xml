@@ -50,7 +50,8 @@
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:layout_toEndOf="@+id/viper_icon"
                 android:text="@string/viper_desc"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                tools:text="Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide." />
         </RelativeLayout>
 
         <TextView
@@ -138,7 +139,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="@string/viper_summary"
+                android:text="Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.  An archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls."
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 
