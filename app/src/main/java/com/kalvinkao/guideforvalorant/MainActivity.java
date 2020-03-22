@@ -1,7 +1,9 @@
 package com.kalvinkao.guideforvalorant;
 
 import android.app.AlertDialog;
+import android.app.FragmentManager;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -19,9 +21,13 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.tabs.TabLayout;
+import com.kalvinkao.guideforvalorant.ui.actionbar.About;
 import com.kalvinkao.guideforvalorant.ui.actionbar.Credits;
+import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.viper.Viper;
 
 import androidx.appcompat.app.ActionBar;
+
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -31,6 +37,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
+
 
 import java.util.List;
 
@@ -101,13 +108,19 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         switch (item.getItemId()) {
             case R.id.action_about:
-
+                Intent intent = new Intent(this, About.class);
+                startActivity(intent);
                 return true;
 
             case R.id.action_credits:
-                getSupportFragmentManager().beginTransaction().replace(R.id.action_about, Credits.class).commit();
+
+                intent = new Intent(this, Credits.class);
+                startActivity(intent);
+
+
 
                 return true;
 

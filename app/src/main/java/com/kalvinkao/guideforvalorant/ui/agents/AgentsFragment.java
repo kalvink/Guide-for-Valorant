@@ -85,7 +85,6 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Omen.class);
                 root.getContext().startActivity(intent);
-
             }
         });
 

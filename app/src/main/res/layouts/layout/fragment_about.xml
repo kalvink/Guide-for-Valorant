@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="181dp"
             android:background="#FFFFFF"
-            android:foreground="@drawable/info_bg"
+            android:foreground="@drawable/about"
             app:cardBackgroundColor="#FDE0E0">
 
         </androidx.cardview.widget.CardView>
@@ -28,44 +28,14 @@
             app:cardElevation="10dp">
 
 
-        <TextView
-                android:id="@+id/info_overview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="@string/info_overview" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            app:cardElevation="10dp">
-
             <TextView
-                android:id="@+id/info_features"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="@string/info_features" />
+                    android:id="@+id/about_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/about" />
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            app:cardElevation="10dp">
-
-
-        <TextView
-                android:id="@+id/info_obj"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="@string/info_obj" />
-
-        </androidx.cardview.widget.CardView>
     </LinearLayout>
 </ScrollView>
