@@ -41,6 +41,13 @@
     <string name="developer_n_kalvin_kao">Developer:\n Kalvin Kao</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="about">About</string>
+    <string name="sidearm">Sidearm</string>
+    <string name="smgs">SMGS</string>
+    <string name="rifles">Rifles</string>
+    <string name="sniper">Sniper</string>
+    <string name="heavy">Heavy</string>
+    <string name="shields">Shields</string>
+    <string name="shotguns">Shotguns</string>
 
 
 </resources>

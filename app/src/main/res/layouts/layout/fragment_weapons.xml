@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/valorantColor"
     android:orientation="vertical"
-    tools:context=".ui.maps.MapsFragment">
+    tools:context=".ui.maps.MapsFragment" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/valorant_map" />
-</RelativeLayout>
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/weapons" >
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_wep_sidearm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/sidearm"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_wep_smg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/smgs"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_wep_shotguns"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/shotguns"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_wep_rifles"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/rifles"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_wep_sniper"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/sniper"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_wep_heavy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/heavy"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_wep_shields"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/shields"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</ScrollView>

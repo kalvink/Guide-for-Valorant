@@ -17,6 +17,7 @@ import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
 import com.kalvinkao.guideforvalorant.ui.info.InfoFragment;
 import com.kalvinkao.guideforvalorant.ui.maps.MapsFragment;
 import com.kalvinkao.guideforvalorant.ui.media.MediaFragment;
+import com.kalvinkao.guideforvalorant.ui.weapons.WeaponsFragment;
 
 public class HomeFragment extends Fragment {
 
@@ -27,6 +28,7 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         final Button btn_agents = root.findViewById(R.id.btn_agents);
+        final Button btn_weapons = root.findViewById(R.id.btn_weapons);
         final Button btn_maps = root.findViewById(R.id.btn_maps);
         final Button btn_media = root.findViewById(R.id.btn_media);
         final Button btn_info = root.findViewById(R.id.btn_info);
@@ -42,6 +44,17 @@ public class HomeFragment extends Fragment {
                 navigationView.getMenu().getItem(1).setChecked(true);
             }
         });
+        btn_weapons.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Fragment mFragment = null;
+                mFragment = new WeaponsFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
+                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Weapons");
+                navigationView.getMenu().getItem(2).setChecked(true);
+
+            }
+        });
         btn_maps.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
@@ -49,7 +62,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Maps");
-                navigationView.getMenu().getItem(2).setChecked(true);
+                navigationView.getMenu().getItem(3).setChecked(true);
 
             }
         });
@@ -60,7 +73,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Media");
-                navigationView.getMenu().getItem(3).setChecked(true);
+                navigationView.getMenu().getItem(4).setChecked(true);
 
             }
         });
@@ -71,7 +84,7 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Information");
-                navigationView.getMenu().getItem(4).setChecked(true);
+                navigationView.getMenu().getItem(5).setChecked(true);
 
             }
         });

@@ -1,29 +1,45 @@
-package com.kalvinkao.guideforvalorant.ui.maps;
+package com.kalvinkao.guideforvalorant.ui.weapons.sidearms;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.kalvinkao.guideforvalorant.MainActivity;
+import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
 
-public class MapsFragment extends Fragment {
+
+public class Sidearms extends Fragment implements OnBackPressed {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_maps, container, false);
+        final View root = inflater.inflate(R.layout.fragment_sidearms, container, false);
 
-        MainActivity.previousTitle = "Home";
+
+
+
+
+
+
+
+
+
+        MainActivity.previousTitle = "Weapons";
+
 
         return root;
     }
+
+
+    @Override
+    public void onBackPressed() {
+        getActivity().getSupportFragmentManager().popBackStack();
+    }
+
 }
+

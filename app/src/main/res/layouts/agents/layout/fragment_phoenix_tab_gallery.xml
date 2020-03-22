@@ -66,6 +66,20 @@
 
         </androidx.cardview.widget.CardView>
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageViewDead"
+                android:layout_width="wrap_content"
+                android:layout_height="204dp"
+                app:srcCompat="@drawable/phoenixdead" />
+
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </ScrollView>
 

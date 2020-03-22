@@ -14,7 +14,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="181dp"
+            android:layout_height="215dp"
             android:background="#FFFFFF"
             android:foreground="@drawable/credits"
             app:cardBackgroundColor="#FDE0E0">
