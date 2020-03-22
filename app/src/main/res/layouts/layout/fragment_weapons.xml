@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/valorantColor"
     android:orientation="vertical"
-    tools:context=".ui.maps.MapsFragment" >
+    tools:context=".ui.maps.MapsFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,6 @@
             android:layout_height="215dp"
             android:background="#FFFFFF"
             android:foreground="@drawable/weapons" >
-
         </androidx.cardview.widget.CardView>
 
         <Button

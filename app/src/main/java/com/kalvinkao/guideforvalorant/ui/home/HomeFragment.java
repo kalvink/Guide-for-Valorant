@@ -52,7 +52,6 @@ public class HomeFragment extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Weapons");
                 navigationView.getMenu().getItem(2).setChecked(true);
-
             }
         });
         btn_maps.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +62,6 @@ public class HomeFragment extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Maps");
                 navigationView.getMenu().getItem(3).setChecked(true);
-
             }
         });
         btn_media.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +72,6 @@ public class HomeFragment extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Media");
                 navigationView.getMenu().getItem(4).setChecked(true);
-
             }
         });
         btn_info.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +82,6 @@ public class HomeFragment extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Information");
                 navigationView.getMenu().getItem(5).setChecked(true);
-
             }
         });
         return root;

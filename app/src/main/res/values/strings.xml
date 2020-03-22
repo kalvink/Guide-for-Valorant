@@ -11,12 +11,12 @@
     <string name="menu_agents">Agents</string>
     <string name="menu_maps">Maps</string>
     <string name="menu_media">Media</string>
-    <string name="menu_info">Info</string>
+    <string name="menu_info">Information</string>
 
     <string name="agents">Agents</string>
     <string name="maps">Maps</string>
     <string name="media">Media</string>
-    <string name="info">Info</string>
+    <string name="info">Information</string>
     <string name="wallpaper">wallpaper</string>
     <string name="video">video</string>
     <string name="viper">VIPER</string>
@@ -30,9 +30,6 @@
 
     <string name="title_activity_scrolling">ScrollingActivity</string>
 
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="overview">Overview</string>
 
 </resources>

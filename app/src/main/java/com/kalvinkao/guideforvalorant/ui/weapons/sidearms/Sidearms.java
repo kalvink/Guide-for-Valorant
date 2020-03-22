@@ -1,11 +1,14 @@
 package com.kalvinkao.guideforvalorant.ui.weapons.sidearms;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import com.kalvinkao.guideforvalorant.MainActivity;
@@ -20,16 +23,15 @@ public class Sidearms extends Fragment implements OnBackPressed {
 
         final View root = inflater.inflate(R.layout.fragment_sidearms, container, false);
 
-
-
-
-
-
-
-
-
-
         MainActivity.previousTitle = "Weapons";
+        final CardView pistol = root.findViewById(R.id.cv_defaultpistol);
+
+        pistol.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Pistol.class);
+                root.getContext().startActivity(intent);
+            }
+        });
 
 
         return root;

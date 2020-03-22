@@ -70,6 +70,11 @@
             android:label="Credits"
             android:theme="@style/AppTheme">
         </activity>
+        <activity
+            android:name=".ui.weapons.sidearms.Pistol"
+            android:label="Default Pistol"
+            android:theme="@style/AppTheme">
+        </activity>
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
