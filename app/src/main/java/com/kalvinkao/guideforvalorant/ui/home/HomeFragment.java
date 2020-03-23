@@ -1,6 +1,7 @@
 package com.kalvinkao.guideforvalorant.ui.home;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.NativeExpressAdView;
+import com.google.android.gms.ads.VideoController;
+import com.google.android.gms.ads.VideoOptions;
 import com.google.android.material.navigation.NavigationView;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
@@ -32,7 +38,7 @@ public class HomeFragment extends Fragment {
         final Button btn_maps = root.findViewById(R.id.btn_maps);
         final Button btn_media = root.findViewById(R.id.btn_media);
         final Button btn_info = root.findViewById(R.id.btn_info);
-        final NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+        final NavigationView navigationView = getActivity().findViewById(R.id.nav_view);
 
         btn_agents.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -84,6 +90,7 @@ public class HomeFragment extends Fragment {
                 navigationView.getMenu().getItem(5).setChecked(true);
             }
         });
+
         return root;
     }
 }

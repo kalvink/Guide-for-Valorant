@@ -15,10 +15,9 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="215dp"
+            android:layout_height="195dp"
             android:background="#FFFFFF"
-            android:foreground="@drawable/weapons" >
-        </androidx.cardview.widget.CardView>
+            android:foreground="@drawable/weapons"></androidx.cardview.widget.CardView>
 
         <Button
             android:id="@+id/btn_wep_sidearm"
@@ -68,6 +67,12 @@
             android:layout_height="60dp"
             android:text="@string/shields"
             android:textSize="30sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

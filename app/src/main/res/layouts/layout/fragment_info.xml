@@ -59,7 +59,7 @@
             app:cardElevation="10dp">
 
 
-        <TextView
+            <TextView
                 android:id="@+id/info_obj"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,5 +67,12 @@
                 android:text="@string/info_obj" />
 
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/valorantColor"
+            app:cardElevation="10dp" />
     </LinearLayout>
 </ScrollView>

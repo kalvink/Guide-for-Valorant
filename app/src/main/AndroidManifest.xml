@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kalvinkao.guideforvalorant">
+    package="com.kalvinkao.guideforvalorant"
+    >
 
     <application
         android:allowBackup="true"
@@ -167,9 +168,13 @@
         </activity>
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!--real: ca-app-pub-8016302998575950~1781524102 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
+
     </application>
+
+
 
 </manifest>
