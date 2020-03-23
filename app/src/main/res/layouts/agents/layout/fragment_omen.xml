@@ -140,7 +140,13 @@
                 android:paddingRight="2dp"
                 android:text="Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as foes scramble to uncover where it might strike next.  A man with mysterious origins, Omen is focused on hindering the vision of his enemies with things like an orb that strikes those in his sights with nearsightedness and another that bursts to obscure the vision of everyone nearby. He can also teleport a short distance, or use his ultimate to teleport anywhere on the map as a shadow."
                 android:textColor="#000000" />
+
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

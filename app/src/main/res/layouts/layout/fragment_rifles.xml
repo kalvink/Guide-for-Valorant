@@ -39,7 +39,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/bulldog"
-                    android:textSize="30dp" />
+                    android:textSize="25dp" />
 
             </LinearLayout>
 
@@ -71,7 +71,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Guardian"
-                    android:textSize="30dp" />
+                    android:textSize="25dp" />
 
             </LinearLayout>
 
@@ -103,7 +103,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Phantom"
-                    android:textSize="30dp" />
+                    android:textSize="25dp" />
 
             </LinearLayout>
 
@@ -135,7 +135,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Vandal"
-                    android:textSize="30dp" />
+                    android:textSize="25dp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

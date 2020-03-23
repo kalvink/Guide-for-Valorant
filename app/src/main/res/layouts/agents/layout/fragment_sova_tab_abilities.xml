@@ -254,7 +254,13 @@
                     android:text="@string/ultimate" />
 
             </RelativeLayout>
+
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

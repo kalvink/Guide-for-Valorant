@@ -77,7 +77,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 app:srcCompat="@drawable/sage_art3" />
+
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

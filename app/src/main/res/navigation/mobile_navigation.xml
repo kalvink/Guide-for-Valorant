@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_nav_home_to_nav_weapons"
             app:destination="@id/nav_weapons" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_discord"
+            app:destination="@id/nav_discord" />
     </fragment>
     <fragment
         android:id="@+id/nav_agents"
@@ -48,4 +51,8 @@
         android:id="@+id/nav_info"
         android:name="com.kalvinkao.guideforvalorant.ui.info.InfoFragment"
         android:label="@string/info" />
+    <fragment
+        android:id="@+id/nav_discord"
+        android:name="com.kalvinkao.guideforvalorant.ui.discord.Discord"
+        android:label="Discord" />
 </navigation>

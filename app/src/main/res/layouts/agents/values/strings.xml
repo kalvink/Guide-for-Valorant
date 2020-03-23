@@ -73,7 +73,25 @@
     <string name="classic_skin">Classic Skin</string>
     <string name="judge">Judge</string>
     <string name="bucky">Bucky</string>
-    <string name="ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-<!--ca-app-pub-8016302998575950/6459684456-->
+    <string name="menu_discord">Discord</string>
+    <string name="the_spike">The Spike</string>
+    <string name="cypher_ult_desc">Extract information from the corpse of an enemy, revealing the location of their living allies.</string>
+    <string name="neural_theft">Neural Theft</string>
+    <string name="cypher_ability3">Place a remote camera. After placing, reactivate to view the video feed. Left click while in camera to fire a tracking dart. Recharges when picked up or killed.</string>
+    <string name="spycam">Spycam</string>
+    <string name="cypher_ability2desc">Toss out a remote activation trap. Reactivate to create a cage that slows enemies who pass through it. Look at a trap and press USE to detonate it, or hold ACTIVATE to detonate all.</string>
+    <string name="cyper_ab1desc">Place a stealthed tripwire between two walls. Triggering enemies are restrained and revealed for a short time. If the trap is not destroyed, it activates to daze the trapped victim. Can be picked up.</string>
+    <string name="sage_ab1">Conjure a large, solid wall that can be used to block passageways or lines of sight. The wall can be rotated before casting.</string>
+    <string name="sage_ab2">Cast out a slowing orb that moves forward and detonates upon landing into a slowing field, creating a lingering field that slows and grounds players caught inside it.</string>
+    <string name="sage_ab3">Heal an ally or yourself to full health over a few seconds.</string>
+    <string name="brim_ab1">Launch an incendiary grenade that deploys a damaging field of fire.</string>
+    <string name="brim_ab2">Target a nearby location to call in a Stim Beacon, giving all players near it Rapidfire.</string>
+    <string name="brim_ab3">Use your map to call in orbital deployment smokescreens that obscure vision. Use your map to target a location.</string>
+    <string name="sova_desc">Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</string>
+
+
+    <!--real: ca-app-pub-8016302998575950/6459684456-->
+    <!--test: ca-app-pub-3940256099942544/6300978111-->
+    <string name="ad_unit_id">ca-app-pub-8016302998575950/6459684456</string>
 
 </resources>

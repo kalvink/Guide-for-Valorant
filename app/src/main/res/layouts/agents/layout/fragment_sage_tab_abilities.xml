@@ -53,7 +53,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="15dp"
                     android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="Conjure a large, solid wall that can be used to block passageways or lines of sight. The wall can be rotated before casting. "
+                    android:text="@string/sage_ab1"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -109,7 +109,7 @@
                     android:layout_marginStart="2dp"
                     android:layout_marginTop="4dp"
                     android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="Cast out a radianite orb that breaks into a slowing field upon impact with the ground. All caught in the field are slowed, grounded, and make noise when moving. "
+                    android:text="@string/sage_ab2"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -164,7 +164,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="1dp"
                     android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Heal an ally or yourself to full health over a few seconds. "
+                    android:text="@string/sage_ab3"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -256,6 +256,11 @@
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

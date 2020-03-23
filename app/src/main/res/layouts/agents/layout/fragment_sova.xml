@@ -49,7 +49,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:layout_toEndOf="@+id/viper_icon"
-                android:text="@string/viper_desc"
+                android:text="@string/sova_desc"
                 android:textColor="#FFFFFF"
                 tools:text="Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide." />
         </RelativeLayout>

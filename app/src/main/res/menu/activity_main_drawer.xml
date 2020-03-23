@@ -29,4 +29,11 @@
             android:icon="@drawable/info"
             android:title="@string/menu_info" />
     </group>
+    <group>
+        <item
+            android:id="@+id/nav_discord"
+            android:icon="@drawable/discord"
+            android:title="@string/menu_discord" />
+    </group>
+
 </menu>

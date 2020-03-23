@@ -140,7 +140,13 @@
                 android:paddingRight="2dp"
                 android:text="Jett’s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them.  From Korea comes Jett, an agile fighter who prioritizes movement over everything. Her abilities include a teleportation-based dash and an updraft that lets her reach higher ledges. She also has a smokebomb ability to hinder sightlines, and a powerful Bladestorm ultimate that deals moderate-to-heavy damage and remains accurate even while she's moving.  "
                 android:textColor="#000000" />
+
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

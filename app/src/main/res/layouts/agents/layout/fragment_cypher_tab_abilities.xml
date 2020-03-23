@@ -17,10 +17,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
-            android:layout_marginTop="5dp">
+            android:layout_marginBottom="20dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -46,12 +46,14 @@
                 <TextView
                     android:id="@+id/viper_ability1_desc"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viper_ability1_text_ability"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="4dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
                     android:layout_marginBottom="0dp"
                     android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/viper_ability1_desc"
+                    android:text="@string/cyper_ab1desc"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -107,7 +109,7 @@
                     android:layout_marginStart="2dp"
                     android:layout_marginTop="4dp"
                     android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/viper_ability2_desc"
+                    android:text="@string/cypher_ability2desc"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -148,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
                     android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Spycam"
+                    android:text="@string/spycam"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -162,7 +164,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="1dp"
                     android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/viper_ability3_desc"
+                    android:text="@string/cypher_ability3"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -214,7 +216,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
                     android:layout_toEndOf="@+id/viper_ult"
-                    android:text="Neural Theft"
+                    android:text="@string/neural_theft"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -228,7 +230,7 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="4dp"
                     android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/viper_ult_desc"
+                    android:text="@string/cypher_ult_desc"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -253,7 +255,13 @@
                     android:text="@string/ultimate" />
 
             </RelativeLayout>
+
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>

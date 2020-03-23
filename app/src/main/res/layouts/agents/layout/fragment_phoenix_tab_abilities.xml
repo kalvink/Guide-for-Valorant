@@ -257,6 +257,11 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/valorantColor" />
+
     </LinearLayout>
 </ScrollView>
 

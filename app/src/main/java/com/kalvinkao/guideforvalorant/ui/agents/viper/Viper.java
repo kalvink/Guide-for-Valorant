@@ -41,10 +41,8 @@ public class Viper extends AppCompatActivity {
             }
         });
         AdView mAdViewBot = findViewById(R.id.adViewBot);
-
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdViewBot.loadAd(adRequest);
-
     }
 
     @Override

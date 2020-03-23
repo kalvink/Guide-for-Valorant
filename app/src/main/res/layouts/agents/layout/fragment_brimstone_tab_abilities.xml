@@ -51,7 +51,7 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginBottom="0dp"
                     android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/viper_ability1_desc"
+                    android:text="@string/brim_ab1"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -107,7 +107,7 @@
                     android:layout_marginStart="2dp"
                     android:layout_marginTop="4dp"
                     android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/viper_ability2_desc"
+                    android:text="@string/brim_ab2"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -162,7 +162,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="1dp"
                     android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Use your map to call in orbital deployment smokescreens that obscure vision. Use your map to target a location. "
+                    android:text="@string/brim_ab3"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -254,6 +254,11 @@
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>
 </ScrollView>
