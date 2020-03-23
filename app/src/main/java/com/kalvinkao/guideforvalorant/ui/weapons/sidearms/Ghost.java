@@ -7,27 +7,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 import com.kalvinkao.guideforvalorant.ui.weapons.sidearms.main.PlaceholderFragment;
 import com.kalvinkao.guideforvalorant.ui.weapons.sidearms.main.SectionsPagerAdapter;
 
 
-public class Pistol extends AppCompatActivity {
+public class Ghost extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_global);
-        PlaceholderFragment.setX(0);
+        PlaceholderFragment.setX(9);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        MainActivity.previousTitle = "Home";
-
 
         // Back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -18,11 +18,11 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/pistol_icon"
+                android:id="@+id/frenzy_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/classic_pistol"
-                android:src="@drawable/pistol" />
+                android:contentDescription="@string/frenzy"
+                android:src="@drawable/frenzy" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -30,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="@string/classic_pistol"
+                android:text="@string/frenzy"
                 android:textSize="30sp" />
 
         </LinearLayout>
@@ -51,7 +51,16 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Semi-Automatic\nFire Rate: N/A\nDamage:  N/A\nMagazine Capacity: 12 \nWall Penetration: Low  \nCost: Free" />
+            android:text="Primary Fire: Fully-Automatic
+            \nFire Rate: 10 rounds per second
+
+            \n\nDamage:
+            \n[Range 0-20m] Body - 26 | Head - 78 | Leg - 22
+            \n[Range 20-50m] Body - 21 | Head - 63 | Leg - 17
+
+            \n\nMagazine Capacity: 13
+            \nWall Penetration: Low
+            \nCost: 400" />
 
         <TextView
             android:id="@+id/recoil_pattern"

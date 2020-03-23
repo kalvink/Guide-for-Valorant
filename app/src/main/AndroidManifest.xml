@@ -75,7 +75,26 @@
             android:label="Default Pistol"
             android:theme="@style/AppTheme">
         </activity>
-
+        <activity
+            android:name=".ui.weapons.sidearms.Shorty"
+            android:label="Shorty"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.sidearms.Frenzy"
+            android:label="Frenzy"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.sidearms.Ghost"
+            android:label="Ghost"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.sidearms.Sheriff"
+            android:label="Sheriff"
+            android:theme="@style/AppTheme">
+        </activity>
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

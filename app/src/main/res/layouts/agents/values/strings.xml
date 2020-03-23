@@ -52,10 +52,12 @@
     <string name="ghost">Ghost</string>
     <string name="frenzy">Frenzy</string>
     <string name="shorty">Shorty</string>
-    <string name="default_pistol">Default Pistol</string>
     <string name="tab_wep1">Overview</string>
     <string name="tab_wep2">Tips</string>
     <string name="tab_wep3">Skins</string>
+    <string name="stats">STATS</string>
+    <string name="recoil_pattern">RECOIL PATTERN</string>
+    <string name="classic_pistol">Classic Pistol</string>
 
 
 </resources>

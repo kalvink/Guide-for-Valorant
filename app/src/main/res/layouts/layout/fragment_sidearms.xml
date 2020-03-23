@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/valorantColor"
     android:orientation="vertical"
-    tools:context=".ui.weapons.sidearms.Sidearms" >
+    tools:context=".ui.weapons.sidearms.Sidearms">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,11 +43,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="@string/default_pistol"
+                        android:text="@string/classic_pistol"
                         android:textSize="30sp" />
 
                 </LinearLayout>
-
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

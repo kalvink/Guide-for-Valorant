@@ -25,6 +25,10 @@ public class Sidearms extends Fragment implements OnBackPressed {
 
         MainActivity.previousTitle = "Weapons";
         final CardView pistol = root.findViewById(R.id.cv_defaultpistol);
+        final CardView shorty = root.findViewById(R.id.cv_shorty);
+        final CardView frenzy = root.findViewById(R.id.cv_frenzy);
+        final CardView ghost = root.findViewById(R.id.cv_ghost);
+        final CardView sheriff = root.findViewById(R.id.cv_sheriff);
 
         pistol.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -32,16 +36,36 @@ public class Sidearms extends Fragment implements OnBackPressed {
                 root.getContext().startActivity(intent);
             }
         });
-
-
+        shorty.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Shorty.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        frenzy.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Frenzy.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        ghost.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Ghost.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        sheriff.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Sheriff.class);
+                root.getContext().startActivity(intent);
+            }
+        });
         return root;
     }
-
 
     @Override
     public void onBackPressed() {
         getActivity().getSupportFragmentManager().popBackStack();
     }
-
 }
 

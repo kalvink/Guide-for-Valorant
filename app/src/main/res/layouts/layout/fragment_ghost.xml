@@ -18,11 +18,11 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/pistol_icon"
+                android:id="@+id/ghost_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/classic_pistol"
-                android:src="@drawable/pistol" />
+                android:contentDescription="@string/ghost"
+                android:src="@drawable/ghost" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -30,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="@string/classic_pistol"
+                android:text="@string/ghost"
                 android:textSize="30sp" />
 
         </LinearLayout>
@@ -51,7 +51,14 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Semi-Automatic\nFire Rate: N/A\nDamage:  N/A\nMagazine Capacity: 12 \nWall Penetration: Low  \nCost: Free" />
+            android:text="Primary Fire: Semi-Automatic
+            \nFire Rate: 6.75 rounds/sec
+            \n\nDamage:
+            \n[Range 0-20m] Body - 30 | Head - 105 | Leg - 26
+            \n[Range 20-50m] Body - 25 | Head - 68 | Leg - 21
+            \n\nMagazine Capacity: 15
+            \nWall Penetration: Medium
+            \nCost: 500" />
 
         <TextView
             android:id="@+id/recoil_pattern"

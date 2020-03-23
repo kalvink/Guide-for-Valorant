@@ -18,11 +18,11 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/pistol_icon"
+                android:id="@+id/shorty_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="@string/classic_pistol"
-                android:src="@drawable/pistol" />
+                android:contentDescription="@string/shorty"
+                android:src="@drawable/shorty" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -30,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:text="@string/classic_pistol"
+                android:text="@string/shorty"
                 android:textSize="30sp" />
 
         </LinearLayout>
@@ -51,7 +51,13 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Semi-Automatic\nFire Rate: N/A\nDamage:  N/A\nMagazine Capacity: 12 \nWall Penetration: Low  \nCost: Free" />
+            android:text="Primary Fire: Single-shot
+            \nFire Rate: N/A
+            \n\nDamage:\nN/A
+            \n
+            \n\nMagazine Capacity: 2
+            \nWall Penetration: N/A
+            \nCost: 200" />
 
         <TextView
             android:id="@+id/recoil_pattern"
