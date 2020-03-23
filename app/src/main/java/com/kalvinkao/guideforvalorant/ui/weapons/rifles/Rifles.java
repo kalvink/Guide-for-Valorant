@@ -5,22 +5,15 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.brimstone.Brimstone;
-import com.kalvinkao.guideforvalorant.ui.agents.cypher.Cypher;
-import com.kalvinkao.guideforvalorant.ui.agents.jett.Jett;
-import com.kalvinkao.guideforvalorant.ui.agents.omen.Omen;
-import com.kalvinkao.guideforvalorant.ui.agents.phoenix.Phoenix;
-import com.kalvinkao.guideforvalorant.ui.agents.sage.Sage;
-import com.kalvinkao.guideforvalorant.ui.agents.sova.Sova;
-import com.kalvinkao.guideforvalorant.ui.agents.viper.Viper;
+
 
 public class Rifles extends Fragment implements OnBackPressed {
 
@@ -29,18 +22,43 @@ public class Rifles extends Fragment implements OnBackPressed {
 
         final View root = inflater.inflate(R.layout.fragment_rifles, container, false);
 
-
         MainActivity.previousTitle = "Weapons";
+        final CardView bulldog = root.findViewById(R.id.cv_bulldog);
+        final CardView guardian = root.findViewById(R.id.cv_guardian);
+        final CardView phantom = root.findViewById(R.id.cv_phantom);
+        final CardView vandal = root.findViewById(R.id.cv_vandal);
 
-
-
+        bulldog.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Bulldog.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        guardian.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Guardian.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        phantom.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Phantom.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        vandal.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Vandal.class);
+                root.getContext().startActivity(intent);
+            }
+        });
 
         return root;
     }
-
 
     @Override
     public void onBackPressed() {
         getActivity().getSupportFragmentManager().popBackStack();
     }
 }
+

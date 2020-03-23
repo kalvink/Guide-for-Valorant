@@ -5,22 +5,15 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.brimstone.Brimstone;
-import com.kalvinkao.guideforvalorant.ui.agents.cypher.Cypher;
-import com.kalvinkao.guideforvalorant.ui.agents.jett.Jett;
-import com.kalvinkao.guideforvalorant.ui.agents.omen.Omen;
-import com.kalvinkao.guideforvalorant.ui.agents.phoenix.Phoenix;
-import com.kalvinkao.guideforvalorant.ui.agents.sage.Sage;
-import com.kalvinkao.guideforvalorant.ui.agents.sova.Sova;
-import com.kalvinkao.guideforvalorant.ui.agents.viper.Viper;
+
 
 public class Heavy extends Fragment implements OnBackPressed {
 
@@ -29,18 +22,30 @@ public class Heavy extends Fragment implements OnBackPressed {
 
         final View root = inflater.inflate(R.layout.fragment_heavy, container, false);
 
-
         MainActivity.previousTitle = "Weapons";
+        final CardView ares = root.findViewById(R.id.cv_ares);
+        final CardView odin = root.findViewById(R.id.cv_odin);
 
 
-
+        ares.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Ares.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        odin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Odin.class);
+                root.getContext().startActivity(intent);
+            }
+        });
 
         return root;
     }
-
 
     @Override
     public void onBackPressed() {
         getActivity().getSupportFragmentManager().popBackStack();
     }
 }
+

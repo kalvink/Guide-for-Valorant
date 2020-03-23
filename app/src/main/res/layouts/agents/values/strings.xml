@@ -58,6 +58,21 @@
     <string name="stats">STATS</string>
     <string name="recoil_pattern">RECOIL PATTERN</string>
     <string name="classic_pistol">Classic Pistol</string>
+    <string name="stinger">Stinger</string>
+    <string name="spectre">Spectre</string>
+    <string name="marshal">Marshal</string>
+    <string name="bulldog">Bulldog</string>
+    <string name="operator">Operator</string>
+    <string name="ares">Ares</string>
+    <string name="odin">Odin</string>
+    <string name="light_shield">Light Shield</string>
+    <string name="heavy_shield">Heavy Shield</string>
+    <string name="guardian">Guardian</string>
+    <string name="phantom">Phantom</string>
+    <string name="vandal">Vandal</string>
+    <string name="classic_skin">Classic Skin</string>
+    <string name="judge">Judge</string>
+    <string name="bucky">Bucky</string>
 
 
 </resources>

@@ -95,6 +95,77 @@
             android:label="Sheriff"
             android:theme="@style/AppTheme">
         </activity>
+        <activity
+            android:name=".ui.weapons.smgs.Stinger"
+            android:label="Stinger"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.smgs.Spectre"
+            android:label="Spectre"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.shotguns.Bucky"
+            android:label="Bucky"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.shotguns.Judge"
+            android:label="Judge"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.rifles.Bulldog"
+            android:label="Bulldog"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.rifles.Guardian"
+            android:label="Guardian"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.rifles.Phantom"
+            android:label="Phantom"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.rifles.Vandal"
+            android:label="Vandal"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.sniper.Marshal"
+            android:label="Marshal"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.sniper.Operator"
+            android:label="Operator"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.heavy.Ares"
+            android:label="Ares"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.heavy.Odin"
+            android:label="Odin"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.shields.LightShield"
+            android:label="Light Shield"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.weapons.shields.HeavyShield"
+            android:label="Heavy Shield"
+            android:theme="@style/AppTheme">
+        </activity>
+
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

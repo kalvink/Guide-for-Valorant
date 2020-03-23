@@ -9,8 +9,8 @@ import androidx.viewpager.widget.ViewPager;
 import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.weapons.sidearms.main.PlaceholderFragment;
-import com.kalvinkao.guideforvalorant.ui.weapons.sidearms.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.weapons.main.PlaceholderFragment;
+import com.kalvinkao.guideforvalorant.ui.weapons.main.SectionsPagerAdapter;
 
 
 public class Pistol extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.weapons.sidearms.main;
+package com.kalvinkao.guideforvalorant.ui.weapons.main;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
