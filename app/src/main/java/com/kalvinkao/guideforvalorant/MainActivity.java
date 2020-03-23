@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     public static String previousTitle = "Home";
+    public static boolean ads_on = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +65,12 @@ public class MainActivity extends AppCompatActivity {
         AdView mAdViewBot = findViewById(R.id.adViewBot);
         AdView mAdViewSide = findViewById(R.id.adViewSide);
         AdRequest adRequest = new AdRequest.Builder().build();
-        mAdViewBot.loadAd(adRequest);
-        mAdViewSide.loadAd(adRequest);
+
+        if (ads_on) {
+            mAdViewBot.loadAd(adRequest);
+            mAdViewSide.loadAd(adRequest);
+        }
+
 
     }
 

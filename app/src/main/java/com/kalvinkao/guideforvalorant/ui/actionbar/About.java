@@ -19,6 +19,8 @@ import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.R;
 import com.kalvinkao.guideforvalorant.ui.agents.cypher.main.SectionsPagerAdapter;
 
+import static com.kalvinkao.guideforvalorant.MainActivity.ads_on;
+
 
 public class About extends AppCompatActivity {
 
@@ -44,8 +46,9 @@ public class About extends AppCompatActivity {
         });
         AdView mAdViewBot = findViewById(R.id.adViewBot);
         AdRequest adRequest = new AdRequest.Builder().build();
-        mAdViewBot.loadAd(adRequest);
-
+        if (ads_on) {
+            mAdViewBot.loadAd(adRequest);
+        }
         // Back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
