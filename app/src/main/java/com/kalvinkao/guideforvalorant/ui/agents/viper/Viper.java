@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.gms.ads.AdRequest;
@@ -14,8 +13,8 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.viper.main.SectionsPagerAdapter;
-
+import com.kalvinkao.guideforvalorant.ui.agents.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.agents.main.PlaceholderFragment;
 import static com.kalvinkao.guideforvalorant.MainActivity.ads_on;
 
 
@@ -25,17 +24,13 @@ public class Viper extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_viper);
+        setContentView(R.layout.activity_global);
+        PlaceholderFragment.setX(21);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        // Back button
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         // Bottom Ads
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -46,7 +41,9 @@ public class Viper extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         if (ads_on) {
             mAdViewBot.loadAd(adRequest);
-        }    }
+        }        // Back button
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

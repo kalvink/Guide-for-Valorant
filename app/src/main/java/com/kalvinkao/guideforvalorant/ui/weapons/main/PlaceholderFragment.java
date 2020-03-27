@@ -69,9 +69,9 @@ public class PlaceholderFragment extends Fragment {
 
             //Shotguns
             //51-53
-            R.layout.fragment_heavyshield, R.layout.fragment_stinger_tips, R.layout.fragment_stinger_skins,
+            R.layout.fragment_bucky, R.layout.fragment_bucky_tips, R.layout.fragment_bucky_skins,
             //54-56
-            R.layout.fragment_spectre, R.layout.fragment_spectre_tips, R.layout.fragment_spectre_skins
+            R.layout.fragment_judge, R.layout.fragment_judge_tips, R.layout.fragment_judge_skins
 
     };
 

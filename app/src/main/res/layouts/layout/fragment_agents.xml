@@ -24,12 +24,11 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn_viper"
+                android:id="@+id/btn_brimstone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:contentDescription="@string/viper"
-                android:src="@drawable/viper" />
+                android:src="@drawable/brimstone" />
 
             <ImageButton
                 android:id="@+id/btn_cypher"
@@ -47,18 +46,18 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn_sage"
+                android:id="@+id/btn_jett"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/sage" />
+                android:src="@drawable/jett" />
 
             <ImageButton
-                android:id="@+id/btn_brimstone"
+                android:id="@+id/btn_omen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/brimstone" />
+                android:src="@drawable/omen" />
 
         </LinearLayout>
 
@@ -68,18 +67,18 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn_jett"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/jett" />
-
-            <ImageButton
                 android:id="@+id/btn_phoenix"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/phoenix" />
+
+            <ImageButton
+                android:id="@+id/btn_sage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/sage" />
         </LinearLayout>
 
         <LinearLayout
@@ -95,11 +94,12 @@
                 android:src="@drawable/sova" />
 
             <ImageButton
-                android:id="@+id/btn_omen"
+                android:id="@+id/btn_viper"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/omen" />
+                android:contentDescription="@string/viper"
+                android:src="@drawable/viper" />
 
         </LinearLayout>
 

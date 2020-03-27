@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.agents.sova.main;
+package com.kalvinkao.guideforvalorant.ui.agents.main;
 
 import android.content.Context;
 

@@ -13,7 +13,8 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.jett.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.agents.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.agents.main.PlaceholderFragment;
 
 import static com.kalvinkao.guideforvalorant.MainActivity.ads_on;
 
@@ -24,7 +25,8 @@ public class Jett extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jett);
+        setContentView(R.layout.activity_global);
+        PlaceholderFragment.setX(6);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);

@@ -13,8 +13,8 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.agents.sova.main.SectionsPagerAdapter;
-
+import com.kalvinkao.guideforvalorant.ui.agents.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.agents.main.PlaceholderFragment;
 import static com.kalvinkao.guideforvalorant.MainActivity.ads_on;
 
 
@@ -24,7 +24,8 @@ public class Sova extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sova);
+        setContentView(R.layout.activity_global);
+        PlaceholderFragment.setX(18);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
