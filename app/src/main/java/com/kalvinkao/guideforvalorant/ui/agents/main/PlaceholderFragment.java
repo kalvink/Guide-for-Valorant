@@ -39,7 +39,6 @@ public class PlaceholderFragment extends Fragment {
             //21-23
             R.layout.fragment_viper, R.layout.fragment_viper_tab_abilities, R.layout.fragment_viper_tab_gallery,
 
-
     };
 
 

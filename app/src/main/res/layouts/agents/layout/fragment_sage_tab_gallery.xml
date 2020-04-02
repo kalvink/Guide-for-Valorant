@@ -20,6 +20,20 @@
                 android:id="@+id/imageView9"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
+                app:srcCompat="@drawable/sage_bg" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
                 app:srcCompat="@drawable/sage_art0" />
 
         </androidx.cardview.widget.CardView>
