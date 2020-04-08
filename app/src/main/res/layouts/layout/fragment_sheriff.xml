@@ -5,8 +5,7 @@
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,14 +50,17 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Single-shot
-            \nFire Rate: N/A
-            \n\nDamage:
-            \n[Range 0-20m] Body - N/A | Head - 100+ | Leg - N/A
-            \n[Range 20-50m] Body - N/A | Head - 100+ | Leg - N/A
-            \n\nMagazine Capacity: 6
+            android:text="Primary Fire:
+            \n- Semi-Automatic
+            \n- Fire Rate: 4 rounds/second
+            \n
+            \nDamage:
+            \nBody 55 | Head 160 | Leg 47 [0-30m]
+            \nBody 50 | Head 145 | Leg 43 [30-50m]
+            \n
+            \nMagazine Capacity: 6
             \nWall Penetration: High
-            \nCost: 800" />
+            \n\nCost:   800" />
 
         <TextView
             android:id="@+id/recoil_pattern"

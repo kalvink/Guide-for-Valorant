@@ -51,13 +51,18 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Single-shot
-            \nFire Rate: N/A
-            \n\nDamage:\nN/A
+            android:text="Primary Fire:
+            \n- Semi-Automatic
+            \n- Fire Rate: 3.3 rounds/second
             \n
-            \n\nMagazine Capacity: 2
-            \nWall Penetration: N/A
-            \nCost: 200" />
+            \nDamage (12 pellets):
+            \nBody 12 | Head 36 | Leg 10 [0-9m]
+            \nBody 8 | Head 24 | Leg 6 [9-15m]
+            \nBody 3 | Head 9 | Leg 2 [0-9m]
+            \n
+            \nMagazine Capacity: 2
+            \nWall Penetration: Low
+            \n\nCost: 200" />
 
         <TextView
             android:id="@+id/recoil_pattern"

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,19 +49,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Fully-Automatic
-            \nFire Rate: N/A
-
-            \nAlt Fire: N/A
-
-            \n\nDamage:
-            \n[Range 0-15m] Body - N/A | Head - N/A | Leg - N/A
-            \n[Range 20-50m] Body - N/A | Head - N/A | Leg - N/A
-            \n[Range 30-50m] Body - N/A | Head - N/A | Leg - N/A
-
-            \n\nMagazine Capacity: N/A
-            \nWall Penetration: N/A
-            \nCost: 1700" />
+            android:text="@string/stats_ares" />
 
         <TextView
             android:id="@+id/recoil_pattern"

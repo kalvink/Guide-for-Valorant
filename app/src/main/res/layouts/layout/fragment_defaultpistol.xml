@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +49,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Semi-Automatic\nFire Rate: N/A\nDamage:  N/A\nMagazine Capacity: 12 \nWall Penetration: Low  \nCost: Free" />
+            android:text="@string/stats_classic" />
 
         <TextView
             android:id="@+id/recoil_pattern"

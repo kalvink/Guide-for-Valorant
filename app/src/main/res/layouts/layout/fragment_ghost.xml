@@ -51,14 +51,17 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Semi-Automatic
-            \nFire Rate: 6.75 rounds/sec
-            \n\nDamage:
-            \n[Range 0-20m] Body - 30 | Head - 105 | Leg - 26
-            \n[Range 20-50m] Body - 25 | Head - 68 | Leg - 21
-            \n\nMagazine Capacity: 15
+            android:text="Primary Fire:
+            \n- Semi-Automatic
+            \n- Fire Rate: 6.75 rounds/second
+            \n
+            \nDamage:
+            \nBody 30 | Head 105 | Leg 26 [0-30m]
+            \nBody 25 | Head 88 | Leg 21 [30-50m]
+            \n
+            \nMagazine Capacity: 15
             \nWall Penetration: Medium
-            \nCost: 500" />
+            \n\nCost: 500" />
 
         <TextView
             android:id="@+id/recoil_pattern"

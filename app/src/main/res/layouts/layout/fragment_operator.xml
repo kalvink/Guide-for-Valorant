@@ -51,19 +51,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: N/A
-            \nFire Rate: N/A
-
-            \nAlt Fire: Zoom
-
-            \n\nDamage:
-            \n[Range 0-15m] Body - N/A | Head - N/A | Leg - N/A
-            \n[Range 20-50m] Body - N/A | Head - N/A | Leg - N/A
-            \n[Range 30-50m] Body - N/A | Head - N/A | Leg - N/A
-
-            \n\nMagazine Capacity: 5
-            \nWall Penetration: N/A
-            \nCost: 4500" />
+            android:text="@string/stats_operator" />
 
         <TextView
             android:id="@+id/recoil_pattern"

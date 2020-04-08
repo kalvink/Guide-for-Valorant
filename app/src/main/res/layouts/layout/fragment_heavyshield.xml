@@ -51,9 +51,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="N/A
-
-            \nCost: N/A" />
+            android:text="@string/stats_heavyshield"/>
 
         <TextView
             android:id="@+id/recoil_pattern"

@@ -51,20 +51,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire: Fully-Automatic
-            \nFire Rate: 11 rounds/sec
-            \n
-            \nAlt Fire: Zoom (1.25x), slight spread reduction
-            \nFire Rate: 9.9 rounds/sec
-
-            \n\nDamage:
-            \n[Range 0-15m] Body - N/A | Head - N/A | Leg - N/A
-            \n[Range 20-50m] Body - N/A | Head - N/A | Leg - N/A
-            \n[Range 30-50m] Body - N/A | Head - N/A | Leg - N/A
-
-            \n\nMagazine Capacity: 30
-            \nWall Penetration: Medium
-            \nCost: 2900" />
+            android:text="@string/stats_phantom" />
 
         <TextView
             android:id="@+id/recoil_pattern"

@@ -28,10 +28,11 @@ public class About extends AppCompatActivity {
 
         // About:
         TextView about = (TextView) findViewById(R.id.about_txt1);
-        String aboutText = "Guide for Valorant is an unofficial guide app for the upcoming game Valorant. I spent a lot of time working on this app to help players of Valorant learn the game. " +
+        String aboutText = "Guide for Valorant is an unofficial fan-made guide app for the upcoming game Valorant. I spent a lot of time working on this app to help players of Valorant learn the game. " +
                 "I'm still learning to constantly improve my programming skills to try and make the best app for the community so please bare with me. " +
                 "I will try my best to update this app as soon as I am free so stay tuned. " +
-                "<br><br>If you need to contact me please click here: <a href=\"mailto:kaokalvin@gmail.com\">kaokalvin@gmail.com</a>";
+                "<br><br>If you need to contact me please click here: <a href=\"mailto:kaokalvin@gmail.com\">kaokalvin@gmail.com</a>" +
+                "<br> Or join the <a href='https://discord.gg/hTyH7hM'>Discord</a> for a quicker response.";
         about.setText(Html.fromHtml(aboutText));
         about.setMovementMethod(LinkMovementMethod.getInstance());
         // Bottom Ads
