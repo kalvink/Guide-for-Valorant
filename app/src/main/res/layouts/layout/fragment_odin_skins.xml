@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="@string/classic_skin"
+            android:text="HMG-50 ODIN"
             android:textSize="30sp" />
 
         <androidx.cardview.widget.CardView
@@ -35,8 +35,8 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
-                android:layout_height="230dp"
-                android:src="@drawable/odin" />
+                android:layout_height="130dp"
+                android:src="@drawable/odin_hmg50" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

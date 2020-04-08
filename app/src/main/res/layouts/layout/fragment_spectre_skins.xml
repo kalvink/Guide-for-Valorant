@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="Classic Skin"
+            android:text="SMG-9 SPECTRE"
             android:textSize="30dp" />
 
         <androidx.cardview.widget.CardView
@@ -27,16 +27,172 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="40sp"
 
             app:cardCornerRadius="2dp"
-            app:cardElevation="20dp">
+            app:cardElevation="30dp">
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
-                android:layout_height="230dp"
-                android:src="@drawable/ss_spectre" />
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_smg9" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="AVALANCHE SPECTRE"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="40sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_avalanche" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="LUXE SPECTRE"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="40sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_luxe" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="LUXE SPECTRE LV.2"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="40sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_luxe2" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="LUXE SPECTRE LV.3"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="40sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_luxe3" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="LUXE SPECTRE LV.4"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="40sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_luxe4" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="PRISM SPECTRE"
+            android:textSize="30dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="40sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:src="@drawable/spectre_prism" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
