@@ -13,11 +13,13 @@ import androidx.fragment.app.Fragment;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.OnBackPressed;
 import com.kalvinkao.guideforvalorant.R;
+import com.kalvinkao.guideforvalorant.ui.agents.breach.Breach;
 import com.kalvinkao.guideforvalorant.ui.agents.brimstone.Brimstone;
 import com.kalvinkao.guideforvalorant.ui.agents.cypher.Cypher;
 import com.kalvinkao.guideforvalorant.ui.agents.jett.Jett;
 import com.kalvinkao.guideforvalorant.ui.agents.omen.Omen;
 import com.kalvinkao.guideforvalorant.ui.agents.phoenix.Phoenix;
+import com.kalvinkao.guideforvalorant.ui.agents.raze.Raze;
 import com.kalvinkao.guideforvalorant.ui.agents.sage.Sage;
 import com.kalvinkao.guideforvalorant.ui.agents.sova.Sova;
 import com.kalvinkao.guideforvalorant.ui.agents.viper.Viper;
@@ -37,6 +39,9 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
         final ImageButton phoenix = root.findViewById(R.id.btn_phoenix);
         final ImageButton sova = root.findViewById(R.id.btn_sova);
         final ImageButton omen = root.findViewById(R.id.btn_omen);
+        final ImageButton breach = root.findViewById(R.id.btn_breach);
+        final ImageButton raze = root.findViewById(R.id.btn_raze);
+
         MainActivity.previousTitle = "Home";
 
         viper.setOnClickListener(new View.OnClickListener() {
@@ -87,7 +92,18 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
                 root.getContext().startActivity(intent);
             }
         });
-
+        breach.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Breach.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        raze.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Raze.class);
+                root.getContext().startActivity(intent);
+            }
+        });
 
         return root;
     }

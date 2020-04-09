@@ -24,11 +24,25 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/btn_breach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/icon_breach" />
+
+            <ImageButton
                 android:id="@+id/btn_brimstone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/brimstone" />
+                android:src="@drawable/icon_brim" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/btn_cypher"
@@ -36,28 +50,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/cypher"
-                android:src="@drawable/cypher" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+                android:src="@drawable/icon_cypher" />
 
             <ImageButton
                 android:id="@+id/btn_jett"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/jett" />
-
-            <ImageButton
-                android:id="@+id/btn_omen"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/omen" />
+                android:src="@drawable/icon_jett" />
 
         </LinearLayout>
 
@@ -67,23 +67,46 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/btn_omen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/icon_omen" />
+
+            <ImageButton
                 android:id="@+id/btn_phoenix"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/phoenix" />
+                android:src="@drawable/icon_phoenix" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_raze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="Raze"
+                android:src="@drawable/icon_raze" />
 
             <ImageButton
                 android:id="@+id/btn_sage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/sage" />
+                android:src="@drawable/icon_sage" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <ImageButton
@@ -91,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/sova" />
+                android:src="@drawable/icon_sova" />
 
             <ImageButton
                 android:id="@+id/btn_viper"
@@ -99,8 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/viper"
-                android:src="@drawable/viper" />
-
+                android:src="@drawable/icon_viper" />
         </LinearLayout>
 
         <androidx.cardview.widget.CardView

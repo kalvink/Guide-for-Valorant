@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:gravity="center"
+            android:text="@string/odin"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,18 +29,9 @@
             <ImageView
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="120dp"
                 android:contentDescription="@string/odin"
-                android:src="@drawable/odin" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="@string/odin"
-                android:textSize="30sp" />
+                android:src="@drawable/odin_hmg50" />
 
         </LinearLayout>
 
@@ -42,6 +42,7 @@
             android:text="@string/stats"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
+            android:background="#212121"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -60,6 +61,7 @@
             android:text="@string/recoil_pattern"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
+            android:background="#212121"
             android:textSize="30sp"
             android:textStyle="bold" />
 

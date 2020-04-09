@@ -41,38 +41,70 @@
     <string name="developer_n_kalvin_kao">Developer:\n Kalvin Kao</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="about">About</string>
-    <string name="sidearm">Sidearm</string>
-    <string name="smgs">SMGS</string>
-    <string name="rifles">Rifles</string>
-    <string name="sniper">Sniper</string>
-    <string name="heavy">Heavy</string>
-    <string name="shields">Shields</string>
-    <string name="shotguns">Shotguns</string>
-    <string name="sheriff">Sheriff</string>
-    <string name="ghost">Ghost</string>
-    <string name="frenzy">Frenzy</string>
-    <string name="shorty">Shorty</string>
+
+
+    <string name="stats">STATS</string>
+    <string name="recoil_pattern">RECOIL PATTERN</string>
+
+    <!--WEAPONS TAB-->
     <string name="tab_wep1">Overview</string>
     <string name="tab_wep2">Tips</string>
     <string name="tab_wep3">Skins</string>
-    <string name="stats">STATS</string>
-    <string name="recoil_pattern">RECOIL PATTERN</string>
-    <string name="classic_pistol">Classic</string>
-    <string name="stinger">Stinger</string>
-    <string name="spectre">Spectre</string>
-    <string name="marshal">Marshal</string>
-    <string name="bulldog">Bulldog</string>
-    <string name="operator">Operator</string>
-    <string name="ares">Ares</string>
-    <string name="odin">Odin</string>
-    <string name="light_shield">Light Shield</string>
-    <string name="heavy_shield">Heavy Shield</string>
-    <string name="guardian">Guardian</string>
-    <string name="phantom">Phantom</string>
-    <string name="vandal">Vandal</string>
-    <string name="classic_skin">Classic Skin</string>
-    <string name="judge">Judge</string>
+    <!--SIDE ARMS-->
+    <string name="sidearm">Sidearm</string>
+    <string name="classic_pistol">CLASSIC</string>
+    <string name="stats_classic">Primary Fire: \n- Semi-Automatic\n- Fire Rate: 6.75 rounds/sec \n\nAlt. Fire: \n- 3-Round Burst, spread increase \n- Fire Rate: 2.22 rounds/sec \n\nDamage: \nBody 26 | Head 78 | Leg 22 [0-30m] \nBody 22 | Head 66 | Leg 18 [30-50m] \n\nMagazine Capacity: 12 \nWall Penetration: Low \n\nCost: Free</string>
+    <string name="shorty">SHORTY</string>
+    <string name="frenzy">FRENZY</string>
+    <string name="ghost">GHOST</string>
+    <string name="sheriff">SHERIFF</string>
+    <!--SMGS-->
+    <string name="smgs">SMGS</string>
+    <string name="stinger">STINGER</string>
+    <string name="spectre">SPECTRE</string>
+    <!--SHOTGUNS-->
+    <string name="shotguns">Shotguns</string>
     <string name="bucky">Bucky</string>
+    <string name="judge">Judge</string>
+    <!--RIFLES-->
+    <string name="rifles">Rifles</string>
+    <string name="bulldog">BULLDOG</string>
+    <string name="stats_bulldog">Primary Fire: \n- Full-Automatic \n- Fire Rate: 9.15 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), 3-Round Burst \n- Fire Rate: 4 rounds/second \n \nDamage: \nBody 35 | Head 116 | Leg 30 [0-50m] \n \nMagazine Capacity: 24 \nWall Penetration: Medium \n\nCost: 2100</string>
+    <string name="guardian">GUARDIAN</string>
+    <string name="stats_guardian">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 6.5 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.5x), slight spread reduction \n- Fire Rate: 6.5 rounds/second \n \nDamage: \nBody 65 | Head 195 | Leg 49 [0-50m] \n \nMagazine Capacity: 12 \nWall Penetration: Medium \n\nCost: 2700</string>
+    <string name="phantom">PHANTOM</string>
+    <string name="stats_phantom">Primary Fire: \n- Full-Automatic \n- Fire Rate: 11 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 9.9 rounds/second \n \nDamage: \nBody 39 | Head 156 | Leg 33 [0-15m] \nBody 35 | Head 140 | Leg 30 [15-30m] \nBody 31 | Head 124 | Leg 26 [30-50m] \n \nMagazine Capacity: 30 \nWall Penetration: Medium \n\nCost: 2900</string>
+    <string name="vandal">VANDAL</string>
+    <string name="stats_vandal">Primary Fire: \n- Full-Automatic \n- Fire Rate: 9.25 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 8.32 rounds/second \n \nDamage: \nBody 39 | Head 156 | Leg 33 [0-50m] \n \nMagazine Capacity: 25 \nWall Penetration: Medium \n\nCost: 2900</string>
+
+    <!--HEAVY-->
+    <string name="heavy">Heavy</string>
+    <string name="ares">ARES</string>
+    <string name="stats_ares"><![CDATA[Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n \nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n \nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1700]]></string>
+    <string name="odin">ODIN</string>
+    <string name="stats_odin"><![CDATA[Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200]]></string>
+
+    <!--SNIPERS-->
+    <string name="sniper">Sniper</string>
+    <string name="marshal">MARSHAL</string>
+    <string name="stats_marshal">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 1.5 rounds/second \n \nAlt. Fire: \n- Zoom Mode (2.5x), slight spread reduction \n- Fire Rate: 1.2 rounds/second \n \nDamage: \nBody 101 | Head 202 | Leg 85 [0-50m] \n \nMagazine Capacity: 5 \nWall Penetration: Medium \n\nCost: 1100</string>
+
+    <string name="operator">OPERATOR</string>
+    <string name="stats_operator">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 0.75 rounds/second \n \nAlt. Fire: \n- Dual-Zoom Mode (2.5x, 5x), significant spread reduction \n- Fire Rate: 0.75 rounds/second \n \nDamage: \nBody 150 | Head 255 | Leg 127 [0-50m] \n \nMagazine Capacity: 5 \nWall Penetration: High \n\nCost: 4500</string>
+
+    <!--SHIELDS-->
+    <string name="shields">Shields</string>
+    <string name="light_shield">Light Shield</string>
+    <string name="stats_lightshield">Blocks 50% of damage taken. Breaks after it has absorbed 25 damage. \n \nCost: 400</string>
+    <string name="heavy_shield">Heavy Shield</string>
+    <string name="stats_heavyshield">Blocks 50% of damage taken. Breaks after it has absorbed 50 damage. \n \nCost: 1000</string>
+
+
+
+
+
+    <string name="classic_skin">Classic Skin</string>
+
     <string name="menu_discord">Discord</string>
     <string name="the_spike">The Spike</string>
     <string name="cypher_ult_desc">Extract information from the corpse of an enemy, revealing the location of their living allies.</string>
@@ -93,16 +125,7 @@
     <!--real: ca-app-pub-8016302998575950/6459684456-->
     <!--test: ca-app-pub-3940256099942544/6300978111-->
     <string name="ad_unit_id">ca-app-pub-8016302998575950/6459684456</string>
-    <string name="stats_classic">Primary Fire: \n- Semi-Automatic\n- Fire Rate: 6.75 rounds/sec \n\nAlt. Fire: \n- 3-Round Burst, spread increase \n- Fire Rate: 2.22 rounds/sec \n\nDamage: \nBody 26 | Head 78 | Leg 22 [0-30m] \nBody 22 | Head 66 | Leg 18 [30-50m] \n\nMagazine Capacity: 12 \nWall Penetration: Low \n\nCost: Free</string>
-    <string name="stats_heavyshield">Blocks 50% of damage taken. Breaks after it has absorbed 50 damage. \n \nCost: 1000</string>
-    <string name="stats_lightshield">Blocks 50% of damage taken. Breaks after it has absorbed 25 damage. \n \nCost: 400</string>
-    <string name="stats_odin"><![CDATA[Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200]]></string>
-    <string name="stats_ares"><![CDATA[Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n \nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n \nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1700]]></string>
-    <string name="stats_operator">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 0.75 rounds/second \n \nAlt. Fire: \n- Dual-Zoom Mode (2.5x, 5x), significant spread reduction \n- Fire Rate: 0.75 rounds/second \n \nDamage: \nBody 150 | Head 255 | Leg 127 [0-50m] \n \nMagazine Capacity: 5 \nWall Penetration: High \n\nCost: 4500</string>
-    <string name="stats_marshal">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 1.5 rounds/second \n \nAlt. Fire: \n- Zoom Mode (2.5x), slight spread reduction \n- Fire Rate: 1.2 rounds/second \n \nDamage: \nBody 101 | Head 202 | Leg 85 [0-50m] \n \nMagazine Capacity: 5 \nWall Penetration: Medium \n\nCost: 1100</string>
-    <string name="stats_vandal">Primary Fire: \n- Full-Automatic \n- Fire Rate: 9.25 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 8.32 rounds/second \n \nDamage: \nBody 39 | Head 156 | Leg 33 [0-50m] \n \nMagazine Capacity: 25 \nWall Penetration: Medium \n\nCost: 2900</string>
-    <string name="stats_phantom">Primary Fire: \n- Full-Automatic \n- Fire Rate: 11 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 9.9 rounds/second \n \nDamage: \nBody 39 | Head 156 | Leg 33 [0-15m] \nBody 35 | Head 140 | Leg 30 [15-30m] \nBody 31 | Head 124 | Leg 26 [30-50m] \n \nMagazine Capacity: 30 \nWall Penetration: Medium \n\nCost: 2900</string>
-    <string name="stats_guardian">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 6.5 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.5x), slight spread reduction \n- Fire Rate: 6.5 rounds/second \n \nDamage: \nBody 65 | Head 195 | Leg 49 [0-50m] \n \nMagazine Capacity: 12 \nWall Penetration: Medium \n\nCost: 2700</string>
-    <string name="stats_bulldog">Primary Fire: \n- Full-Automatic \n- Fire Rate: 9.15 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), 3-Round Burst \n- Fire Rate: 4 rounds/second \n \nDamage: \nBody 35 | Head 116 | Leg 30 [0-50m] \n \nMagazine Capacity: 24 \nWall Penetration: Medium \n\nCost: 2100</string>
+
+
 
 </resources>
