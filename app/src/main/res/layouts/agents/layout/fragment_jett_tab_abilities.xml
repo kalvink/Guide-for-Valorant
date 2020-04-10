@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.jett.Jett">
+    android:background="@color/valorantColor">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -15,8 +14,9 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Card1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
@@ -24,176 +24,238 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/img_viper_ability1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/snakebite"
-                    app:srcCompat="@drawable/jett_ab1" />
-
-                <TextView
-                    android:id="@+id/textView4"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="Cloudburst"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ability1_desc"
-                    android:layout_width="293dp"
-                    android:layout_height="76dp"
-                    android:layout_below="@+id/viper_ability1_text_ability"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginBottom="15dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="Throw out a cloud of fog that obscures vision on impact. Hold down the ability button to bend the cloud's in-flight trajectory "
-                    android:textAlignment="viewStart" />
+                    <ImageView
+                        android:id="@+id/img_viper_ability1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/snakebite"
+                        app:srcCompat="@drawable/jett_ab1" />
 
-                <TextView
-                    android:id="@+id/viper_ability1_text_ability"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_marginBottom="1dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/jett_ab1"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_1"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 100"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_desc"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surfact. HOLD the ability key to curve the smoke in the direction of your crosshair."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/viper_poison_cloud"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/poison_cloud"
-                    app:srcCompat="@drawable/jett_ab2" />
-
-                <TextView
-                    android:id="@+id/poison_cloud"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="Updraft"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_ability2_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_ability2_text_ability"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="After a brief wind up, propel yourself upwards "
-                    android:textAlignment="viewStart" />
-
-                <TextView
-                    android:id="@+id/viper_ability2_text_ability"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
+            android:id="@+id/Card2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20dp"
             android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/img_viper_ability3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/toxic_screen"
-                    app:srcCompat="@drawable/jett_ab3" />
-
-                <TextView
-                    android:id="@+id/toxic_screen"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Tailwind"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_sig_desc"
-                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_below="@+id/viper_signature"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginEnd="1dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Immediately dash a short distance in the direction you're moving. "
-                    android:textAlignment="viewStart" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ability3_text_ability"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/viper_poison_cloud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/viper_ab2"
+                        app:srcCompat="@drawable/jett_ab2" />
 
-                <TextView
-                    android:id="@+id/viper_signature"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/toxic_screen"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_toEndOf="@+id/viper_ability3_text_ability"
-                    android:text="@string/signature" />
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/poison_cloud"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/jett_ab2"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability2_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_2"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 200"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability2_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="INSTANTLY propel Jett high into the air."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
 
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Card3"
             android:layout_width="match_parent"
-            android:layout_height="182dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_viper_ability3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="5dp"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:contentDescription="@string/viper_ab3"
+                        app:srcCompat="@drawable/jett_ab3" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/toxic_screen"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/jett_ab3"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability3_text_ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_signature"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: Free, once per round. Refreshed on 2 kills."
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_sig_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="INSTANTLY propel Jett in the direction she is moving. If Jett is standing still she will propel forward."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:background="#FFFFFF">
@@ -201,61 +263,71 @@
             <RelativeLayout
                 android:id="@+id/relativeLayout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/viper_ult"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/viper_s_pit"
-                    app:srcCompat="@drawable/jett_ult" />
-
-                <TextView
-                    android:id="@+id/viper_pit"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="Blade Storm "
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ult_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/txt_vipers_pit"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="Arm yourself with several deadly throwing knives that deal moderate damage and kill on headshots. Scoring a kill restores all daggers. Left click throws a single dagger. Right click throws all remaining daggers in a short ranged-bursts. "
-                    android:textAlignment="viewStart" />
+                    <ImageView
+                        android:id="@+id/brim_ult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/viper_ab4"
+                        app:srcCompat="@drawable/jett_ab4" />
 
-                <TextView
-                    android:id="@+id/viper_ult_txt_ability"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_pit"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <View style="@style/Divider.Vertical" />
 
-                <TextView
-                    android:id="@+id/txt_vipers_pit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_pit"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_toEndOf="@+id/viper_ult_txt_ability"
-                    android:text="@string/ultimate" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/brim_ult_txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/jett_ab4"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/brim_ult_txt_ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_ultimate"
+
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/brim_ult_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a set of highly accurate throwing knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
 
             </RelativeLayout>
-
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView

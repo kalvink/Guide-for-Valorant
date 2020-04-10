@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.Viper">
+    android:background="@color/valorantColor">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -15,242 +14,318 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginTop="5dp">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/img_viper_ability1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/snakebite"
-                    android:src="@drawable/viper_ability1" />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/snakebite"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_ability1_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginBottom="0dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/viper_ability1_desc"
-                    android:textAlignment="viewStart" />
-
-                <TextView
-                    android:id="@+id/viper_ability1_text_ability"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_marginBottom="1dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/viper_poison_cloud"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/viper_ability2"
-                    android:contentDescription="@string/poison_cloud" />
-
-                <TextView
-                    android:id="@+id/poison_cloud"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/poison_cloud"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_ability2_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_ability2_text_ability"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/viper_ability2_desc"
-                    android:textAlignment="viewStart" />
-
-                <TextView
-                    android:id="@+id/viper_ability2_text_ability"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
+            android:id="@+id/Card1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20dp"
             android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/img_viper_ability3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/toxic_screen"
-                    android:src="@drawable/viper_ability3" />
-
-                <TextView
-                    android:id="@+id/toxic_screen"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/toxic_screen"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_sig_desc"
-                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_below="@+id/viper_signature"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginEnd="1dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/viper_ability3_desc"
-                    android:textAlignment="viewStart" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ability3_text_ability"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/img_viper_ability1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/snakebite"
+                        app:srcCompat="@drawable/viper_ab1" />
 
-                <TextView
-                    android:id="@+id/viper_signature"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/toxic_screen"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_toEndOf="@+id/viper_ability3_text_ability"
-                    android:text="@string/signature" />
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/viper_ab1"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_1"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 100"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_desc"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Card2"
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:background="#FFFFFF"
+            android:layout_height="match_parent"
             android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/viper_poison_cloud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/viper_ab2"
+                        app:srcCompat="@drawable/viper_ab2" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/poison_cloud"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/viper_ab2"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability2_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_2"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 200"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability2_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="EQUiP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_viper_ability3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="5dp"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:contentDescription="@string/viper_ab3"
+                        app:srcCompat="@drawable/viper_ab3" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/toxic_screen"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/viper_ab3"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability3_text_ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_signature"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: Placeable once per round"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_sig_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#FFFFFF">
 
             <RelativeLayout
                 android:id="@+id/relativeLayout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/viper_ult"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/viper_s_pit"
-                    android:src="@drawable/viper_ability4" />
-
-                <TextView
-                    android:id="@+id/viper_pit"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/viper_s_pit"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ult_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/txt_vipers_pit"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/viper_ult_desc"
-                    android:textAlignment="viewStart" />
+                    <ImageView
+                        android:id="@+id/brim_ult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/viper_ab4"
+                        app:srcCompat="@drawable/viper_ab4" />
 
-                <TextView
-                    android:id="@+id/viper_ult_txt_ability"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_pit"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <View style="@style/Divider.Vertical" />
 
-                <TextView
-                    android:id="@+id/txt_vipers_pit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_pit"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_toEndOf="@+id/viper_ult_txt_ability"
-                    android:text="@string/ultimate" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/brim_ult_txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/viper_ab4"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/brim_ult_txt_ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_ultimate"
+
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/brim_ult_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>

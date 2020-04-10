@@ -23,7 +23,7 @@ public class PlaceholderFragment extends Fragment {
 
             //SIDEARMS
             //0-2
-            R.layout.fragment_defaultpistol, R.layout.fragment_defaultpistol_tips, R.layout.fragment_defaultpistol_skins,
+            R.layout.fragment_classic, R.layout.fragment_classic_tips, R.layout.fragment_classic_skins,
             //3-5
             R.layout.fragment_shorty, R.layout.fragment_shorty_tips, R.layout.fragment_shorty_skins,
             //6-8

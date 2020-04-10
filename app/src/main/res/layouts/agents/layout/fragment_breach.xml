@@ -17,61 +17,84 @@
             android:layout_margin="10dp"
             android:background="#FFFFFF">
 
-            <ImageView
-                android:id="@+id/breach_icon"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/cypher"
-                android:src="@drawable/icon_breach"
-                android:layout_margin="5dp"/>
-
-            <TextView
-                android:id="@+id/cypher_origin"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:layout_toEndOf="@+id/breach_icon"
-                android:text="Type: Initiator"
-                android:textColor="#000000" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
 
-            <TextView
-                android:id="@+id/cypher_origin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/cypher_desc"
-                android:layout_below="@+id/cypher_origin"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="9dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginEnd="15dp"
-                android:layout_marginBottom="-77dp"
-                android:layout_toEndOf="@+id/breach_icon"
-                android:text="Origin: Unknown"
-                android:textColor="#000000" />
+                <ImageView
+                    android:id="@+id/breach_icon"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#FF9800"
+                    android:contentDescription="@string/cypher"
+                    android:src="@drawable/icon_breach" />
 
-            <TextView
-                android:id="@+id/cypher_desc"
-                android:layout_width="224dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="11dp"
-                android:layout_marginEnd="9dp"
-                android:layout_marginBottom="6dp"
-                android:layout_toEndOf="@+id/cypher_icon"
-                android:text="@string/cypher_desc"
-                android:textColor="#000000" />
+                <View style="@style/Divider.Vertical"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:layout_weight="0"
+                            android:text="Type: Initiator"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="7dp"
+                            app:srcCompat="@drawable/type_initiator" />
+                    </LinearLayout>
+
+                    <View style="@style/Divider.Horizontal"/>
+
+                    <TextView
+                        android:id="@+id/cypher_origin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="-77dp"
+                        android:text="Origin: Unknown"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
         </RelativeLayout>
 
         <TextView
             android:id="@+id/abilities"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/abilities"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -83,45 +106,162 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             app:cardBackgroundColor="#FFFFFF"
-            app:cardElevation="20dp">
+            app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/snakebite_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ability_unknown"
-                    android:contentDescription="@string/snakebite" />
 
-                <ImageView
-                    android:id="@+id/poison_cloud_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ability_unknown"
-                    android:contentDescription="@string/poison_cloud" />
 
-                <ImageView
-                    android:id="@+id/toxic_screen_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ability_unknown"
-                    android:contentDescription="@string/toxic_screen" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/cyphers_pit_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/ability_unknown"
-                    android:contentDescription="" />
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF9800"
+                        android:text="@string/breach_ab1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF9800"
+                        android:text="@string/breach_ab2"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/breach_ab3"
+                        android:textAlignment="center"
+                        android:background="#FF9800"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FF9800"
+                        android:text="@string/breach_ab4"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/breachab1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="breachab1"
+                        android:src="@drawable/breach_ab1" />
+
+                    <View style="@style/Divider.Vertical" />
+
+
+                    <ImageView
+                        android:id="@+id/poison_cloud_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/viper_ab2"
+                        android:src="@drawable/breach_ab2" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <ImageView
+                        android:id="@+id/toxic_screen_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/viper_ab3"
+                        android:src="@drawable/breach_ab3" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <ImageView
+                        android:id="@+id/ult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="ult"
+                        android:src="@drawable/breach_ab4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF9800"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center"
+                        android:text="Ability: 1" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Ability: 2"
+                        android:background="#FF9800"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Signature"
+                        android:background="#FF9800"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Ultimate"
+                        android:background="#FF9800"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
 
             </LinearLayout>
+
+
 
         </androidx.cardview.widget.CardView>
 
@@ -132,6 +272,7 @@
             android:text="@string/summary"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
+            android:background="#212121"
             android:textSize="30sp"
             android:textStyle="bold" />
 

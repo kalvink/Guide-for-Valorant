@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.sova.Sova">
+    android:background="@color/valorantColor">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -15,7 +14,8 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:id="@+id/Card1"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
@@ -24,175 +24,238 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/img_viper_ability1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/snakebite"
-                    app:srcCompat="@drawable/sova_1" />
-
-                <TextView
-                    android:id="@+id/textView4"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/owl_drone"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_ability1_desc"
-                    android:layout_width="293dp"
                     android:layout_height="match_parent"
-                    android:layout_below="@+id/viper_ability1_text_ability"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="Deploy a pilotable drone that can fire a dart that will reveal enemies on impact. "
-                    android:textAlignment="viewStart" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ability1_text_ability"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_marginBottom="1dp"
-                    android:layout_toEndOf="@+id/img_viper_ability1"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/img_viper_ability1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/snakebite"
+                        app:srcCompat="@drawable/sova_ab1" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/sova_ab1"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_1"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 300"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_desc"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.  "
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Card2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/viper_poison_cloud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/viper_ab2"
+                        app:srcCompat="@drawable/sova_ab2" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/poison_cloud"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/sova_ab2"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability2_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_2"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 100"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability2_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of teh projectile. ALTERNATE FIRE to add up to two bounces to this arrow."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_viper_ability3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="5dp"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:contentDescription="@string/viper_ab3"
+                        app:srcCompat="@drawable/sova_ab3" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/toxic_screen"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/sova_ab3"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability3_text_ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_signature"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: Free (35s cooldown)"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_sig_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a bow with recon boly. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projective. ALTERNATE FIRE to add up to two bounces to this arrow."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/viper_poison_cloud"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/poison_cloud"
-                    app:srcCompat="@drawable/sova_2" />
-
-                <TextView
-                    android:id="@+id/poison_cloud"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="Shock Bolt "
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_ability2_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_ability2_text_ability"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="Fire an explosive bolt that emits a damaging pulse of static energy on impact. "
-                    android:textAlignment="viewStart" />
-
-                <TextView
-                    android:id="@+id/viper_ability2_text_ability"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_toEndOf="@+id/viper_poison_cloud"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="20dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="5dp">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/img_viper_ability3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/toxic_screen"
-                    app:srcCompat="@drawable/sova_3" />
-
-                <TextView
-                    android:id="@+id/toxic_screen"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Recon Bolt "
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_sig_desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_below="@+id/viper_signature"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginEnd="1dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="Fire a bolt that deploys a sonar emitter. The sonar pings tag nearby enemies, causing them to be revealed. Can be destroyed. "
-                    android:textAlignment="viewStart" />
-
-                <TextView
-                    android:id="@+id/viper_ability3_text_ability"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="45dp"
-                    android:layout_toEndOf="@+id/img_viper_ability3"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viper_signature"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/toxic_screen"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_toEndOf="@+id/viper_ability3_text_ability"
-                    android:text="@string/signature" />
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:background="#FFFFFF">
@@ -200,66 +263,76 @@
             <RelativeLayout
                 android:id="@+id/relativeLayout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/viper_ult"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/viper_s_pit"
-                    app:srcCompat="@drawable/sova_ult" />
-
-                <TextView
-                    android:id="@+id/viper_pit"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="Hunter's Fury "
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/viper_ult_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/txt_vipers_pit"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="Fire up to three deadly energy blasts that spear across the entire map. Each hit enemy takes heavy damage and is marked. "
-                    android:textAlignment="viewStart" />
+                    <ImageView
+                        android:id="@+id/brim_ult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/viper_ab4"
+                        app:srcCompat="@drawable/sova_ab4" />
 
-                <TextView
-                    android:id="@+id/viper_ult_txt_ability"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_pit"
-                    android:layout_marginStart="3dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_toEndOf="@+id/viper_ult"
-                    android:text="@string/ability"
-                    android:textStyle="bold" />
+                    <View style="@style/Divider.Vertical" />
 
-                <TextView
-                    android:id="@+id/txt_vipers_pit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/viper_pit"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_toEndOf="@+id/viper_ult_txt_ability"
-                    android:text="@string/ultimate" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/brim_ult_txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/sova_ab4"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/brim_ult_txt_ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/ability_ultimate"
+
+                            android:textStyle="bold" />
+
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/viper_ability1_text_ability"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:textStyle="bold" />
+                        <View style="@style/Divider.Horizontal" />
+
+                        <TextView
+                            android:id="@+id/brim_ult_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:text="EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active."
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+                </LinearLayout>
 
             </RelativeLayout>
-
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             app:cardBackgroundColor="@color/valorantColor" />
 
     </LinearLayout>

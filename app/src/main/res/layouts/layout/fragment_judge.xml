@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,25 +12,27 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:gravity="center"
+            android:text="@string/judge"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/judge_icon"
+                android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/judge"
-                android:src="@drawable/judge" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="@string/judge"
-                android:textSize="30sp" />
+                android:layout_height="150dp"
+                android:contentDescription="@string/operator"
+                android:src="@drawable/judge_acs12" />
 
         </LinearLayout>
 
@@ -37,6 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/stats"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -49,23 +53,13 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire:
-            \n- Full-Automatic
-            \n- Fire Rate: 3.5 rounds/second
-            \n
-            \nDamage (12 pellets):
-            \nBody 17 | Head 34 | Leg 14 [0-10m]
-            \nBody 13 | Head 26 | Leg 11 [10-15m]
-            \nBody 10 | Head 20 | Leg 9 [15-50m]
-            \n
-            \nMagazine Capacity: 7
-            \nWall Penetration: Medium
-            \n\nCost: 1500" />
+            android:text="@string/stats_judge" />
 
         <TextView
             android:id="@+id/recoil_pattern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/recoil_pattern"
             android:textAlignment="center"
             android:textColor="#FFFFFF"

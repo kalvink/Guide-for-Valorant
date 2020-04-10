@@ -5,9 +5,9 @@
     <string name="ultimate">Ultimate</string>
     <!--viper-->
     <string name="snakebite">Snakebite</string>
-    <string name="toxic_screen">Toxic Screen</string>
-    <string name="poison_cloud">Poison Cloud</string>
-    <string name="viper_s_pit">Viper\'s Pit</string>
+    <string name="viper_ab3">Toxic Screen</string>
+    <string name="viper_ab2">Poison Cloud</string>
+    <string name="viper_ab4">Viper\'s Pit</string>
     <string name="viper_ability1_desc">Fire a projectile that explodes into a pool of damaging acid.</string>
     <string name="viper_ability2_desc">Throw a gas emitter that you can reactivate to create a poisonous smoke cloud at the cost of fuel. The emitter can be picked up and thrown again after a short cooldown.</string>
     <string name="viper_ability3_desc">Deploy a long line of gas emitters that you can reactivate to create a tall wall of toxic gas at the cost of fuel.</string>
@@ -18,11 +18,17 @@
     <string name="summary">SUMMARY</string>
     <string name="abilities">ABILITIES</string>
     <string name="origin_united_states">Origin: United States</string>
-    <string name="tab_text_4">Gallery</string>
+    <string name="tab_text_4">Tips</string>
     <string name="origin_morroco">Origin: Morroco</string>
     <string name="cypher_desc">Description: Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</string>
     <string name="cypher_summary">Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching. If intel is your thing, Cypher might be your Agent. This Moroccan surveillant has abilities that trap and reveal the locations of enemies that get stuck in them, as well as an actual spycam he can place on the map to watch the action from afar. His ultimate extracts information from an enemy corpse to temporarily reveal the location of remaining characters on the opposing team.</string>
+
+    <!--AGENTS-->
     <string name="sage">SAGE</string>
+    <string name="breach">BREACH</string>
+    <string name="raze">RAZE</string>
+
+
     <string name="origin_china">Origin: China</string>
     <string name="sage_desc">Description: Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.</string>
     <string name="sage_summary">Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. The most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
@@ -64,8 +70,8 @@
     <string name="spectre">SPECTRE</string>
     <!--SHOTGUNS-->
     <string name="shotguns">Shotguns</string>
-    <string name="bucky">Bucky</string>
-    <string name="judge">Judge</string>
+    <string name="bucky">BUCKY</string>
+    <string name="judge">JUDGE</string>
     <!--RIFLES-->
     <string name="rifles">Rifles</string>
     <string name="bulldog">BULLDOG</string>
@@ -108,24 +114,69 @@
     <string name="menu_discord">Discord</string>
     <string name="the_spike">The Spike</string>
     <string name="cypher_ult_desc">Extract information from the corpse of an enemy, revealing the location of their living allies.</string>
-    <string name="neural_theft">Neural Theft</string>
+    <string name="cypher_ab4">Neural Theft</string>
     <string name="cypher_ability3">Place a remote camera. After placing, reactivate to view the video feed. Left click while in camera to fire a tracking dart. Recharges when picked up or killed.</string>
-    <string name="spycam">Spycam</string>
+    <string name="cypher_ab3">Spycam</string>
     <string name="cypher_ability2desc">Toss out a remote activation trap. Reactivate to create a cage that slows enemies who pass through it. Look at a trap and press USE to detonate it, or hold ACTIVATE to detonate all.</string>
     <string name="cyper_ab1desc">Place a stealthed tripwire between two walls. Triggering enemies are restrained and revealed for a short time. If the trap is not destroyed, it activates to daze the trapped victim. Can be picked up.</string>
-    <string name="sage_ab1">Conjure a large, solid wall that can be used to block passageways or lines of sight. The wall can be rotated before casting.</string>
-    <string name="sage_ab2">Cast out a slowing orb that moves forward and detonates upon landing into a slowing field, creating a lingering field that slows and grounds players caught inside it.</string>
-    <string name="sage_ab3">Heal an ally or yourself to full health over a few seconds.</string>
-    <string name="brim_ab1">Launch an incendiary grenade that deploys a damaging field of fire.</string>
-    <string name="brim_ab2">Target a nearby location to call in a Stim Beacon, giving all players near it Rapidfire.</string>
-    <string name="brim_ab3">Use your map to call in orbital deployment smokescreens that obscure vision. Use your map to target a location.</string>
+    <string name="sage_ab1">Barrier Orb</string>
+    <string name="sage_ab2">Slow Orb</string>
+    <string name="sage_ab3">Healing Orb</string>
+    <string name="sage_ab4">Resurrection</string>
+
+    <string name="brim_ab1">Stim Beacon</string>
+    <string name="brim_ab2">Incendiary</string>
+    <string name="brim_ab3">Sky Smoke</string>
+    <string name="brim_ab4">Orbital Strike</string>
+
     <string name="sova_desc">Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</string>
 
 
     <!--real: ca-app-pub-8016302998575950/6459684456-->
     <!--test: ca-app-pub-3940256099942544/6300978111-->
     <string name="ad_unit_id">ca-app-pub-8016302998575950/6459684456</string>
-
+    <string name="ability_ultimate">Ability: Ultimate</string>
+    <string name="ability_signature">Ability: Signature</string>
+    <string name="ability_2">Ability: 2</string>
+    <string name="ability_1">Ability: 1</string>
+    <string name="breach_ab1">Aftershock</string>
+    <string name="breach_ab2">Flashpoint</string>
+    <string name="breach_ab3">Fault Line</string>
+    <string name="breach_ab4">Rolling Thunder</string>
+    <string name="type_initiator">Type: Initiator</string>
+    <string name="type_controller">Type: Controller</string>
+    <string name="cypher_ab1">Trapwire</string>
+    <string name="cypher_ab2">Cyber Cage</string>
+    <string name="type_sentinal">Type: Sentinal</string>
+    <string name="type_duelist">Type: Duelist</string>
+    <string name="jett_ab1">Cloudburst</string>
+    <string name="jett_ab2">Updraft</string>
+    <string name="jett_ab3">Tailwind</string>
+    <string name="jett_ab4">Blade Storm</string>
+    <string name="omen_ab1">Shrouded Step</string>
+    <string name="omen_ab2">Paranoia</string>
+    <string name="omen_ab3">Dark Cover</string>
+    <string name="omen_ab4">From the Shadows</string>
+    <string name="phoenix_ab1">Blaze</string>
+    <string name="phoenix_ab2">Curveball</string>
+    <string name="phoenix_ab3">Hot Hands</string>
+    <string name="phoenix_ab4">Run it Back</string>
+    <string name="sova_ab1">Owl Drone</string>
+    <string name="sova_ab2">Shock Bolt</string>
+    <string name="sova_ab3">Recon Bolt</string>
+    <string name="sova_ab4">Hunter\'s Fury</string>
+    <string name="viper_ab1">Snake Bite</string>
+    <string name="raze_ab1">Boom Bot</string>
+    <string name="raze_ab2">Blast Pack</string>
+    <string name="raze_ab3">Paint Shells</string>
+    <string name="raze_ab4">Showstopper</string>
+    <string name="stats_shorty">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 3.3 rounds/second \n \nDamage (12 pellets): \nBody 12 | Head 36 | Leg 10 [0-9m] \nBody 8 | Head 24 | Leg 6 [9-15m] \nBody 3 | Head 9 | Leg 2 [0-9m] \n \nMagazine Capacity: 2 \nWall Penetration: Low \n\nCost: 200</string>
+    <string name="stats_spectre">Primary Fire: \n- Full-Automatic \n- Fire Rate: 13.33 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.15x) slight spread reduction \n- Fire Rate: 12 rounds/second \n\nDamage: \nBody 26 | Head 78 | Leg 22 [0-20m] \nBody 22 | Head 66 | Leg 18 [20-50m] \n \nMagazine Capacity: 30 \nWall Penetration: Medium \n\nCost: 1600</string>
+    <string name="stats_stinger">Primary Fire: \n- Full-Automatic \n- Fire Rate: 18 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.15x) 4-Round Burst, spread reduction \n- Fire Rate: 4 rounds/second \n\nDamage: \nBody 27 | Head 67 | Leg 23 [0-20m] \nBody 25 | Head 62 | Leg 21 [20-50m] \n \nMagazine Capacity: 20 \nWall Penetration: Low \n\nCost: 1000</string>
+    <string name="stats_bucky">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 1.1 rounds/second \n \nAlt. Fire: \n- Semi-Automatic Air Burst (extended primary fire shot) \n- Fire Rate: 1.1 rounds/second \n \nDamage (15 pellets): \nBody 22 | Head 44 | Leg 19 [0-8m] \nBody 17 | Head 34 | Leg 14 [8-12m] \nBody 9 | Head 18 | Leg 8 [12-50m] \n \nMagazine Capacity: 5 \nWall Penetration: Low \n\nCost: 900</string>
+    <string name="stats_frenzy">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 rounds/second \n \nDamage: \nBody 26 | Head 78 | Leg 22 [0-20m] \nBody 21 | Head 63 | Leg 17 [20-50m] \n \nMagazine Capacity: 13 \nWall Penetration: Low \n\nCost: 400</string>
+    <string name="stats_ghost">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 6.75 rounds/second \n \nDamage: \nBody 30 | Head 105 | Leg 26 [0-30m] \nBody 25 | Head 88 | Leg 21 [30-50m] \n \nMagazine Capacity: 15 \nWall Penetration: Medium \n\nCost: 500</string>
+    <string name="stats_judge">Primary Fire: \n- Full-Automatic \n- Fire Rate: 3.5 rounds/second \n \nDamage (12 pellets): \nBody 17 | Head 34 | Leg 14 [0-10m] \nBody 13 | Head 26 | Leg 11 [10-15m] \nBody 10 | Head 20 | Leg 9 [15-50m] \n \nMagazine Capacity: 7 \nWall Penetration: Medium \n\nCost: 1500</string>
 
 
 </resources>

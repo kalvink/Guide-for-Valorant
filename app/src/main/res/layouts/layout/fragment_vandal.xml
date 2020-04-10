@@ -5,13 +5,23 @@
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:gravity="center"
+            android:text="@string/vandal"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,18 +30,9 @@
             <ImageView
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/vandal"
-                android:src="@drawable/vandal" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="@string/vandal"
-                android:textSize="25sp" />
+                android:layout_height="150dp"
+                android:contentDescription="@string/operator"
+                android:src="@drawable/vandal_ar762" />
 
         </LinearLayout>
 
@@ -39,6 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/stats"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -51,12 +53,13 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="@string/stats_vandal"/>
+            android:text="@string/stats_vandal" />
 
         <TextView
             android:id="@+id/recoil_pattern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/recoil_pattern"
             android:textAlignment="center"
             android:textColor="#FFFFFF"

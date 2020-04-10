@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.brimstone.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,48 +13,88 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF">
 
-            <ImageView
-                android:id="@+id/cypher_icon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/cypher"
-                app:srcCompat="@drawable/brimstone" />
-
-            <TextView
-                android:id="@+id/cypher_origin"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="7dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:layout_toEndOf="@+id/cypher_icon"
-                android:text="@string/origin_united_states"
-                android:textColor="#FFFFFF" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
 
-            <TextView
-                android:id="@+id/cypher_desc"
-                android:layout_width="254dp"
-                android:layout_height="101dp"
-                android:layout_below="@+id/cypher_origin"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="9dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:layout_toEndOf="@+id/cypher_icon"
-                android:text="Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander. "
-                android:textColor="#FFFFFF" />
+                <ImageView
+                    android:id="@+id/breach_icon"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#FF5722"
+                    android:contentDescription="@string/cypher"
+                    android:src="@drawable/icon_brim" />
+
+                <View style="@style/Divider.Vertical"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:layout_weight="0"
+                            android:text="@string/type_controller"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="7dp"
+                            app:srcCompat="@drawable/type_controller" />
+                    </LinearLayout>
+
+                    <View style="@style/Divider.Horizontal"/>
+
+                    <TextView
+                        android:id="@+id/cypher_origin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="-77dp"
+                        android:text="Origin: United States "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
         </RelativeLayout>
 
         <TextView
             android:id="@+id/abilities"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/abilities"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -66,47 +104,164 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_margin="10dp"
             app:cardBackgroundColor="#FFFFFF"
-            app:cardElevation="20dp">
+            app:cardElevation="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/poison_cloud_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/poison_cloud"
-                    android:src="@drawable/brim_ab2" />
 
-                <ImageView
-                    android:id="@+id/snakebite_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/snakebite"
-                    android:src="@drawable/brim_ab1" />
 
-                <ImageView
-                    android:id="@+id/toxic_screen_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/brim_ab3"
-                    android:contentDescription="@string/toxic_screen" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/cyphers_pit_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/brim_ult"
-                    android:contentDescription="" />
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF5722"
+                        android:text="@string/brim_ab1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF5722"
+                        android:text="@string/brim_ab2"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/brim_ab3"
+                        android:textAlignment="center"
+                        android:background="#FF5722"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FF5722"
+                        android:text="@string/brim_ab4"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/breachab1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="breachab1"
+                        android:src="@drawable/brim_ab1" />
+
+                    <View style="@style/Divider.Vertical" />
+
+
+                    <ImageView
+                        android:id="@+id/poison_cloud_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/viper_ab2"
+                        android:src="@drawable/brim_ab2" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <ImageView
+                        android:id="@+id/toxic_screen_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/viper_ab3"
+                        android:src="@drawable/brim_ab3" />
+
+                    <View style="@style/Divider.Vertical" />
+
+                    <ImageView
+                        android:id="@+id/ult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:contentDescription="ult"
+                        android:src="@drawable/brim_ab4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF5722"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center"
+                        android:text="Ability: 1" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Ability: 2"
+                        android:background="#FF5722"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Signature"
+                        android:background="#FF5722"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Ultimate"
+                        android:background="#FF5722"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
 
             </LinearLayout>
+
+
 
         </androidx.cardview.widget.CardView>
 
@@ -117,15 +272,14 @@
             android:text="@string/summary"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
+            android:background="#212121"
             android:textSize="30sp"
             android:textStyle="bold" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20sp"
-            android:layout_marginStart="5sp"
-            android:layout_marginEnd="5sp"
+            android:layout_margin="10dp"
 
             app:cardCornerRadius="2dp"
             app:cardElevation="20dp">
@@ -134,11 +288,14 @@
                 android:id="@+id/cypher_text_summary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:paddingLeft="2dp"
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.  Brimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn't move out of the radius fast enough."
+                android:text="Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.
+                \n
+                \nBrimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn't move out of the radius fast enough."
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

@@ -37,6 +37,16 @@
             android:theme="@style/AppTheme">
         </activity>
         <activity
+            android:name=".ui.agents.breach.Breach"
+            android:label="@string/breach"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.agents.raze.Raze"
+            android:label="@string/raze"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
             android:name=".ui.agents.sova.Sova"
             android:label="SOVA"
             android:theme="@style/AppTheme">

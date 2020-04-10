@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,25 +12,27 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:gravity="center"
+            android:text="@string/classic_pistol"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/pistol_icon"
+                android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/classic_pistol"
-                android:src="@drawable/pistol" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="@string/classic_pistol"
-                android:textSize="30sp" />
+                android:layout_height="250dp"
+                android:contentDescription="@string/operator"
+                android:src="@drawable/classic_bp9" />
 
         </LinearLayout>
 
@@ -37,6 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/stats"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -55,6 +59,7 @@
             android:id="@+id/recoil_pattern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/recoil_pattern"
             android:textAlignment="center"
             android:textColor="#FFFFFF"

@@ -5,33 +5,34 @@
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#212121"
+            android:gravity="center"
+            android:text="@string/sheriff"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/shorty_icon"
+                android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/shorty"
-                android:src="@drawable/shorty" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:text="@string/shorty"
-                android:textSize="30sp" />
+                android:layout_height="250dp"
+                android:contentDescription="@string/operator"
+                android:src="@drawable/shorty_dbs20" />
 
         </LinearLayout>
 
@@ -39,6 +40,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/stats"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -51,23 +53,13 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="Primary Fire:
-            \n- Semi-Automatic
-            \n- Fire Rate: 3.3 rounds/second
-            \n
-            \nDamage (12 pellets):
-            \nBody 12 | Head 36 | Leg 10 [0-9m]
-            \nBody 8 | Head 24 | Leg 6 [9-15m]
-            \nBody 3 | Head 9 | Leg 2 [0-9m]
-            \n
-            \nMagazine Capacity: 2
-            \nWall Penetration: Low
-            \n\nCost: 200" />
+            android:text="@string/stats_shorty" />
 
         <TextView
             android:id="@+id/recoil_pattern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#212121"
             android:text="@string/recoil_pattern"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
