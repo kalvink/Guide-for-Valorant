@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/valorantColor"
     android:orientation="vertical"
-    tools:context=".ui.maps.MapsFragment">
+    tools:context=".ui.maps.MapsFragment" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/valorant_map" />
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/btn_split"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/map_split" />
+
+            <ImageView
+                android:id="@+id/btn_split2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/minimap_split" />
+
+            <ImageView
+                android:id="@+id/btn_bind"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/map_bind" />
+
+            <ImageView
+                android:id="@+id/btn_split3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/minimap_bind" />
+
+            <ImageView
+                android:id="@+id/btn_haven"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/map_haven" />
+
+            <ImageView
+                android:id="@+id/btn_split4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/minimap_haven"
+                android:layout_marginBottom="40dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>

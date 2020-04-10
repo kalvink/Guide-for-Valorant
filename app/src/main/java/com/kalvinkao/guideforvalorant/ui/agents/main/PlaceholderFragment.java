@@ -25,23 +25,23 @@ public class PlaceholderFragment extends Fragment {
             //0-2
             R.layout.fragment_brimstone, R.layout.fragment_brimstone_tab_abilities, R.layout.fragment_brimstone_tab_gallery,
             //3-5
-            R.layout.fragment_cypher, R.layout.fragment_cypher_tab_abilities, R.layout.fragment_cypher_tab_gallery,
+            R.layout.fragment_cypher, R.layout.fragment_cypher_tab_abilities, R.layout.fragment_cypher_tab_tips,
             //6-8
-            R.layout.fragment_jett, R.layout.fragment_jett_tab_abilities, R.layout.fragment_jett_tab_gallery,
+            R.layout.fragment_jett, R.layout.fragment_jett_tab_abilities, R.layout.fragment_jett_tab_tips,
             //9-11
-            R.layout.fragment_omen, R.layout.fragment_omen_tab_abilities, R.layout.fragment_omen_tab_gallery,
+            R.layout.fragment_omen, R.layout.fragment_omen_tab_abilities, R.layout.fragment_omen_tab_tips,
             //12-14
-            R.layout.fragment_phoenix, R.layout.fragment_phoenix_tab_abilities, R.layout.fragment_phoenix_tab_gallery,
+            R.layout.fragment_phoenix, R.layout.fragment_phoenix_tab_abilities, R.layout.fragment_phoenix_tab_tips,
             //15-17
-            R.layout.fragment_sage, R.layout.fragment_sage_tab_abilities, R.layout.fragment_sage_tab_gallery,
+            R.layout.fragment_sage, R.layout.fragment_sage_tab_abilities, R.layout.fragment_sage_tab_tips,
             //18-20
-            R.layout.fragment_sova, R.layout.fragment_sova_tab_abilities, R.layout.fragment_sova_tab_gallery,
+            R.layout.fragment_sova, R.layout.fragment_sova_tab_abilities, R.layout.fragment_sova_tab_tips,
             //21-23
-            R.layout.fragment_viper, R.layout.fragment_viper_tab_abilities, R.layout.fragment_viper_tab_gallery,
+            R.layout.fragment_viper, R.layout.fragment_viper_tab_abilities, R.layout.fragment_viper_tab_tips,
             //24-26
             R.layout.fragment_breach, R.layout.fragment_breach_tab_abilities, R.layout.fragment_breach_tab_tips,
             //27-29
-            R.layout.fragment_raze, R.layout.fragment_raze_tab_abilities, R.layout.fragment_raze_tab_gallery,
+            R.layout.fragment_raze, R.layout.fragment_raze_tab_abilities, R.layout.fragment_raze_tab_tips,
     };
 
 
