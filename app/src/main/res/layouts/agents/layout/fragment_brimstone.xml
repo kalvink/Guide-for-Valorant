@@ -79,7 +79,7 @@
                         android:layout_marginStart="7dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="-77dp"
-                        android:text="Origin: United States "
+                        android:text="@string/origin_united_states"
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -123,7 +123,7 @@
                     <TextView
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#FF5722"
                         android:text="@string/brim_ab1"
@@ -133,18 +133,17 @@
                     <TextView
                         android:id="@+id/textView21"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#FF5722"
                         android:text="@string/brim_ab2"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
-
                     <TextView
                         android:id="@+id/textView22"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="@string/brim_ab3"
                         android:textAlignment="center"
@@ -204,7 +203,7 @@
                     <ImageView
                         android:id="@+id/ult"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="104dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
                         android:contentDescription="ult"
@@ -223,39 +222,39 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="#FF5722"
-                        android:textColor="#FFFFFF"
+                        android:text="@string/ability_1"
                         android:textAlignment="center"
-                        android:text="Ability: 1" />
+                        android:textColor="#FFFFFF" />
 
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="Ability: 2"
                         android:background="#FF5722"
-                        android:textColor="#FFFFFF"
-                        android:textAlignment="center" />
+                        android:text="@string/ability_2"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
 
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="Signature"
                         android:background="#FF5722"
-                        android:textColor="#FFFFFF"
-                        android:textAlignment="center" />
+                        android:text="@string/signature"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
 
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="Ultimate"
                         android:background="#FF5722"
-                        android:textColor="#FFFFFF"
-                        android:textAlignment="center" />
+                        android:text="@string/ultimate"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
 
 
@@ -293,9 +292,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.
-                \n
-                \nBrimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn't move out of the radius fast enough."
+                android:text="@string/brim_summary"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

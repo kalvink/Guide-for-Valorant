@@ -72,7 +72,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 200"
+                            android:text="@string/cost_200"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair."
+                            android:text="@string/phoenix_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -151,7 +151,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 100"
+                            android:text="@string/cost_100"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -160,7 +160,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right."
+                            android:text="@string/phoenix_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -233,7 +233,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: Free, once per round. Refreshed on 2 kills.  "
+                            android:text="@string/cost_free1perround_refreshed2kill"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -242,7 +242,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies."
+                            android:text="@string/phoenix_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -312,7 +312,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 6 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost6"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -321,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="INSTANTLY place a marker at Phoenix's location. while this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health."
+                            android:text="@string/phoenix_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

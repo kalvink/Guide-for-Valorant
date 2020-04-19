@@ -14,8 +14,9 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
-import com.kalvinkao.guideforvalorant.ui.weapons.main.PlaceholderFragment;
-import com.kalvinkao.guideforvalorant.ui.weapons.main.SectionsPagerAdapter;
+import com.kalvinkao.guideforvalorant.ui.weapons.shields.main.PlaceholderFragment;
+import com.kalvinkao.guideforvalorant.ui.weapons.shields.main.SectionsPagerAdapter;
+
 
 import static com.kalvinkao.guideforvalorant.MainActivity.ads_on;
 
@@ -27,7 +28,7 @@ public class LightShield extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_global);
-        PlaceholderFragment.setX(45);
+        PlaceholderFragment.setX(0);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);

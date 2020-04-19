@@ -79,7 +79,7 @@
                         android:layout_marginStart="7dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="-77dp"
-                        android:text="Origin: N/A "
+                        android:text="@string/origin_unknown"
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -223,7 +223,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="#553AB7"
-                        android:text="Ability: 1"
+                        android:text="@string/ability_1"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -233,7 +233,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#553AB7"
-                        android:text="Ability: 2"
+                        android:text="@string/ability_2"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -243,7 +243,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#553AB7"
-                        android:text="Signature"
+                        android:text="@string/signature"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -253,7 +253,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#553AB7"
-                        android:text="Ultimate"
+                        android:text="@string/ultimate"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
@@ -293,7 +293,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as foes scramble to uncover where it might strike next. \n\nA man with mysterious origins, Omen is focused on hindering the vision of his enemies with things like an orb that strikes those in his sights with nearsightedness and another that bursts to obscure the vision of everyone nearby. He can also teleport a short distance, or use his ultimate to teleport anywhere on the map as a shadow."
+                android:text="@string/omen_summary"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

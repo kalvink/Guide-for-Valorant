@@ -72,7 +72,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 100"
+                            android:text="@string/cost_100"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surfact. HOLD the ability key to curve the smoke in the direction of your crosshair."
+                            android:text="@string/jett_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -151,7 +151,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 200"
+                            android:text="@string/cost_200"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -160,7 +160,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="INSTANTLY propel Jett high into the air."
+                            android:text="@string/jett_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -233,7 +233,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: Free, once per round. Refreshed on 2 kills."
+                            android:text="@string/cost_free1perround_refreshed2kill"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -242,7 +242,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="INSTANTLY propel Jett in the direction she is moving. If Jett is standing still she will propel forward."
+                            android:text="@string/jett_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -312,7 +312,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost7"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -321,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a set of highly accurate throwing knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target."
+                            android:text="@string/jett_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

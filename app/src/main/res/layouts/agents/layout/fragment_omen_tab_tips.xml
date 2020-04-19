@@ -31,14 +31,52 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:paddingLeft="2dp"
-                android:paddingTop="2dp"
-                android:paddingEnd="2dp"
-                android:paddingRight="2dp"
-                android:text="Coming Soon"
+                android:padding="15dp"
+
+                android:text="Prepare your entry with a Paranoia to blind the enemy."
                 android:textColor="#000000"
-                android:textSize="40sp" />
+                android:textSize="20sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="20sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:text="Shrouded Step is great at catching players off-guard from unexpected locations like the top of boxes, corners, and otherwise impossible to cross sight lines.
+                \n\nNever cast this into an open sight line, the recovery animation leaves you vulnerable."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="20sp"
+
+            app:cardCornerRadius="2dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:text="Dark Cover can be cast through walls. Keep an eye on the minimap while charging as it will show you the location of where the shroud will appear."
+                android:textColor="#000000"
+                android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

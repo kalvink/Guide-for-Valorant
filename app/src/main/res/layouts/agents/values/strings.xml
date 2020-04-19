@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Guide for Valorant</string>
+    <string name="nav_header_title">Guide for Valorant</string>
+    <string name="nav_header_subtitle">by: Kalvin Kao</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_agents">Agents</string>
+    <string name="menu_maps">Maps</string>
+    <string name="menu_media">Media</string>
+    <string name="menu_info">Information</string>
+
+    <string name="agents">Agents</string>
+    <string name="maps">Maps</string>
+    <string name="media">Media</string>
+    <string name="info">Information</string>
+    <string name="viper" translatable="false">VIPER</string>
+    <string name="cypher" translatable="false">CYPHER</string>
+
+
+    <string name="tab_text_1">Overview</string>
+    <string name="tab_text_2">Abilities</string>
+    <string name="tab_text_3">Story</string>
+
+
+    <string name="overview">Overview</string>
+
+
     <string name="ability">Ability:</string>
     <string name="signature">Signature</string>
     <string name="ultimate">Ultimate</string>
@@ -15,36 +41,31 @@
     <string name="viper_summary">Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy’s vision. If the toxins don’t kill her prey, her mind games surely will. A predator that deals in poison and chemical warfare. She has exploding projectiles that spill acid on the battlefield, as well as a poison-gas emitter and a toxic gas screen to prevent passage. Her ultimate emits a toxic cloud that conceals her location and highlights enemies who wander into it.</string>
     <string name="viper_desc">Description: Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy’s vision. If the toxins don’t kill her prey, her mind games surely will.</string>
 
-    <string name="summary">SUMMARY</string>
+    <string name="summary">DESCRIPTION</string>
     <string name="abilities">ABILITIES</string>
-    <string name="origin_united_states">Origin: United States</string>
     <string name="tab_text_4">Tips</string>
     <string name="origin_morroco">Origin: Morroco</string>
     <string name="cypher_desc">Description: Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</string>
-    <string name="cypher_summary">Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching. If intel is your thing, Cypher might be your Agent. This Moroccan surveillant has abilities that trap and reveal the locations of enemies that get stuck in them, as well as an actual spycam he can place on the map to watch the action from afar. His ultimate extracts information from an enemy corpse to temporarily reveal the location of remaining characters on the opposing team.</string>
+    <string name="cypher_summary">Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching. If intel is your thing, Cypher might be your Agent. \n\nThis Moroccan surveillant has abilities that trap and reveal the locations of enemies that get stuck in them, as well as an actual spycam he can place on the map to watch the action from afar. His ultimate extracts information from an enemy corpse to temporarily reveal the location of remaining characters on the opposing team.</string>
 
     <!--AGENTS-->
-    <string name="sage">SAGE</string>
-    <string name="breach">BREACH</string>
-    <string name="raze">RAZE</string>
+    <string name="sage" translatable="false">SAGE</string>
+    <string name="breach" translatable="false">BREACH</string>
+    <string name="raze" translatable="false">RAZE</string>
 
 
     <string name="origin_china">Origin: China</string>
     <string name="sage_desc">Description: Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.</string>
-    <string name="sage_summary">Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. The most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
-    <string name="owl_drone">Owl Drone</string>
+    <string name="sage_summary">Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. \n\nThe most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
     <string name="barrier_orb">Barrier Orb</string>
     <string name="resurrection">Resurrection</string>
-    <string name="orbital_strike">Orbital Strike</string>
     <string name="brim_ult_desc">Use your map to target a location, launching a devastating orbital strike that pulses for high damage over several seconds.</string>
-    <string name="sky_smoke">Sky Smoke</string>
-    <string name="info_features"><![CDATA[Features:\n• 128-tick servers\n• at least 30 frames per second on most min-spec computers (even dating back a decade)\n• 60-144+ FPS on modern gaming rigs\n• a global spread of datacenters aimed at <35ms for players in major cities around the world\n• Strong focus on netcode and anti-cheat system]]></string>
-    <string name="info_obj">Objective:\nTwo teams of five agents play against each other, agents with special unique abilities and use an economy system to purchase utilities and weapons. In the main game mode, the attacking team has a bomb, called the Spike, that they need to plant on a site. If the attacking team successfully protects the bomb and it detonates, they get a point. If the defending team successfully defuses the bomb, or the 100-second round timer expires, the defending team gets a point. Eliminating all opposing team members also earns a round win. The first team to win the best of 25 rounds wins the match.</string>
+    <string name="info_obj">Objective: Two teams of five agents play against each other, agents with special unique abilities and use an economy system to purchase utilities and weapons. In the main game mode, the attacking team has a bomb, called the Spike, that they need to plant on a site. If the attacking team successfully protects the bomb and it detonates, they get a point. If the defending team successfully defuses the bomb, or the 100-second round timer expires, the defending team gets a point. Eliminating all opposing team members also earns a round win. The first team to win the best of 25 rounds wins the match.</string>
     <string name="info_overview">Riot Games presents a new competitive stage for you to shine from. A 5v5 character-based tactical shooter where creativity is your greatest weapon.</string>
     <string name="weapons">Weapons</string>
     <string name="actions_about">About</string>
     <string name="actions_credits">Credits</string>
-    <string name="developer_n_kalvin_kao">Developer:\n Kalvin Kao</string>
+    <string name="developer_n_kalvin_kao">Developer:  Kalvin Kao</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="about">About</string>
 
@@ -58,60 +79,55 @@
     <string name="tab_wep3">Skins</string>
     <!--SIDE ARMS-->
     <string name="sidearm">Sidearm</string>
-    <string name="classic_pistol">CLASSIC</string>
-    <string name="stats_classic">Primary Fire: \n- Semi-Automatic\n- Fire Rate: 6.75 rounds/sec \n\nAlt. Fire: \n- 3-Round Burst, spread increase \n- Fire Rate: 2.22 rounds/sec \n\nDamage: \nBody 26 | Head 78 | Leg 22 [0-30m] \nBody 22 | Head 66 | Leg 18 [30-50m] \n\nMagazine Capacity: 12 \nWall Penetration: Low \n\nCost: Free</string>
-    <string name="shorty">SHORTY</string>
-    <string name="frenzy">FRENZY</string>
-    <string name="ghost">GHOST</string>
-    <string name="sheriff">SHERIFF</string>
+    <string name="classic_pistol" translatable="false">CLASSIC</string>
+    <string name="stats_classic">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 6.75 rounds/sec   \n\nAlt. Fire:  \n- 3-Round Burst, spread increase  \n- Fire Rate: 2.22 rounds/sec   \n\nDamage:  \nBody 26 | Head 78 | Leg 22 [0-30m]  \nBody 22 | Head 66 | Leg 18 [30-50m]   \n\nMagazine Capacity: 12  \nWall Penetration: Low   \n\nCost: Free</string>
+    <string name="shorty" translatable="false">SHORTY</string>
+    <string name="frenzy" translatable="false">FRENZY</string>
+    <string name="ghost" translatable="false">GHOST</string>
+    <string name="sheriff" translatable="false">SHERIFF</string>
     <!--SMGS-->
     <string name="smgs">SMGS</string>
-    <string name="stinger">STINGER</string>
-    <string name="spectre">SPECTRE</string>
+    <string name="stinger" translatable="false">STINGER</string>
+    <string name="spectre" translatable="false">SPECTRE</string>
     <!--SHOTGUNS-->
     <string name="shotguns">Shotguns</string>
-    <string name="bucky">BUCKY</string>
-    <string name="judge">JUDGE</string>
+    <string name="bucky" translatable="false">BUCKY</string>
+    <string name="judge" translatable="false">JUDGE</string>
     <!--RIFLES-->
     <string name="rifles">Rifles</string>
-    <string name="bulldog">BULLDOG</string>
-    <string name="stats_bulldog">Primary Fire: \n- Full-Automatic \n- Fire Rate: 9.15 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), 3-Round Burst \n- Fire Rate: 4 rounds/second \n \nDamage: \nBody 35 | Head 116 | Leg 30 [0-50m] \n \nMagazine Capacity: 24 \nWall Penetration: Medium \n\nCost: 2100</string>
-    <string name="guardian">GUARDIAN</string>
-    <string name="stats_guardian">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 6.5 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.5x), slight spread reduction \n- Fire Rate: 6.5 rounds/second \n \nDamage: \nBody 65 | Head 195 | Leg 49 [0-50m] \n \nMagazine Capacity: 12 \nWall Penetration: Medium \n\nCost: 2700</string>
-    <string name="phantom">PHANTOM</string>
-    <string name="stats_phantom">Primary Fire: \n- Full-Automatic \n- Fire Rate: 11 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 9.9 rounds/second \n \nDamage: \nBody 39 | Head 156 | Leg 33 [0-15m] \nBody 35 | Head 140 | Leg 30 [15-30m] \nBody 31 | Head 124 | Leg 26 [30-50m] \n \nMagazine Capacity: 30 \nWall Penetration: Medium \n\nCost: 2900</string>
-    <string name="vandal">VANDAL</string>
-    <string name="stats_vandal">Primary Fire: \n- Full-Automatic \n- Fire Rate: 9.25 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 8.32 rounds/second \n \nDamage: \nBody 39 | Head 156 | Leg 33 [0-50m] \n \nMagazine Capacity: 25 \nWall Penetration: Medium \n\nCost: 2900</string>
+    <string name="bulldog" translatable="false">BULLDOG</string>
+    <string name="stats_bulldog">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 9.15 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), 3-Round Burst  \n- Fire Rate: 4 rounds/second    \n\nDamage:  \nBody 35 | Head 116 | Leg 30 [0-50m]    \n\nMagazine Capacity: 24  \nWall Penetration: Medium   \n\nCost: 2100</string>
+    <string name="guardian" translatable="false">GUARDIAN</string>
+    <string name="stats_guardian">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 6.5 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.5x), slight spread reduction  \n- Fire Rate: 6.5 rounds/second    \n\nDamage:  \nBody 65 | Head 195 | Leg 49 [0-50m]    \n\nMagazine Capacity: 12  \nWall Penetration: Medium   \n\nCost: 2700</string>
+    <string name="phantom" translatable="false">PHANTOM</string>
+    <string name="stats_phantom">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 11 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), slight spread reduction  \n- Fire Rate: 9.9 rounds/second    \n\nDamage:  \nBody 39 | Head 156 | Leg 33 [0-15m]  \nBody 35 | Head 140 | Leg 30 [15-30m]  \nBody 31 | Head 124 | Leg 26 [30-50m]    \n\nMagazine Capacity: 30  \nWall Penetration: Medium   \n\nCost: 2900</string>
+    <string name="vandal" translatable="false">VANDAL</string>
+    <string name="stats_vandal">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 9.25 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), slight spread reduction  \n- Fire Rate: 8.32 rounds/second    \n\nDamage:  \nBody 39 | Head 156 | Leg 33 [0-50m]    \n\nMagazine Capacity: 25  \nWall Penetration: Medium   \n\nCost: 2900</string>
 
     <!--HEAVY-->
     <string name="heavy">Heavy</string>
-    <string name="ares">ARES</string>
-    <string name="stats_ares"><![CDATA[Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n \nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n \nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1700]]></string>
-    <string name="odin">ODIN</string>
-    <string name="stats_odin"><![CDATA[Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n \nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200]]></string>
+    <string name="ares" translatable="false">ARES</string>
+    <string name="stats_ares">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n\nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1700</string>
+    <string name="odin" translatable="false">ODIN</string>
+    <string name="stats_odin">Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200</string>
 
     <!--SNIPERS-->
     <string name="sniper">Sniper</string>
-    <string name="marshal">MARSHAL</string>
-    <string name="stats_marshal">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 1.5 rounds/second \n \nAlt. Fire: \n- Zoom Mode (2.5x), slight spread reduction \n- Fire Rate: 1.2 rounds/second \n \nDamage: \nBody 101 | Head 202 | Leg 85 [0-50m] \n \nMagazine Capacity: 5 \nWall Penetration: Medium \n\nCost: 1100</string>
+    <string name="marshal" translatable="false">MARSHAL</string>
+    <string name="stats_marshal">Primary Fire:   \n- Semi-Automatic   \n- Fire Rate: 1.5 rounds/second      \n\nAlt. Fire:   \n- Zoom Mode (2.5x), slight spread reduction   \n- Fire Rate: 1.2 rounds/second      \n\nDamage:   \nBody 101 | Head 202 | Leg 85 [0-50m]      \n\nMagazine Capacity: 5   \nWall Penetration: Medium     \n\nCost: 1100</string>
 
-    <string name="operator">OPERATOR</string>
-    <string name="stats_operator">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 0.75 rounds/second \n \nAlt. Fire: \n- Dual-Zoom Mode (2.5x, 5x), significant spread reduction \n- Fire Rate: 0.75 rounds/second \n \nDamage: \nBody 150 | Head 255 | Leg 127 [0-50m] \n \nMagazine Capacity: 5 \nWall Penetration: High \n\nCost: 4500</string>
+    <string name="operator" translatable="false">OPERATOR</string>
+    <string name="stats_operator">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 0.75 rounds/second    \n\nAlt. Fire:  \n- Dual-Zoom Mode (2.5x, 5x), significant spread reduction  \n- Fire Rate: 0.75 rounds/second    \n\nDamage:  \nBody 150 | Head 255 | Leg 127 [0-50m]    \n\nMagazine Capacity: 5  \nWall Penetration: High   \n\nCost: 4500</string>
 
     <!--SHIELDS-->
     <string name="shields">Shields</string>
     <string name="light_shield">Light Shield</string>
-    <string name="stats_lightshield">Blocks 50% of damage taken. Breaks after it has absorbed 25 damage. \n \nCost: 400</string>
+    <string name="stats_lightshield">Blocks 50% of damage taken. Breaks after it has absorbed 25 damage.    Cost: 400</string>
     <string name="heavy_shield">Heavy Shield</string>
-    <string name="stats_heavyshield">Blocks 50% of damage taken. Breaks after it has absorbed 50 damage. \n \nCost: 1000</string>
+    <string name="stats_heavyshield">Blocks 50% of damage taken. Breaks after it has absorbed 50 damage.    Cost: 1000</string>
 
 
-
-
-
-    <string name="classic_skin">Classic Skin</string>
-
-    <string name="menu_discord">Discord</string>
+    <string name="menu_discord" translatable="false">Discord</string>
     <string name="the_spike">The Spike</string>
     <string name="cypher_ult_desc">Extract information from the corpse of an enemy, revealing the location of their living allies.</string>
     <string name="cypher_ab4">Neural Theft</string>
@@ -134,7 +150,7 @@
 
     <!--real: ca-app-pub-8016302998575950/6459684456-->
     <!--test: ca-app-pub-3940256099942544/6300978111-->
-    <string name="ad_unit_id">ca-app-pub-8016302998575950/6459684456</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-8016302998575950/6459684456</string>
     <string name="ability_ultimate">Ability: Ultimate</string>
     <string name="ability_signature">Ability: Signature</string>
     <string name="ability_2">Ability: 2</string>
@@ -147,7 +163,7 @@
     <string name="type_controller">Type: Controller</string>
     <string name="cypher_ab1">Trapwire</string>
     <string name="cypher_ab2">Cyber Cage</string>
-    <string name="type_sentinal">Type: Sentinal</string>
+    <string name="type_sentinel">Type: Sentinel</string>
     <string name="type_duelist">Type: Duelist</string>
     <string name="jett_ab1">Cloudburst</string>
     <string name="jett_ab2">Updraft</string>
@@ -170,13 +186,75 @@
     <string name="raze_ab2">Blast Pack</string>
     <string name="raze_ab3">Paint Shells</string>
     <string name="raze_ab4">Showstopper</string>
-    <string name="stats_shorty">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 3.3 rounds/second \n \nDamage (12 pellets): \nBody 12 | Head 36 | Leg 10 [0-9m] \nBody 8 | Head 24 | Leg 6 [9-15m] \nBody 3 | Head 9 | Leg 2 [0-9m] \n \nMagazine Capacity: 2 \nWall Penetration: Low \n\nCost: 200</string>
-    <string name="stats_spectre">Primary Fire: \n- Full-Automatic \n- Fire Rate: 13.33 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.15x) slight spread reduction \n- Fire Rate: 12 rounds/second \n\nDamage: \nBody 26 | Head 78 | Leg 22 [0-20m] \nBody 22 | Head 66 | Leg 18 [20-50m] \n \nMagazine Capacity: 30 \nWall Penetration: Medium \n\nCost: 1600</string>
-    <string name="stats_stinger">Primary Fire: \n- Full-Automatic \n- Fire Rate: 18 rounds/second \n \nAlt. Fire: \n- Zoom Mode (1.15x) 4-Round Burst, spread reduction \n- Fire Rate: 4 rounds/second \n\nDamage: \nBody 27 | Head 67 | Leg 23 [0-20m] \nBody 25 | Head 62 | Leg 21 [20-50m] \n \nMagazine Capacity: 20 \nWall Penetration: Low \n\nCost: 1000</string>
-    <string name="stats_bucky">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 1.1 rounds/second \n \nAlt. Fire: \n- Semi-Automatic Air Burst (extended primary fire shot) \n- Fire Rate: 1.1 rounds/second \n \nDamage (15 pellets): \nBody 22 | Head 44 | Leg 19 [0-8m] \nBody 17 | Head 34 | Leg 14 [8-12m] \nBody 9 | Head 18 | Leg 8 [12-50m] \n \nMagazine Capacity: 5 \nWall Penetration: Low \n\nCost: 900</string>
-    <string name="stats_frenzy">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 rounds/second \n \nDamage: \nBody 26 | Head 78 | Leg 22 [0-20m] \nBody 21 | Head 63 | Leg 17 [20-50m] \n \nMagazine Capacity: 13 \nWall Penetration: Low \n\nCost: 400</string>
-    <string name="stats_ghost">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 6.75 rounds/second \n \nDamage: \nBody 30 | Head 105 | Leg 26 [0-30m] \nBody 25 | Head 88 | Leg 21 [30-50m] \n \nMagazine Capacity: 15 \nWall Penetration: Medium \n\nCost: 500</string>
-    <string name="stats_judge">Primary Fire: \n- Full-Automatic \n- Fire Rate: 3.5 rounds/second \n \nDamage (12 pellets): \nBody 17 | Head 34 | Leg 14 [0-10m] \nBody 13 | Head 26 | Leg 11 [10-15m] \nBody 10 | Head 20 | Leg 9 [15-50m] \n \nMagazine Capacity: 7 \nWall Penetration: Medium \n\nCost: 1500</string>
-
+    <string name="stats_shorty">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 3.3 rounds/second    \n\nDamage (12 pellets):  \nBody 12 | Head 36 | Leg 10 [0-9m]  \nBody 8 | Head 24 | Leg 6 [9-15m]  \nBody 3 | Head 9 | Leg 2 [0-9m]    \n\nMagazine Capacity: 2  \nWall Penetration: Low   \n\nCost: 200</string>
+    <string name="stats_spectre">Primary Fire: \n- Full-Automatic \n- Fire Rate: 13.33 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.15x) slight spread reduction  \n- Fire Rate: 12 rounds/second   \n\nDamage:  \nBody 26 | Head 78 | Leg 22 [0-20m]  \nBody 22 | Head 66 | Leg 18 [20-50m]    \n\nMagazine Capacity: 30  \nWall Penetration: Medium   \n\nCost: 1600</string>
+    <string name="stats_stinger">Primary Fire: \n- Full-Automatic \n- Fire Rate: 18 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.15x) 4-Round Burst, spread reduction  \n- Fire Rate: 4 rounds/second   \n\nDamage:  \nBody 27 | Head 67 | Leg 23 [0-20m]  \nBody 25 | Head 62 | Leg 21 [20-50m]    \n\nMagazine Capacity: 20  \nWall Penetration: Low   \n\nCost: 1000</string>
+    <string name="stats_bucky">Primary Fire: \n- Semi-Automatic  \n- Fire Rate: 1.1 rounds/second    \n\nAlt. Fire:  \n- Semi-Automatic Air Burst (extended primary fire shot)  \n- Fire Rate: 1.1 rounds/second    \n\nDamage (15 pellets):  \nBody 22 | Head 44 | Leg 19 [0-8m]  \nBody 17 | Head 34 | Leg 14 [8-12m]  \nBody 9 | Head 18 | Leg 8 [12-50m]    \n\nMagazine Capacity: 5  \nWall Penetration: Low   \n\nCost: 900</string>
+    <string name="stats_frenzy">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 rounds/second    \n\nDamage:  \nBody 26 | Head 78 | Leg 22 [0-20m]  \nBody 21 | Head 63 | Leg 17 [20-50m]    \n\nMagazine Capacity: 13  \nWall Penetration: Low   \n\nCost: 400</string>
+    <string name="stats_ghost">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 6.75 rounds/second    \n\nDamage:  \nBody 30 | Head 105 | Leg 26 [0-30m]  \nBody 25 | Head 88 | Leg 21 [30-50m]    \n\nMagazine Capacity: 15  \nWall Penetration: Medium   \n\nCost: 500</string>
+    <string name="stats_judge">Primary Fire: \n- Full-Automatic \n- Fire Rate: 3.5 rounds/second    \n\nDamage (12 pellets):  \nBody 17 | Head 34 | Leg 14 [0-10m]  \nBody 13 | Head 26 | Leg 11 [10-15m]  \nBody 10 | Head 20 | Leg 9 [15-50m]    \n\nMagazine Capacity: 7  \nWall Penetration: Medium   \n\nCost: 1500</string>
+    <string name="info_features">Features:\n• 128-tick servers\n• at least 30 frames per second on most min-spec computers (even dating back a decade)\n• 60-144+ FPS on modern gaming rigs\n• a global spread of datacenters aimed at less than 35ms for players in major cities around the world\n• Strong focus on netcode and anti-cheat system</string>
+    <string name="knives">KNIVES</string>
+    <string name="breach_summary">Breach fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</string>
+    <string name="breach_ab1_desc">Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.</string>
+    <string name="breach_ab2_desc">EQUIP a blind charge. FIRE the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it.</string>
+    <string name="breach_ab3_desc">EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone.</string>
+    <string name="breach_ab4_desc">EQUIP a Seismic Charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.</string>
+    <string name="ult_cost7">Cost: 7 charges</string>
+    <string name="brim_ab1_desc">EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.</string>
+    <string name="brim_ab2_desc">EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.</string>
+    <string name="brim_ab3_desc">EQUIP a tactical map. FIRE to set locations where Brimstone\'s smoke clouds will land. ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.</string>
+    <string name="brim_ab4_desc">EQUIP a tactical map. FIRE to launch a lingering orbital strike laster at the selected location, dealing high damage-over-time to players caught in the selected area.</string>
+    <string name="ult_cost6">Cost: 6 charges</string>
+    <string name="brim_ab3_cost">Cost: 1 free per round, 100 for extra charges</string>
+    <string name="cypher_ab1_desc">EQUIP a trapwire. FIRE to place a desctuctible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.</string>
+    <string name="cypher_ab2_desc">EQUIP a cyber cage. FIRE to toss the cyber cage in front of Cypher. ACTIVATE to create a zone that blocks vision and slows enemies who pass through it.</string>
+    <string name="cypher_ab3_desc">EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera\'s view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.</string>
+    <string name="cypher_ab3_cost">Cost: Placeable once per round. Can be picked up and re-placed</string>
+    <string name="cypher_ab4_desc">INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.</string>
+    <string name="sage_ab1_desc">EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.</string>
+    <string name="sage_ab2_desc">EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.</string>
+    <string name="sage_ab3_desc">EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.</string>
+    <string name="sage_ab4_desc">EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.</string>
+    <string name="ability_cost_35s">Cost: Free (35s cooldown)</string>
+    <string name="cost_200">Cost: 200</string>
+    <string name="cost_100">Cost: 100</string>
+    <string name="raze_ab1_desc">EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in it frontal cone and chase them, exploding for heavy damage if it reaches them.</string>
+    <string name="raze_ab2_desc">INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit.</string>
+    <string name="raze_ab3_desc">EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.</string>
+    <string name="cost_1free_200extra">Cost: 1 Free per round. 200 for extra charges.</string>
+    <string name="raze_ab4_desc">EQUIP a rocket launcher. FIRE shoots a rocket that does massive area damage on contact with anything.</string>
+    <string name="phoenix_ab1_desc">EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.</string>
+    <string name="phoenix_ab2_desc">EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.</string>
+    <string name="phoenix_ab3_desc">EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.</string>
+    <string name="cost_free1perround_refreshed2kill">Cost: Free, once per round. Refreshed on 2 kills.</string>
+    <string name="phoenix_ab4_desc">INSTANTLY place a marker at Phoenix\'s location. while this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.</string>
+    <string name="omen_ab1_desc">EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.</string>
+    <string name="omen_ab2_desc">INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.</string>
+    <string name="omen_ab3_desc">EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key while targeting to move the marker closer.</string>
+    <string name="cost_2freecharges_30scd">Cost: Free. 2 charges, 30s cooldown on charge refresh.</string>
+    <string name="omen_ab4_desc">EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.</string>
+    <string name="jett_ab1_desc">INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surfact. HOLD the ability key to curve the smoke in the direction of your crosshair.</string>
+    <string name="jett_ab2_desc">INSTANTLY propel Jett high into the air.</string>
+    <string name="jett_ab3_desc">INSTANTLY propel Jett in the direction she is moving. If Jett is standing still she will propel forward.</string>
+    <string name="jett_ab4_desc">EQUIP a set of highly accurate throwing knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target.</string>
+    <string name="sova_ab1_desc">EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.</string>
+    <string name="cost_300">Cost: 300</string>
+    <string name="sova_ab2_desc">EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of teh projectile. ALTERNATE FIRE to add up to two bounces to this arrow.</string>
+    <string name="sova_ab3_desc">EQUIP a bow with recon boly. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projective. ALTERNATE FIRE to add up to two bounces to this arrow.</string>
+    <string name="sova_ab4_desc">EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.</string>
+    <string name="origin_russia">Origin: Russia</string>
+    <string name="sova_summary">Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide. \n\nAn archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls.</string>
+    <string name="raze_summary">Raze loves explosives. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of boom.</string>
+    <string name="origin_brazil">Origin: Brazil</string>
+    <string name="origin_united_kingdom">Origin: United Kingdom</string>
+    <string name="phoenix_summary">Phoenix’s star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms. \n\nThe fiery Brit can wield the power of flame to essentially reshape the battlefield how he sees fit. With exploding fireballs that damage enemies and heal him, a vision-blocking wall of fire, and a blinding fire burst, Phoenix is great at manipulating the flow of the match. His ultimate grants him the ability to be reborn if he\'s killed during its duration, galvanizing him to make bold moves he wouldn\'t otherwise make.</string>
+    <string name="omen_summary">Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as foes scramble to uncover where it might strike next. \n\nA man with mysterious origins, Omen is focused on hindering the vision of his enemies with things like an orb that strikes those in his sights with nearsightedness and another that bursts to obscure the vision of everyone nearby. He can also teleport a short distance, or use his ultimate to teleport anywhere on the map as a shadow.</string>
+    <string name="origin_unknown">Origin: Unknown</string>
+    <string name="origin_south_korea">Origin: South Korea</string>
+    <string name="jett_summary">Jett’s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them. \n\nJett wields several throwing knives that deal moderate damage and kill on headshots. Getting a kill replenishes your daggers and you can choose to throw them one at a time or throw all remaining daggers in a short-ranged burst.</string>
+    <string name="origin_morocco">Origin: Morocco</string>
+    <string name="origin_united_states">Origin: United States</string>
+    <string name="brim_summary">Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander. \n \nBrimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn\'t move out of the radius fast enough.</string>
 
 </resources>

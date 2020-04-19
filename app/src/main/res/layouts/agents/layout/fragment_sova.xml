@@ -79,7 +79,7 @@
                         android:layout_marginStart="7dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="-77dp"
-                        android:text="Origin: Russia"
+                        android:text="@string/origin_russia"
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -222,7 +222,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="#3B4A9E"
-                        android:text="Ability: 1"
+                        android:text="@string/ability_1"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -232,7 +232,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#3B4A9E"
-                        android:text="Ability: 2"
+                        android:text="ab2"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -242,7 +242,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#3B4A9E"
-                        android:text="Signature"
+                        android:text="@string/signature"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -252,7 +252,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#3B4A9E"
-                        android:text="Ultimate"
+                        android:text="@string/ultimate"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide. \n\nAn archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls."
+                android:text="@string/sova_summary"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

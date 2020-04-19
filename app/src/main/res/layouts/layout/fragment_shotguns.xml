@@ -38,8 +38,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Bucky"
-                    android:textSize="50sp" />
+                    android:text="@string/bucky"
+                    android:textSize="20dp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -69,8 +69,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Judge"
-                    android:textSize="50sp" />
+                    android:text="@string/judge"
+                    android:textSize="20dp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

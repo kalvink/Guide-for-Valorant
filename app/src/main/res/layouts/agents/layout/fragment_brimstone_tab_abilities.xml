@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.  "
+                            android:text="@string/brim_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -159,7 +159,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone."
+                            android:text="@string/brim_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -232,7 +232,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 1 free per round, 100 for extra charges"
+                            android:text="@string/brim_ab3_cost"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -241,7 +241,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area."
+                            android:text="@string/brim_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -311,7 +311,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 6 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost6"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -320,7 +320,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a tactical map. FIRE to launch a lingering orbital strike laster at the selected location, dealing high damage-over-time to players caught in the selected area."
+                            android:text="@string/brim_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

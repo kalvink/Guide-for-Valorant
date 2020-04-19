@@ -23,7 +23,7 @@ public class PlaceholderFragment extends Fragment {
 
             //AGENTS
             //0-2
-            R.layout.fragment_brimstone, R.layout.fragment_brimstone_tab_abilities, R.layout.fragment_brimstone_tab_gallery,
+            R.layout.fragment_brimstone, R.layout.fragment_brimstone_tab_abilities, R.layout.fragment_brimstone_tab_tips,
             //3-5
             R.layout.fragment_cypher, R.layout.fragment_cypher_tab_abilities, R.layout.fragment_cypher_tab_tips,
             //6-8

@@ -72,7 +72,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 200"
+                            android:text="@string/cost_200"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in it frontal cone and chase them, exploding for heavy damage if it reaches them."
+                            android:text="@string/raze_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -151,7 +151,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 100"
+                            android:text="@string/cost_100"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -160,7 +160,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit."
+                            android:text="@string/raze_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -233,7 +233,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 1 Free per round. 200 for extra charges."
+                            android:text="@string/cost_1free_200extra"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -242,7 +242,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range."
+                            android:text="@string/raze_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -312,7 +312,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 6 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost6"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -321,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a rocket launcher. FIRE shoots a rocket that does massive area damage on contact with anything."
+                            android:text="@string/raze_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

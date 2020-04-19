@@ -72,7 +72,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 300"
+                            android:text="@string/cost_300"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.  "
+                            android:text="@string/sova_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -151,7 +151,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 100"
+                            android:text="@string/cost_100"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -160,7 +160,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of teh projectile. ALTERNATE FIRE to add up to two bounces to this arrow."
+                            android:text="@string/sova_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -233,7 +233,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: Free (35s cooldown)"
+                            android:text="@string/ability_cost_35s"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -242,7 +242,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a bow with recon boly. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projective. ALTERNATE FIRE to add up to two bounces to this arrow."
+                            android:text="@string/sova_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -312,7 +312,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost7"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -321,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active."
+                            android:text="@string/sova_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

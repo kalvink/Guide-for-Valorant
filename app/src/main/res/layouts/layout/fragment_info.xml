@@ -75,18 +75,29 @@
             app:cardElevation="10dp">
 
 
-            <TextView
-                android:id="@+id/info_spike"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="@string/the_spike"
-                android:textAlignment="center" />
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/valorantColor"
+                app:cardElevation="10dp">
+
+                <TextView
+                    android:id="@+id/info_spike"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:text="@string/the_spike"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center" />
+            </androidx.cardview.widget.CardView>
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:src="@drawable/spike" />
 
         </androidx.cardview.widget.CardView>

@@ -56,7 +56,7 @@
                             android:layout_marginTop="20dp"
                             android:layout_marginBottom="@dimen/activity_vertical_margin"
                             android:layout_weight="0"
-                            android:text="@string/type_sentinal"
+                            android:text="@string/type_sentinel"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="20sp" />
@@ -222,7 +222,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="#00FBE4"
-                        android:text="Ability: 1"
+                        android:text="@string/ability_1"
                         android:textAlignment="center"
                         android:textColor="#000000" />
 
@@ -232,7 +232,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#00FBE4"
-                        android:text="Ability: 2"
+                        android:text="@string/ability_2"
                         android:textAlignment="center"
                         android:textColor="#000000" />
 
@@ -242,7 +242,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#00FBE4"
-                        android:text="Signature"
+                        android:text="@string/signature"
                         android:textAlignment="center"
                         android:textColor="#000000" />
 
@@ -252,7 +252,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#00FBE4"
-                        android:text="Ultimate"
+                        android:text="@string/ultimate"
                         android:textAlignment="center"
                         android:textColor="#000000" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. \n\nThe most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns."
+                android:text="@string/sage_summary"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

@@ -30,16 +30,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:scaleType="centerInside"
                     android:src="@drawable/stinger" />
 
                 <TextView
-                    android:id="@+id/txt_stinger"
+                    android:id="@+id/txt_spectre2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Stinger"
-                    android:textSize="40sp" />
+                    android:text="@string/stinger"
+                    android:textSize="35sp" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -69,8 +71,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Spectre"
-                    android:textSize="40sp" />
+                    android:text="@string/spectre"
+                    android:textSize="35sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

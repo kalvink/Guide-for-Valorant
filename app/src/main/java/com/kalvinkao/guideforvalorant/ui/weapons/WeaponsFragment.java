@@ -14,6 +14,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 import com.kalvinkao.guideforvalorant.ui.weapons.heavy.Heavy;
+import com.kalvinkao.guideforvalorant.ui.weapons.knife.Knives;
 import com.kalvinkao.guideforvalorant.ui.weapons.rifles.Rifles;
 import com.kalvinkao.guideforvalorant.ui.weapons.shields.Shields;
 import com.kalvinkao.guideforvalorant.ui.weapons.shotguns.Shotguns;
@@ -35,6 +36,7 @@ public class WeaponsFragment extends Fragment {
         final Button b_sniper = root.findViewById(R.id.btn_wep_sniper);
         final Button b_heavy = root.findViewById(R.id.btn_wep_heavy);
         final Button b_shield = root.findViewById(R.id.btn_wep_shields);
+        final Button b_knife = root.findViewById(R.id.btn_wep_knife);
         final NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
 
         b_sidearm.setOnClickListener(new View.OnClickListener() {
@@ -114,6 +116,16 @@ public class WeaponsFragment extends Fragment {
             }
         });
 
+        b_knife.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Fragment mFragment = null;
+                mFragment = new Knives();
+                FragmentManager fragmentManager = getFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
+                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Knives");
+                navigationView.getMenu().getItem(2).setChecked(true);
+            }
+        });
         MainActivity.previousTitle = "Home";
         return root;
     }

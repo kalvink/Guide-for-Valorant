@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter."
+                            android:text="@string/sage_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -160,7 +160,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it."
+                            android:text="@string/sage_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -233,7 +233,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: Free (35s cooldown)"
+                            android:text="@string/ability_cost_35s"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -242,7 +242,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time."
+                            android:text="@string/sage_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -312,7 +312,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost7"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -321,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health."
+                            android:text="@string/sage_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

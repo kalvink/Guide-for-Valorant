@@ -79,7 +79,7 @@
                         android:layout_marginStart="7dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="-77dp"
-                        android:text="Origin: United Kingdom"
+                        android:text="@string/origin_united_kingdom"
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -222,7 +222,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="#FF7700"
-                        android:text="Ability: 1"
+                        android:text="@string/ability_1"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -232,7 +232,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#FF7700"
-                        android:text="Ability: 2"
+                        android:text="@string/ability_2"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -242,7 +242,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#FF7700"
-                        android:text="Signature"
+                        android:text="@string/signature"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -252,7 +252,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#FF7700"
-                        android:text="Ultimate"
+                        android:text="@string/ultimate"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Phoenix’s star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms. \n\nThe fiery Brit can wield the power of flame to essentially reshape the battlefield how he sees fit. With exploding fireballs that damage enemies and heal him, a vision-blocking wall of fire, and a blinding fire burst, Phoenix is great at manipulating the flow of the match. His ultimate grants him the ability to be reborn if he's killed during its duration, galvanizing him to make bold moves he wouldn't otherwise make."
+                android:text="@string/phoenix_summary"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

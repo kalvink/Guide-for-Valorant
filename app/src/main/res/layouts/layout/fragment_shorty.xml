@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:background="#212121"
             android:gravity="center"
-            android:text="@string/sheriff"
+            android:text="@string/shorty"
             android:textColor="#FFFFFF"
             android:textSize="35sp"
             android:textStyle="bold" />

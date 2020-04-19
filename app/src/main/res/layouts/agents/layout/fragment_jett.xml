@@ -79,7 +79,7 @@
                         android:layout_marginStart="7dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="-77dp"
-                        android:text="Origin: South Korea"
+                        android:text="@string/origin_south_korea"
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -123,7 +123,7 @@
                     <TextView
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#03A9F4"
                         android:text="@string/jett_ab1"
@@ -133,7 +133,7 @@
                     <TextView
                         android:id="@+id/textView21"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#03A9F4"
                         android:text="@string/jett_ab2"
@@ -220,10 +220,10 @@
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#03A9F4"
-                        android:text="Ability: 1"
+                        android:text="@string/ability_1"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -233,7 +233,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#03A9F4"
-                        android:text="Ability: 2"
+                        android:text="@string/ability_2"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -243,7 +243,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#03A9F4"
-                        android:text="Signature"
+                        android:text="@string/signature"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
 
@@ -253,7 +253,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="#03A9F4"
-                        android:text="Ultimate"
+                        android:text="@string/ultimate"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
@@ -293,10 +293,7 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Jett’s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them.
-                \n\nJett wields several throwing knives that deal moderate damage and kill on headshots. Getting a kill replenishes your daggers and you can choose to throw them one at a time or throw all remaining daggers in a short-ranged burst.
-
-"
+                android:text="@string/jett_summary"
                 android:textColor="#000000" />
         </androidx.cardview.widget.CardView>
 

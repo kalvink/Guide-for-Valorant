@@ -81,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a trapwire. FIRE to place a desctuctible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED."
+                            android:text="@string/cypher_ab1_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -160,7 +160,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a cyber cage. FIRE to toss the cyber cage in front of Cypher. ACTIVATE to create a zone that blocks vision and slows enemies who pass through it."
+                            android:text="@string/cypher_ab2_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -188,7 +188,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/img_viper_ability3"
+                        android:id="@+id/cypher_spycam"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
@@ -197,7 +197,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="5dp"
                         android:layout_marginBottom="5dp"
-                        android:contentDescription="@string/viper_ab3"
+                        android:contentDescription="@string/cypher_ab3"
                         app:srcCompat="@drawable/cypher_ab3" />
 
                     <View style="@style/Divider.Vertical" />
@@ -229,20 +229,20 @@
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
-                            android:id="@+id/viper_ability1_text_ability"
+                            android:id="@+id/cypher_ab3_cost"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: Placeable once per round. Can be picked up and re-placed"
+                            android:text="@string/cypher_ab3_cost"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
-                            android:id="@+id/viper_sig_desc"
+                            android:id="@+id/cypher_sig_desc"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart."
+                            android:text="@string/cypher_ab3_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -312,7 +312,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="Cost: 7 (Kills, Orbs, Spike Plants/Disarms)"
+                            android:text="@string/ult_cost7"
                             android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
@@ -321,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players."
+                            android:text="@string/cypher_ab4_desc"
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
