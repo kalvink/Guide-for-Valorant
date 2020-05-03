@@ -28,7 +28,7 @@ public class Discord extends Fragment {
 
 
         TextView disc = (TextView) root.findViewById(R.id.txt_discord);
-        String discordTxt = "Join the Discord: <a href='https://discord.gg/hTyH7hM'>Click Here</a>";
+        String discordTxt = "Join the Discord: <br> <a href='https://discord.gg/hTyH7hM'>Click Here</a>";
         disc.setText(Html.fromHtml(discordTxt));
         disc.setMovementMethod(LinkMovementMethod.getInstance());
 

@@ -7,12 +7,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_agents">Agents</string>
     <string name="menu_maps">Maps</string>
-    <string name="menu_media">Media</string>
+    <string name="menu_collection">Collection</string>
     <string name="menu_info">Information</string>
 
     <string name="agents">Agents</string>
     <string name="maps">Maps</string>
-    <string name="media">Media</string>
+    <string name="collection">Collection</string>
     <string name="info">Information</string>
     <string name="viper" translatable="false">VIPER</string>
     <string name="cypher" translatable="false">CYPHER</string>
@@ -256,5 +256,60 @@
     <string name="origin_morocco">Origin: Morocco</string>
     <string name="origin_united_states">Origin: United States</string>
     <string name="brim_summary">Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander. \n \nBrimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn\'t move out of the radius fast enough.</string>
+    <!--Languages-->
+    <string name="languages" translatable="false">Languages</string>
+    <string name="language_prompt" translatable="false">Select a Language</string>
+    <string name="omentip1">Omen\'s [C] Shrouded Step is great for catching people off-guard from unexpected locations like the top of boxes, corners, and otherwise impossible to cross sight lines. \n\nNever cast this into an open sight line, the recovery animation leaves you vulnerable.</string>
+    <string name="omentip2">[Q] A great way to take an advantageous fight is prepping your entry with a [Q] Paranoia to blind the enemy first.</string>
+    <string name="omentip3">[E] Dark Cover can be cast through walls. Keep an eye on the minimap while charging as it will show you the location of where the shroud will appear. \n\n(This is extra useful at the start of a round to shroud an ult orb or hallway.)</string>
+    <string name="omentip4">[X] If you cast [E] Dark Cover before casting [X] From the Shadows, you can see the shroud on the map, allowing you to teleport into it safely without being seen.</string>
+    <string name="phoenixtip1">"[C] Blaze can be used to wall off enemies to allow for more advantageous situations. Phoenix can also heal while inside his flame wall. \n\n[C] Blaze can be controlled by holding down left click and curving to the left or right."</string>
+    <string name="phoenixtip3">[E] Hot Hands can be used to burn off an area for a fixed amount of time.</string>
+    <string name="phoenixtip2">[Q] Curveball allows you to throw a flashbang ability to the left or to the right depending on which mouse button you pressed. \n\nIt is also possible to throw a [Q] Curveball over your head or bounce it off the ground to catch opponents off guard. \n\nIt\'s best to practice your [Q] Curveball so that the ball pops the moment it enters thus reducing the time your opponent has to look away or run to cover.</string>
+    <string name="phoenixtip4">Phoenix\'s [X] Run it Back is the game\'s strongest entry-frag ability. Make sure to find a safe spot to use your ultimate incase an enemy flanks your respawn point. \n\n[X] Run it Back allows for a safe way to engage enemies and hopefully getting frags or even scouting the area for information. \n\n[X] Run It Back can be used to pick up the Spike in tough spots and you will return to your original position with the Spike.</string>
+    <string name="jetttip2"><![CDATA[Jett\'s [Q] Updraft is more frequently used to boost on top of boxes for more beneficial gunfights where the opposing team won\'t anticipate you. \n\nFurthermore [Q] Updraft can be comboed with [E] Tailwind to quickly catch the opponents off guard.]]></string>
+    <string name="jetttip1">[C] Cloudburst can be controlled while in mid-air by holding down left click and swerving to left or right, similar to curving Phoenix\'s wall.</string>
+    <string name="jetttip3">[E] Tailwind can be used to reposition or rush forward before the opponent will expect you. \n\nWhen caught out of position quickly use [E] Tailwind to recover from being tagged.</string>
+    <string name="jetttip4">Jett has the passive ability to continuously float on descent after jumping by holding down Spacebar. \n\nThis enables her to traverse to some elevated positions. Remember that while floating your aim is always inaccurate.</string>
+    <string name="jetttip5">Jett\'s ultimate [X] Blade Storm does 50 damage per body shot and 150 damage to the head, and recharges per kill.</string>
+    <string name="vipertip4">Don\'t be afraid to use [Q] Poison Cloud early in the round to secure ult charge orbs. You can pick it back up afterward.</string>
+    <string name="vipertip3">Viper\'s Ultimate [X] Viper’s Pit shines at both attacking and defending plant sites, especially when equipped with a shotgun.</string>
+    <string name="vipertip2">Viper\'s core strength is her ability to freely activate/deactivate her [Q] Poison Cloud and [E] Toxic Screen for calculated zone control.</string>
+    <string name="vipertip1">Using [E] Toxic Screen to split a site in half when looking to plant/disarm is a solid option to contain sight lines and keep combat close quarters.</string>
+    <string name="cyphertip1">While [X] Neural Theft grants vision of enemy players, it only snapshots their location at the time, not updating if they move.</string>
+    <string name="cyphertip2">A well placed [C] Trapwire between high-traffic areas is perfect for informing your team of enemy rotations.</string>
+    <string name="cyphertip3">[E] Spycam becomes far more valuable on defense as it allows you to exist as a second pair of eyes on a bombsite if your teammate(s) holding that site dies.</string>
+    <string name="brimtip1">Brimstone\'s [E] Sky Smoke is one of the most useful abilities in the game. At the start of a round look to smoke off sight lines and hallways your team is making a push for. \n\n(You can pre-set these before the walls drop so it instantly casts as the round starts.)</string>
+    <string name="brimtip2">You can generously extend the range of [Q] Incendiary by aiming high and bouncing it around corners.</string>
+    <string name="brimtip3">[X] Orbital Strike is best used combined with a teammate\'s slow (like Sages [Q] Slow Orb) or to deter defenders from disarming the spike during countdown.</string>
+    <string name="sagetip2">One of the best uses of [C] Barrier Orb is to boost yourself/teammates by casting the ability under their feet. The higher elevation is great for staying out of sight lines and an easy first shot as enemy players turn the corner.</string>
+    <string name="sagetip1">Sage\'s [Q] Slow Orb is one of the best combo abilities in the game, especially paired with Phoenix\'s [E] Hot Hands and Brimstone\'s [X] Orbital Strike, holding them in place to ensure multiple kills on bombsites.</string>
+    <string name="sagetip3">Sage\'s [C] Barrier Orb is currently one of the stongest abilties in the game thanks to its large health pool and long duration, allowing her to cut off routes through the map for extended periods of time.</string>
+    <string name="sagetip4">Be careful when casting [X] Resurrection in hostile areas as it briefly locks Sage and her target in place for an easy repeat kill for the enemy.</string>
+    <string name="sovatip4">Just because [E] Recon Bolt didn\'t spot a target doesn\'t mean they\'re not there. The bolt has a slight delay, can be destoyed, and requires line-of-sight to enemies.</string>
+    <string name="sovatip3">If you don\'t know where the enemy team is, before you peek a dangerous sight line, scout it with a bounced [E] Recon Bolt first.</string>
+    <string name="sovatip2">Your teammates can see spotted enemies, but the timer is very brief so be sure to call it out.</string>
+    <string name="sovatip1">Sova excels at information gathering for his team with skills like [C] Owl Drone, [E] Recon Bolt, and the on-hit effect from [X] Hunter\'s Fury.</string>
+    <string name="breachtip1">Due to the long activation time, [C] Aftershock is incredibly hard to hit on it\'s own. Try to combine it with teammate movement/vision impairing abilities.</string>
+    <string name="breachtip2">Breach\'s [Q] Flashpoint must be cast against a wall, but can be done so from range.</string>
+    <string name="breachtip3">Watch your minimap during cast as it will indicate the location of the AoE flash on the opposite side of the wall.</string>
+    <string name="breachtip4">[X] Rolling Thunder is an incredibly powerful initiation tool for your team. Good communication and timing paired with movement/vision impairment make for an easy team wipe.</string>
+    <string name="razetip1">Use [C] Boom Bot to clear areas of the map if you suspect they are there, or bait your Boom Bot by trading shots.</string>
+    <string name="razetip2">[Q] Blast Pack can be used to boost yourself on top of unreachable boxes to catch your opponents off guard.</string>
+    <string name="razetip3">[E] Paint Shells is good at catching trapped opponents or injuring opponents before you enter a fight.</string>
+    <string name="razetip4">[X] Showstopper can one shot the opponent or even kill multiple if they are clumped up together.</string>
+    <string name="actions_patch_notes">Patch Notes</string>
+    <string-array name="language_arrays">
+        <item>English</item>
+        <item>Español</item>
+        <item>русский</item>
+        <item>Français</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Polskie</item>
+
+    </string-array>
+
+
 
 </resources>

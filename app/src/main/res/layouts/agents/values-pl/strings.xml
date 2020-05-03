@@ -107,8 +107,8 @@
     <string name="omen_summary">Omen poluje w cieniu. Sprawia, że wrogowie stają się ślepi, teleportuje się przez pole, a następnie pozwala paranoi opanować się, gdy przeciwnicy starają się odkryć, gdzie może uderzyć w następnej kolejności.\\n\\nOmen, człowiek o tajemniczym pochodzeniu, skupia się na utrudnianiu widzenia swoim wrogom za pomocą takich rzeczy, jak kula, która uderza w celownik z krótkowzrocznością, i inna, która pęka, by zasłonić widzenie wszystkich w pobliżu. Może również teleportować się na niewielką odległość lub użyć swojego superumiejętności, aby teleportować się w dowolne miejsce na mapie jako cień.</string>
     <string name="cypher_ab2_desc">WYPOSAŻ cyber klatkę. OGIEŃ, aby podrzucić cyber klatkę przed Cypherem. AKTYWUJ, aby utworzyć strefę, która blokuje pole widzenia i spowalnia przechodzących przez nią wrogów.</string>
     <string name="maps">Mapy</string>
-    <string name="menu_media">Głoska bezdźwięczna</string>
-    <string name="media">Głoska bezdźwięczna</string>
+    <string name="menu_collection">Kolekcja</string>
+    <string name="collection">Kolekcja</string>
     <string name="tab_text_1">Przegląd</string>
     <string name="overview">Przegląd</string>
     <string name="nav_header_subtitle">przez: Kalvin Kao</string>
@@ -195,4 +195,5 @@
     <string name="stats_odin">Podstawowy ogień:\n- W pełni automatyczny\n- Szybkostrzelność: 12 -> 15,6 pocisków / sekundę (zwiększenie podczas strzału)\n\nAlt. Ogień:\n- Tryb powiększenia (1,25x), niewielkie zmniejszenie rozrzutu\n- Szybkostrzelność: 15,6 nabojów na sekundę\n \nUszkodzić:\nCiało 38 | Głowa 95 | Noga 32 [0–30 m]\nCiało 31 | Głowa 77 | Noga 26 [30-50m]\n \nPojemność magazynka: 100\nPenetracja ściany: wysoka\n\nKoszt: 3200</string>
     <string name="stats_vandal">Podstawowy ogień:\n- W pełni automatyczny\n- Szybkostrzelność: 9,25 pocisków / sekundę\n\nAlt. Ogień:\n- Tryb powiększenia (1,25x), niewielkie zmniejszenie rozrzutu\n- Szybkostrzelność: 8,32 pocisków / sekundę\n\nUszkodzić:\nCiało 39 | Głowa 156 | Noga 33 [0–50 m]\n\nPojemność magazynka: 25\nPenetracja ściany: średnia\n\nKoszt: 2900\n</string>
     <string name="stats_operator">Podstawowy ogień:\n- Półautomatyczny\n- Szybkostrzelność: 0,75 pocisków / sekundę\n\nAlt. Ogień:\n- Tryb podwójnego zoomu (2,5x, 5x), znaczne zmniejszenie rozrzutu\n- Szybkostrzelność: 0,75 pocisków / sekundę\n\nUszkodzić:\nCiało 150 | Pozycja 255 | Noga 127 [0–50 m]\n\nPojemność magazynka: 5\nPenetracja ściany: wysoka\n\nKoszt: 4500</string>
+    <string name="actions_patch_notes">Opis zmian</string>
 </resources>

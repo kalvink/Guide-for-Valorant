@@ -82,6 +82,16 @@
             android:theme="@style/AppTheme">
         </activity>
         <activity
+            android:name=".ui.actionbar.PatchNotes"
+            android:label="Patch Notes"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.actionbar.Languages"
+            android:label="Languages"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
             android:name=".ui.weapons.sidearms.Pistol"
             android:label="Default Pistol"
             android:theme="@style/AppTheme">
@@ -181,6 +191,7 @@
             android:label="Discord"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <!--real: ca-app-pub-8016302998575950~1781524102 -->
         <meta-data

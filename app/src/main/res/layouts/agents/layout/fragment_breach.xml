@@ -302,5 +302,6 @@
             android:layout_height="100dp"
             app:cardBackgroundColor="@color/valorantColor" />
 
+
     </LinearLayout>
 </ScrollView>

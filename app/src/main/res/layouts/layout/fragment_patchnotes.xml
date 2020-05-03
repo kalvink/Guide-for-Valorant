@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="215dp"
             android:background="#FFFFFF"
-            android:foreground="@drawable/credits"
+            android:foreground="@drawable/patchnotes"
             app:cardBackgroundColor="#FDE0E0">
 
         </androidx.cardview.widget.CardView>
@@ -29,11 +29,35 @@
 
 
             <TextView
-                android:id="@+id/developer"
+                android:id="@+id/patchnotes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="@string/developer_n_kalvin_kao"
+                android:text="Version 6.0 (May 3, 2020):
+                \n - Added agent tips
+                \n - Added patch notes page
+                \n - Added German language"
+                android:textAlignment="textStart" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 5.0 (April 19, 2020):
+                \n- Added languages: French, Polish, Italian
+                \n- Minor fixes
+                \n- Fixes to languages"
                 android:textAlignment="textStart" />
 
         </androidx.cardview.widget.CardView>
@@ -44,28 +68,57 @@
             android:layout_margin="10dp"
             app:cardElevation="10dp">
 
+
             <TextView
-                android:id="@+id/credits_text1"
-                android:layout_width="wrap_content"
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="@string/actions_credits" />
+                android:padding="10dp"
+                android:text="Version 4.0 (April 17, 2020):
+                \n- Added languages: Russian and Spanish
+                \n- Reduced app size significantly
+                \n- Redesigned and improved image quality
+                \n- Fixes"
+                android:textAlignment="textStart" />
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
             app:cardElevation="10dp">
 
 
             <TextView
-                android:id="@+id/credits_disclaimer"
-                android:layout_width="wrap_content"
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="@string/disclaimer" />
+                android:padding="10dp"
+                android:text="Version 3.0 (April 10, 2020):
+                \n- Added Breach and Raze, redesigned agents layout
+                \n- Added 3 maps, split bind, and haven
+                \n- Redesigned weapons layout"
+                android:textAlignment="textStart" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 2.0 (March 23, 2020):
+                \n- Fixes
+                \n- Redesigning layout"
+                android:textAlignment="textStart" />
 
         </androidx.cardview.widget.CardView>
 

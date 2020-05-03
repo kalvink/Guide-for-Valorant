@@ -1,7 +1,6 @@
 package com.kalvinkao.guideforvalorant.ui.home;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,18 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.NativeExpressAdView;
-import com.google.android.gms.ads.VideoController;
-import com.google.android.gms.ads.VideoOptions;
 import com.google.android.material.navigation.NavigationView;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
 import com.kalvinkao.guideforvalorant.ui.info.InfoFragment;
 import com.kalvinkao.guideforvalorant.ui.maps.MapsFragment;
-import com.kalvinkao.guideforvalorant.ui.media.MediaFragment;
+import com.kalvinkao.guideforvalorant.ui.collection.CollectionFragment;
 import com.kalvinkao.guideforvalorant.ui.weapons.WeaponsFragment;
 
 public class HomeFragment extends Fragment {
@@ -36,7 +30,7 @@ public class HomeFragment extends Fragment {
         final Button btn_agents = root.findViewById(R.id.btn_agents);
         final Button btn_weapons = root.findViewById(R.id.btn_weapons);
         final Button btn_maps = root.findViewById(R.id.btn_maps);
-        final Button btn_media = root.findViewById(R.id.btn_media);
+        final Button btn_media = root.findViewById(R.id.btn_collection);
         final Button btn_info = root.findViewById(R.id.btn_info);
         final NavigationView navigationView = getActivity().findViewById(R.id.nav_view);
 
@@ -73,7 +67,7 @@ public class HomeFragment extends Fragment {
         btn_media.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
-                mFragment = new MediaFragment();
+                mFragment = new CollectionFragment();
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Media");

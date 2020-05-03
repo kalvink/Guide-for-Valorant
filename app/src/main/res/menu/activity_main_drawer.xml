@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"
+    android:id="@+id/group0">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/home"
@@ -21,15 +22,17 @@
             android:icon="@drawable/map_icon"
             android:title="@string/menu_maps" />
         <item
-            android:id="@+id/nav_media"
+            android:id="@+id/nav_collection"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_media" />
+            android:title="@string/menu_collection" />
         <item
             android:id="@+id/nav_info"
             android:icon="@drawable/info"
             android:title="@string/menu_info" />
     </group>
-    <group>
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_discord"
             android:icon="@drawable/discord"

@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.media;
+package com.kalvinkao.guideforvalorant.ui.collection;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,18 +14,18 @@ import androidx.lifecycle.ViewModelProviders;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 
-public class MediaFragment extends Fragment {
+public class CollectionFragment extends Fragment {
 
-    private MediaViewModel mediaViewModel;
+    private CollectionViewModel collectionViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        mediaViewModel =
-                ViewModelProviders.of(this).get(MediaViewModel.class);
+        collectionViewModel =
+                ViewModelProviders.of(this).get(CollectionViewModel.class);
         View root = inflater.inflate(R.layout.fragment_media, container, false);
         MainActivity.previousTitle = "Home";
 
-        mediaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        collectionViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
             }

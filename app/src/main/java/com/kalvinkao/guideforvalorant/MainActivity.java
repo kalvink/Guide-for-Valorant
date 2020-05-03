@@ -14,6 +14,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 import com.google.android.material.navigation.NavigationView;
 import com.kalvinkao.guideforvalorant.ui.actionbar.About;
 import com.kalvinkao.guideforvalorant.ui.actionbar.Credits;
+import com.kalvinkao.guideforvalorant.ui.actionbar.PatchNotes;
 
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_agents, R.id.nav_maps, R.id.nav_media, R.id.nav_info, R.id.nav_discord)
+                R.id.nav_home, R.id.nav_agents, R.id.nav_maps, R.id.nav_collection, R.id.nav_info, R.id.nav_discord)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -90,12 +91,20 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_credits:
-
                 intent = new Intent(this, Credits.class);
                 startActivity(intent);
-
-
                 return true;
+
+            case R.id.action_patchnotes:
+                intent = new Intent(this, PatchNotes.class);
+                startActivity(intent);
+                return true;
+
+            /*case R.id.action_languages:
+                intent = new Intent(this, Languages.class);
+                startActivity(intent);
+                return true;
+            */
 
             default:
                 // If we got here, the user's action was not recognized.

@@ -101,8 +101,8 @@
     <string name="phoenix_summary">La puissance des étoiles de Phoenix transparaît dans son style de combat, allumant le champ de bataille avec flash et fusée éclairante. Qu\'il ait une sauvegarde ou non, il se précipite pour se battre selon ses propres conditions.\\n\\nLe Britannique ardent peut utiliser le pouvoir de la flamme pour remodeler essentiellement le champ de bataille comme il l\'entend. Avec des boules de feu explosives qui endommagent les ennemis et le guérissent, un mur de feu qui bloque la vision et un éclat de feu aveuglant, Phoenix est excellent pour manipuler le flux du match. Son ultime lui confère la capacité de renaître s\'il est tué pendant sa durée, le galvanisant pour faire des mouvements audacieux qu\'il ne ferait pas autrement.</string>
     <string name="omen_summary">Omen chasse dans l\'ombre. Il rend les ennemis aveugles, se téléporte à travers le champ, puis laisse la paranoïa s\'installer alors que les ennemis se bousculent pour découvrir où elle pourrait frapper ensuite.\\n\\nHomme aux origines mystérieuses, Omen se concentre sur l\'entrave à la vision de ses ennemis avec des choses comme un orbe qui frappe ceux qui le regardent avec myopie et un autre qui éclate pour obscurcir la vision de tout le monde à proximité. Il peut également se téléporter sur une courte distance, ou utiliser son ultime pour se téléporter n\'importe où sur la carte comme une ombre.</string>
     <string name="cypher_ab2_desc">ÉQUIPEZ une cyber cage. FEU pour lancer la cyber cage devant Cypher. ACTIVER pour créer une zone qui bloque la vision et ralentit les ennemis qui la traversent.</string>
-    <string name="menu_media">Médias</string>
-    <string name="media">Médias</string>
+    <string name="menu_collection">Collection</string>
+    <string name="collection">Collection</string>
     <string name="tab_text_1">Aperçu</string>
     <string name="overview">Aperçu</string>
     <string name="nav_header_subtitle">par: Kalvin Kao</string>
@@ -195,4 +195,5 @@
     <string name="stats_odin">Feu primaire:\n- Entièrement automatique\n- Cadence de tir: 12 -> 15,6 coups / seconde (augmente pendant le tir)\n\nAlt. Feu:\n- Mode zoom (1,25x), légère réduction de la propagation\n- Cadence de tir: 15,6 coups / seconde\n \nDommage:\nCorps 38 | Tête 95 | Étape 32 [0-30m]\nCorps 31 | Tête 77 | Étape 26 [30-50m]\n \nCapacité du chargeur: 100\nPénétration du mur: élevée\n\nCoût: 3200</string>
     <string name="stats_vandal">Feu primaire:\n- Entièrement automatique\n- Cadence de tir: 9,25 coups / seconde\n\nAlt. Feu:\n- Mode zoom (1,25x), légère réduction de la propagation\n- Cadence de tir: 8,32 coups / seconde\n\nDommage:\nCorps 39 | Tête 156 | Étape 33 [0-50m]\n\nCapacité du chargeur: 25\nPénétration du mur: moyenne\n\nCoût: 2900</string>
     <string name="stats_operator">Feu primaire:\n- Semi-automatique\n- Cadence de tir: 0,75 coups / seconde\n\nAlt. Feu:\n- Mode double zoom (2,5x, 5x), réduction significative de la propagation\n- Cadence de tir: 0,75 coups / seconde\n\nDommage:\nCorps 150 | Tête 255 | Étape 127 [0-50m]\n\nCapacité du chargeur: 5\nPénétration du mur: élevée\n\nCoût: 4500</string>
+    <string name="actions_patch_notes">Notes de mise à jour</string>
 </resources>

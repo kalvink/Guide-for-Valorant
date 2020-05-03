@@ -65,11 +65,11 @@
     <string name="maps">Mapas</string>
     <string name="agents">Agentes</string>
     <string name="menu_info">Información</string>
-    <string name="menu_media">Medios de comunicación</string>
+    <string name="menu_collection">Colección</string>
     <string name="menu_maps">Mapas</string>
     <string name="menu_agents">Agentes</string>
     <string name="menu_home">Hogar</string>
-    <string name="media">Medios de comunicación</string>
+    <string name="collection">Colección</string>
     <string name="barrier_orb">Orbe de barrera</string>
     <string name="resurrection">Resurrección</string>
     <string name="tab_wep1">Visión de conjunto</string>
@@ -198,5 +198,6 @@
     <string name="omen_ab2_desc">INSTANTE dispara un proyectil de sombra hacia adelante, reduciendo brevemente el alcance de visión de todos los jugadores que toca. Este proyectil puede pasar directamente a través de las paredes.</string>
     <string name="omen_ab3_desc">EQUIPA un orbe de sombra y mira su indicador de rango. FUEGO para lanzar el orbe de sombra a la ubicación marcada, creando una esfera de sombra de larga duración que bloquea la visión. MANTENGA FUEGO ALTERNO mientras apunta para mover el marcador más lejos. MANTENGA presionada la tecla de habilidad mientras apunta para acercar el marcador.</string>
     <string name="cost_2freecharges_30scd">Gratis. 2 cargas, 30 segundos de enfriamiento al cargar la actualización</string>
+    <string name="actions_patch_notes">Notas del parche</string>
 
 </resources>

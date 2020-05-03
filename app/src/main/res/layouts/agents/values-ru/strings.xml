@@ -4,11 +4,11 @@
     <string name="menu_home">Дома</string>
     <string name="menu_agents">Агенты</string>
     <string name="menu_maps">Карты</string>
-    <string name="menu_media">Средства массовой информации</string>
+    <string name="menu_collection">Коллекция</string>
     <string name="menu_info">Информация</string>
     <string name="agents">Агенты</string>
     <string name="maps">Карты</string>
-    <string name="media">Средства массовой информации</string>
+    <string name="collection">Коллекция</string>
     <string name="info">Информация</string>
     <string name="tab_text_1">"обзор"</string>
     <string name="overview">обзор</string>
@@ -195,4 +195,5 @@
     <string name="omen_ab2_desc">МГНОВЕННО стреляйте теневым снарядом вперед, ненадолго уменьшая дальность видения всех игроков, которых он касается. Этот снаряд может проходить прямо сквозь стены.</string>
     <string name="omen_ab3_desc">УСТАНОВИТЕ теневую сферу и увидите индикатор ее дальности. ОГОНЬ, чтобы бросить теневой шар в отмеченное место, создавая длительную теневую сферу, которая блокирует зрение. УДЕРЖИВАЙТЕ АЛЬТЕРНАТИВНЫЙ ПОЖАР во время наведения, чтобы переместить маркер дальше. УДЕРЖИВАЙТЕ клавишу умения при нацеливании, чтобы переместить маркер ближе.</string>
     <string name="cost_2freecharges_30scd">Стоимость: бесплатно. 2 заряда, перезарядка 30 с при обновлении заряда.</string>
+    <string name="actions_patch_notes">Патч Примечания</string>
 </resources>

@@ -1,14 +1,14 @@
-package com.kalvinkao.guideforvalorant.ui.media;
+package com.kalvinkao.guideforvalorant.ui.collection;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class MediaViewModel extends ViewModel {
+public class CollectionViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public MediaViewModel() {
+    public CollectionViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is gallery fragment");
     }

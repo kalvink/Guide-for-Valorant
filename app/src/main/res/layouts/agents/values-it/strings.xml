@@ -107,8 +107,8 @@
     <string name="cypher_ab1_desc">DOTARE un trappola. FUOCO per posizionare un tripwire descrivibile e nascosto nella posizione designata, creando una linea che si estende tra la posizione collocata e la parete opposta. I giocatori nemici che attraversano un tripwire saranno vincolati e storditi dopo un breve periodo se non distruggono il dispositivo in tempo. Questa abilità può essere raccolta per essere RICOSTRUITA.</string>
     <string name="cypher_ab2_desc">DOTARE una gabbia informatica. FUOCO per lanciare la gabbia informatica di fronte a Cypher. ATTIVARE per creare una zona che blocchi la visione e rallenti i nemici che la attraversano.</string>
     <string name="maps">Mappe</string>
-    <string name="menu_media">Media</string>
-    <string name="media">Media</string>
+    <string name="menu_collection">Collezione</string>
+    <string name="collection">Collezione</string>
     <string name="tab_text_1">Panoramica</string>
     <string name="overview">Panoramica</string>
     <string name="nav_header_subtitle">di: Kalvin Kao</string>
@@ -195,4 +195,5 @@
     <string name="stats_odin">Fuoco primario:\n- Completamente automatico\n- Frequenza del fuoco: 12 -> 15,6 colpi / secondo (aumentando durante il fuoco)\n\nAlt. Fuoco:\n- Modalità zoom (1,25x), leggera riduzione della diffusione\n- Frequenza di fuoco: 15,6 colpi / secondo\n \nDanno:\nCorpo 38 | Testa 95 | Gamba 32 [0-30m]\nCorpo 31 | Testa 77 | Gamba 26 [30-50m]\n \nCapacità caricatore: 100\nPenetrazione della parete: alta\n\nCosto: 3200</string>
     <string name="stats_vandal">Fuoco primario:\n- Completamente automatico\n- Frequenza di fuoco: 9,25 colpi / secondo\n\nAlt. Fuoco:\n- Modalità zoom (1,25x), leggera riduzione della diffusione\n- Frequenza di fuoco: 8,32 colpi / secondo\n\nDanno:\nCorpo 39 | Testa 156 | Gamba 33 [0-50m]\n\nCapacità caricatore: 25\nPenetrazione della parete: media\n\nCosto: 2900</string>
     <string name="stats_operator">Fuoco primario:\n- Semi-automatico\n- Frequenza di fuoco: 0,75 colpi / secondo\n\nAlt. Fuoco:\n- Modalità doppio zoom (2,5x, 5x), riduzione significativa della diffusione\n- Frequenza di fuoco: 0,75 colpi / secondo\n\nDanno:\nCorpo 150 | Testa 255 | Gamba 127 [0-50m]\n\nCapacità caricatore: 5\nPenetrazione della parete: alta\n\nCosto: 4500</string>
+    <string name="actions_patch_notes">Note sulla patch</string>
 </resources>

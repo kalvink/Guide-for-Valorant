@@ -11,4 +11,16 @@
         android:orderInCategory="100"
         android:title="@string/actions_credits"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_patchnotes"
+        android:orderInCategory="100"
+        android:title="@string/actions_patch_notes"
+        app:showAsAction="never" />
+    <!--
+    <item
+        android:id="@+id/action_languages"
+        android:orderInCategory="100"
+        android:title="@string/languages"
+        app:showAsAction="never" />
+    -->
 </menu>
