@@ -93,9 +93,9 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
+            android:layout_margin="60dp"
             app:cardCornerRadius="2dp"
-            app:cardElevation="20dp"/>
+            app:cardElevation="20dp" />
 
     </LinearLayout>
 </ScrollView>

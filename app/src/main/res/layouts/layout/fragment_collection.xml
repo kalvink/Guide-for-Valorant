@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f1923">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_playercards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player Cards"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btn_titles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titles"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btn_sprays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sprays"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btn_gunbuddy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gunbuddy"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+</ScrollView>

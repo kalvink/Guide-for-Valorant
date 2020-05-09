@@ -59,11 +59,11 @@ public class PlaceholderFragment extends Fragment {
             Bundle savedInstanceState) {
 
         switch (getArguments().getInt(ARG_SECTION_NUMBER)) {
-            case 1: {
+            case 0: {
                 root = inflater.inflate(tab_fragments[x], container, false);
                 break;
             }
-            case 2: {
+            case 1: {
                 root = inflater.inflate(tab_fragments[x + 1], container, false);
                 break;
             }

@@ -187,6 +187,26 @@
             android:theme="@style/AppTheme">
         </activity>
         <activity
+            android:name=".ui.collection.sprays.Sprays"
+            android:label="Sprays"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.collection.playercards.PlayerCards"
+            android:label="Player Cards"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.collection.gunbuddy.Gunbuddy"
+            android:label="Gunbuddy"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ui.collection.titles.Titles"
+            android:label="Titles"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
             android:name=".ui.discord.Discord"
             android:label="Discord"
             android:theme="@style/AppTheme.NoActionBar">

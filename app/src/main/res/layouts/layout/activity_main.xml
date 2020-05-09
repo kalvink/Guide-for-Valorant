@@ -13,22 +13,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_above="@+id/adViewBot"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@+id/adViewBot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
         <com.google.android.gms.ads.AdView
             android:id="@+id/adViewBot"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:adSize="BANNER"
-            app:adUnitId="@string/ad_unit_id"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+            app:adSize="400x50"
+            app:adUnitId="@string/ad_unit_id">
+
         </com.google.android.gms.ads.AdView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -42,6 +53,13 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/adViewSide"
+                android:background="@color/colorAccent" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adViewSide"

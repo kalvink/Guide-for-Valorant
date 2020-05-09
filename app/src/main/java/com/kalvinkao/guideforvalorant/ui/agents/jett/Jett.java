@@ -42,7 +42,8 @@ public class Jett extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         if (ads_on) {
             mAdViewBot.loadAd(adRequest);
-        }        // Back button
+        }
+        // Back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/user_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:dividerHeight="1dp">
+
+
+    </ListView>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@+id/adViewBot"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/adViewBot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewBot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:adSize="SMART_BANNER"
+        android:background="#FFFFFF"
+        app:adUnitId="@string/ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+

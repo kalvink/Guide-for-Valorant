@@ -30,7 +30,7 @@ public class HomeFragment extends Fragment {
         final Button btn_agents = root.findViewById(R.id.btn_agents);
         final Button btn_weapons = root.findViewById(R.id.btn_weapons);
         final Button btn_maps = root.findViewById(R.id.btn_maps);
-        final Button btn_media = root.findViewById(R.id.btn_collection);
+        final Button btn_collection = root.findViewById(R.id.btn_collection);
         final Button btn_info = root.findViewById(R.id.btn_info);
         final NavigationView navigationView = getActivity().findViewById(R.id.nav_view);
 
@@ -64,13 +64,13 @@ public class HomeFragment extends Fragment {
                 navigationView.getMenu().getItem(3).setChecked(true);
             }
         });
-        btn_media.setOnClickListener(new View.OnClickListener() {
+        btn_collection.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
                 mFragment = new CollectionFragment();
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Media");
+                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Collection");
                 navigationView.getMenu().getItem(4).setChecked(true);
             }
         });

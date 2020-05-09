@@ -105,8 +105,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:layout_margin="10dp"
-            app:cardBackgroundColor="@color/valorantColor"
-            app:cardElevation="10dp" />
+            android:layout_margin="30dp"
+            app:cardBackgroundColor="@color/valorantColor" />
     </LinearLayout>
 </ScrollView>

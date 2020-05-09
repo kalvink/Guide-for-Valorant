@@ -14,7 +14,7 @@
             android:id="@+id/action_nav_home_to_nav_agents"
             app:destination="@id/nav_agents" />
         <action
-            android:id="@+id/action_nav_home_to_nav_media"
+            android:id="@+id/action_nav_home_to_nav_collection"
             app:destination="@id/nav_collection" />
         <action
             android:id="@+id/action_nav_home_to_nav_info"

@@ -202,7 +202,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="80dp"
             app:cardElevation="10dp">
 
         <TextView
@@ -211,7 +211,7 @@
             android:layout_height="match_parent"
             android:text="REAVER KNIFE"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30dp"/>
         </androidx.cardview.widget.CardView>
 
 
