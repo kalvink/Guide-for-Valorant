@@ -93,7 +93,7 @@
         </activity>
         <activity
             android:name=".ui.weapons.sidearms.Pistol"
-            android:label="Default Pistol"
+            android:label="Classic"
             android:theme="@style/AppTheme">
         </activity>
         <activity
