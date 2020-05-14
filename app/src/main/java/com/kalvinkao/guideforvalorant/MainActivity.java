@@ -136,5 +136,4 @@ public class MainActivity extends AppCompatActivity {
                 ((BaseFragment) f).onBackPressed();
         }
     }
-
 }

@@ -22,21 +22,57 @@
         android:layout_width="wrap_content"
         android:layout_height="400dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/spray1" />
+        android:src="@drawable/spray1"
+        android:background="@drawable/border"
+        />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
 
     <Gallery
         android:id="@+id/gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="10dp" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
         android:background="#FFFFFF" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <View
             android:id="@+id/divider3"
             android:layout_width="match_parent"
-            android:layout_height="3dp"
+            android:layout_height="1dp"
+            android:layout_above="@id/divider16"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@id/divider16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/divider16"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/divider17"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@id/divider17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/divider17"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
             android:layout_above="@+id/adViewBot"
             android:background="@color/colorAccent"
             app:layout_constraintBottom_toTopOf="@+id/adViewBot"
@@ -47,8 +83,8 @@
             android:id="@+id/adViewBot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/ads_bgdark"
             app:adSize="SMART_BANNER"
-            android:background="#FFFFFF"
             app:adUnitId="@string/ad_unit_id"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -10,7 +10,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2"
-        android:dividerHeight="1dp">
+        android:background="#FFFFFF"
+        android:dividerHeight="2dp">
 
 
     </ListView>
@@ -30,8 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
+        android:background="@color/ads_bgdark"
         app:adSize="SMART_BANNER"
-        android:background="#FFFFFF"
         app:adUnitId="@string/ad_unit_id">
     </com.google.android.gms.ads.AdView>
 

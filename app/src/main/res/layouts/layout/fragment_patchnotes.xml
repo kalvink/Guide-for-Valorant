@@ -33,7 +33,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 6.0 (May 9, 2020):
+                android:text="Version 0.7 (May 14, 2020):
+                \n - Bug Fixes"
+                android:textAlignment="textStart" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 0.6 (May 9, 2020):
                 \n - Added Agent Tips
                 \n - Added Collections, Removed Media
                 \n - Added Player Cards, Titles, Sprays, Gunbuddys
@@ -57,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 5.0 (April 19, 2020):
+                android:text="Version 0.5 (April 19, 2020):
                 \n- Added languages: French, Polish, Italian
                 \n- Minor fixes
                 \n- Fixes to languages"
@@ -77,11 +95,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 4.0 (April 17, 2020):
+                android:text="Version 0.4 (April 17, 2020):
                 \n- Added languages: Russian and Spanish
                 \n- Reduced app size significantly
                 \n- Redesigned and improved image quality
-                \n- Fixes"
+                \n- Bug Fixes"
                 android:textAlignment="textStart" />
 
         </androidx.cardview.widget.CardView>
@@ -98,7 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 3.0 (April 10, 2020):
+                android:text="Version 0.3 (April 10, 2020):
                 \n- Added Breach and Raze, redesigned agents layout
                 \n- Added 3 maps, split bind, and haven
                 \n- Redesigned weapons layout"
@@ -118,7 +136,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 2.0 (March 23, 2020):
+                android:text="Version 0.2 (March 23, 2020):
                 \n- Fixes
                 \n- Redesigning layout"
                 android:textAlignment="textStart" />
@@ -143,13 +161,12 @@
                 android:id="@+id/adViewBot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#FFFFFF"
+                android:background="@color/ads_bgdark"
                 app:adSize="SMART_BANNER"
                 app:adUnitId="@string/ad_unit_id"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-            </com.google.android.gms.ads.AdView>
+                app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
 
         </RelativeLayout>
     </LinearLayout>

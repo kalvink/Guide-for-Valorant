@@ -20,7 +20,27 @@
         <View
             android:id="@+id/divider3"
             android:layout_width="match_parent"
-            android:layout_height="3dp"
+            android:layout_height="2dp"
+            android:layout_above="@id/divider6"
+            android:background="@color/colorAccent"
+            app:layout_constraintBottom_toTopOf="@id/divider6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@id/divider7"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@id/divider7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
             android:layout_above="@+id/adViewBot"
             android:background="@color/colorAccent"
             app:layout_constraintBottom_toTopOf="@+id/adViewBot"
@@ -33,11 +53,16 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:background="#FFFFFF"
-            app:adSize="400x50"
+            android:background="@color/ads_bgdark"
+            app:adSize="SMART_BANNER"
             app:adUnitId="@string/ad_unit_id">
 
         </com.google.android.gms.ads.AdView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
 
     </RelativeLayout>
 
@@ -67,10 +92,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="-3dp"
+                android:background="@color/ads_bgdark"
                 app:adSize="250x100"
                 app:adUnitId="@string/ad_unit_id"
-                app:layout_constraintBottom_toBottomOf="parent">
-            </com.google.android.gms.ads.AdView>
+                app:layout_constraintBottom_toBottomOf="parent"></com.google.android.gms.ads.AdView>
 
         </RelativeLayout>
 
