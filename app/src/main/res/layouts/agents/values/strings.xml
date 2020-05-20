@@ -60,7 +60,7 @@
     <string name="barrier_orb">Barrier Orb</string>
     <string name="resurrection">Resurrection</string>
     <string name="brim_ult_desc">Use your map to target a location, launching a devastating orbital strike that pulses for high damage over several seconds.</string>
-    <string name="info_obj">Objective: Two teams of five agents play against each other, agents with special unique abilities and use an economy system to purchase utilities and weapons. In the main game mode, the attacking team has a bomb, called the Spike, that they need to plant on a site. If the attacking team successfully protects the bomb and it detonates, they get a point. If the defending team successfully defuses the bomb, or the 100-second round timer expires, the defending team gets a point. Eliminating all opposing team members also earns a round win. The first team to win the best of 25 rounds wins the match.</string>
+    <string name="info_obj">Objective: \nTwo teams of five agents play against each other, agents with special unique abilities and use an economy system to purchase utilities and weapons. In the main game mode, the attacking team has a bomb, called the Spike, that they need to plant on a site. If the attacking team successfully protects the bomb and it detonates, they get a point. If the defending team successfully defuses the bomb, or the 100-second round timer expires, the defending team gets a point. Eliminating all opposing team members also earns a round win. The first team to win the best of 25 rounds wins the match.</string>
     <string name="info_overview">Riot Games presents a new competitive stage for you to shine from. A 5v5 character-based tactical shooter where creativity is your greatest weapon.</string>
     <string name="weapons">Weapons</string>
     <string name="actions_about">About</string>
@@ -107,7 +107,7 @@
     <!--HEAVY-->
     <string name="heavy">Heavy</string>
     <string name="ares" translatable="false">ARES</string>
-    <string name="stats_ares">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n\nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1700</string>
+    <string name="stats_ares">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n\nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1600</string>
     <string name="odin" translatable="false">ODIN</string>
     <string name="stats_odin">Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200</string>
 
@@ -122,9 +122,9 @@
     <!--SHIELDS-->
     <string name="shields">Shields</string>
     <string name="light_shield">Light Shield</string>
-    <string name="stats_lightshield">Blocks 50% of damage taken. Breaks after it has absorbed 25 damage.    Cost: 400</string>
+    <string name="stats_lightshield">Blocks 66% of damage taken. Breaks after it has absorbed 25 damage.    Cost: 400</string>
     <string name="heavy_shield">Heavy Shield</string>
-    <string name="stats_heavyshield">Blocks 50% of damage taken. Breaks after it has absorbed 50 damage.    Cost: 1000</string>
+    <string name="stats_heavyshield">Blocks 66% of damage taken. Breaks after it has absorbed 50 damage.    Cost: 1000</string>
 
 
     <string name="menu_discord" translatable="false">Discord</string>

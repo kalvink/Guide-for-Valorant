@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 0.7 (May 14, 2020):
+                android:text="Version 0.7 (May 15, 2020):
                 \n - Bug Fixes
                 \n - Redesigns"
                 android:textAlignment="textStart" />

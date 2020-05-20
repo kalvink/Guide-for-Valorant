@@ -52,8 +52,16 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:text="@string/phoenix_ab1"
+                            android:textAlignment="center"
                             android:textSize="30sp"
                             android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@android:drawable/ic_media_play" />
 
                         <View style="@style/Divider.Horizontal" />
 

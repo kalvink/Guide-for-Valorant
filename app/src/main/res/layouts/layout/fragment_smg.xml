@@ -46,6 +46,13 @@
 
         </androidx.cardview.widget.CardView>
 
+        <View
+            android:id="@+id/divider65"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_spectre"
             android:layout_width="match_parent"

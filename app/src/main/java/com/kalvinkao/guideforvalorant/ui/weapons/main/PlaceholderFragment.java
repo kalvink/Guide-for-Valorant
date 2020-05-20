@@ -63,9 +63,9 @@ public class PlaceholderFragment extends Fragment {
 
             //Shields
             //45-47
-            R.layout.fragment_lightshield, R.layout.fragment_lightshield_tips, R.layout.fragment_lightshield_skins,
+            R.layout.fragment_lightshield, R.layout.fragment_lightshield_tips, R.layout.fragment_heavyshield_tips,
             //48-50
-            R.layout.fragment_heavyshield, R.layout.fragment_heavyshield_tips, R.layout.fragment_heavyshield_skins,
+            R.layout.fragment_heavyshield, R.layout.fragment_heavyshield_tips, R.layout.fragment_heavyshield_tips,
 
             //Shotguns
             //51-53

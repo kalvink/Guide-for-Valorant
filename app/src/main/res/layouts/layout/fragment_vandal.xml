@@ -23,6 +23,12 @@
             android:textSize="35sp"
             android:textStyle="bold" />
 
+        <View
+            android:id="@+id/divider24"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -35,6 +41,12 @@
                 android:src="@drawable/vandal_ar762" />
 
         </LinearLayout>
+
+        <View
+            android:id="@+id/divider25"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
 
         <TextView
             android:id="@+id/textView2"
@@ -69,9 +81,9 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20sp"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
+            android:layout_marginBottom="100dp"
 
             app:cardCornerRadius="2dp"
             app:cardElevation="20dp">

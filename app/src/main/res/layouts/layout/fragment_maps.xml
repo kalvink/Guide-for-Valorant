@@ -24,6 +24,13 @@
                 android:layout_height="400dp"
                 android:src="@drawable/minimap_split" />
 
+            <View
+                android:id="@+id/divider68"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF" />
+
             <ImageView
                 android:id="@+id/btn_bind"
                 android:layout_width="match_parent"
@@ -35,6 +42,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:src="@drawable/minimap_bind" />
+
+            <View
+                android:id="@+id/divider69"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF" />
 
             <ImageView
                 android:id="@+id/btn_haven"

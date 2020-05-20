@@ -23,6 +23,13 @@
             android:textSize="35sp"
             android:textStyle="bold" />
 
+        <View
+            android:id="@+id/divider54"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -35,6 +42,13 @@
                 android:src="@drawable/classic_bp9" />
 
         </LinearLayout>
+
+        <View
+            android:id="@+id/divider55"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
 
         <TextView
             android:id="@+id/textView2"
@@ -72,7 +86,7 @@
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
 
-            android:layout_marginBottom="150dp"
+            android:layout_marginBottom="100dp"
             app:cardCornerRadius="2dp"
             app:cardElevation="20dp">
 

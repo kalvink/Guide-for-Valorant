@@ -47,9 +47,17 @@
                         android:textSize="30sp" />
 
                 </LinearLayout>
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <View
+            android:id="@+id/divider41"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_shorty"
@@ -90,6 +98,13 @@
 
         </androidx.cardview.widget.CardView>
 
+        <View
+            android:id="@+id/divider62"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_frenzy"
             android:layout_width="match_parent"
@@ -128,6 +143,13 @@
 
         </androidx.cardview.widget.CardView>
 
+        <View
+            android:id="@+id/divider63"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_ghost"
             android:layout_width="match_parent"
@@ -165,6 +187,13 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+        <View
+            android:id="@+id/divider64"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_sheriff"
