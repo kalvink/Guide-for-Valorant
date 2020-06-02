@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/valorantColor"
-    android:orientation="vertical"
-    tools:context=".ui.maps.MapsFragment">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"

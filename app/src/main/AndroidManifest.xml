@@ -206,11 +206,6 @@
             android:label="Titles"
             android:theme="@style/AppTheme">
         </activity>
-        <activity
-            android:name=".ui.discord.Discord"
-            android:label="Discord"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <!--real: ca-app-pub-8016302998575950~1781524102 -->

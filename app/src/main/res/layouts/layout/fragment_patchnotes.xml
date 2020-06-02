@@ -33,10 +33,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
+                android:text="Version 0.8 (June, 2020):
+            \n - Added weapon tips
+            \n - "
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="Version 0.7 (May 15, 2020):
                 \n - Bug Fixes
                 \n - Redesigns"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -59,7 +80,8 @@
                 \n - Added Patch Notes page
                 \n - Added German language
                 \n - Fixes"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -80,7 +102,8 @@
                 \n- Added languages: French, Polish, Italian
                 \n- Minor fixes
                 \n- Fixes to languages"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -101,7 +124,8 @@
                 \n- Reduced app size significantly
                 \n- Redesigned and improved image quality
                 \n- Bug Fixes"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -121,7 +145,8 @@
                 \n- Added Breach and Raze, redesigned agents layout
                 \n- Added 3 maps, split bind, and haven
                 \n- Redesigned weapons layout"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -140,7 +165,8 @@
                 android:text="Version 0.2 (March 23, 2020):
                 \n- Fixes
                 \n- Redesigning layout"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 

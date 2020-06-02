@@ -79,44 +79,44 @@
     <string name="tab_wep3">Skins</string>
     <!--SIDE ARMS-->
     <string name="sidearm">Sidearm</string>
-    <string name="classic_pistol" translatable="false">CLASSIC</string>
+    <string name="classic_pistol" translatable="false">[CLASSIC]</string>
     <string name="stats_classic">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 6.75 rounds/sec   \n\nAlt. Fire:  \n- 3-Round Burst, spread increase  \n- Fire Rate: 2.22 rounds/sec   \n\nDamage:  \nBody 26 | Head 78 | Leg 22 [0-30m]  \nBody 22 | Head 66 | Leg 18 [30-50m]   \n\nMagazine Capacity: 12  \nWall Penetration: Low   \n\nCost: Free</string>
-    <string name="shorty" translatable="false">SHORTY</string>
-    <string name="frenzy" translatable="false">FRENZY</string>
-    <string name="ghost" translatable="false">GHOST</string>
-    <string name="sheriff" translatable="false">SHERIFF</string>
+    <string name="shorty" translatable="false">[SHORTY]</string>
+    <string name="frenzy" translatable="false">[FRENZY]</string>
+    <string name="ghost" translatable="false">[GHOST]</string>
+    <string name="sheriff" translatable="false">[SHERIFF]</string>
     <!--SMGS-->
     <string name="smgs">SMGS</string>
-    <string name="stinger" translatable="false">STINGER</string>
-    <string name="spectre" translatable="false">SPECTRE</string>
+    <string name="stinger" translatable="false">[STINGER]</string>
+    <string name="spectre" translatable="false">[SPECTRE]</string>
     <!--SHOTGUNS-->
     <string name="shotguns">Shotguns</string>
-    <string name="bucky" translatable="false">BUCKY</string>
-    <string name="judge" translatable="false">JUDGE</string>
+    <string name="bucky" translatable="false">[BUCKY]</string>
+    <string name="judge" translatable="false">[JUDGE]</string>
     <!--RIFLES-->
     <string name="rifles">Rifles</string>
-    <string name="bulldog" translatable="false">BULLDOG</string>
+    <string name="bulldog" translatable="false">[BULLDOG]</string>
     <string name="stats_bulldog">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 9.15 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), 3-Round Burst  \n- Fire Rate: 4 rounds/second    \n\nDamage:  \nBody 35 | Head 116 | Leg 30 [0-50m]    \n\nMagazine Capacity: 24  \nWall Penetration: Medium   \n\nCost: 2100</string>
-    <string name="guardian" translatable="false">GUARDIAN</string>
+    <string name="guardian" translatable="false">[GUARDIAN]</string>
     <string name="stats_guardian">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 6.5 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.5x), slight spread reduction  \n- Fire Rate: 6.5 rounds/second    \n\nDamage:  \nBody 65 | Head 195 | Leg 49 [0-50m]    \n\nMagazine Capacity: 12  \nWall Penetration: Medium   \n\nCost: 2700</string>
-    <string name="phantom" translatable="false">PHANTOM</string>
+    <string name="phantom" translatable="false">[PHANTOM]</string>
     <string name="stats_phantom">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 11 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), slight spread reduction  \n- Fire Rate: 9.9 rounds/second    \n\nDamage:  \nBody 39 | Head 156 | Leg 33 [0-15m]  \nBody 35 | Head 140 | Leg 30 [15-30m]  \nBody 31 | Head 124 | Leg 26 [30-50m]    \n\nMagazine Capacity: 30  \nWall Penetration: Medium   \n\nCost: 2900</string>
-    <string name="vandal" translatable="false">VANDAL</string>
+    <string name="vandal" translatable="false">[VANDAL]</string>
     <string name="stats_vandal">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 9.25 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), slight spread reduction  \n- Fire Rate: 8.32 rounds/second    \n\nDamage:  \nBody 39 | Head 156 | Leg 33 [0-50m]    \n\nMagazine Capacity: 25  \nWall Penetration: Medium   \n\nCost: 2900</string>
 
     <!--HEAVY-->
     <string name="heavy">Heavy</string>
-    <string name="ares" translatable="false">ARES</string>
+    <string name="ares" translatable="false">[ARES]</string>
     <string name="stats_ares">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n\nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1600</string>
-    <string name="odin" translatable="false">ODIN</string>
+    <string name="odin" translatable="false">[ODIN]</string>
     <string name="stats_odin">Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200</string>
 
     <!--SNIPERS-->
     <string name="sniper">Sniper</string>
-    <string name="marshal" translatable="false">MARSHAL</string>
+    <string name="marshal" translatable="false">[MARSHAL]</string>
     <string name="stats_marshal">Primary Fire:   \n- Semi-Automatic   \n- Fire Rate: 1.5 rounds/second      \n\nAlt. Fire:   \n- Zoom Mode (2.5x), slight spread reduction   \n- Fire Rate: 1.2 rounds/second      \n\nDamage:   \nBody 101 | Head 202 | Leg 85 [0-50m]      \n\nMagazine Capacity: 5   \nWall Penetration: Medium     \n\nCost: 1100</string>
 
-    <string name="operator" translatable="false">OPERATOR</string>
+    <string name="operator" translatable="false">[OPERATOR]</string>
     <string name="stats_operator">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 0.75 rounds/second    \n\nAlt. Fire:  \n- Dual-Zoom Mode (2.5x, 5x), significant spread reduction  \n- Fire Rate: 0.75 rounds/second    \n\nDamage:  \nBody 150 | Head 255 | Leg 127 [0-50m]    \n\nMagazine Capacity: 5  \nWall Penetration: High   \n\nCost: 4500</string>
 
     <!--SHIELDS-->
@@ -299,6 +299,7 @@
     <string name="razetip3">[E] Paint Shells is good at catching trapped opponents or injuring opponents before you enter a fight.</string>
     <string name="razetip4">[X] Showstopper can one shot the opponent or even kill multiple if they are clumped up together.</string>
     <string name="actions_patch_notes">Patch Notes</string>
+    <string name="news">News</string>
     <string-array name="language_arrays">
         <item>English</item>
         <item>Español</item>

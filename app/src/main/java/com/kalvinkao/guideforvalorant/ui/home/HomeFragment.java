@@ -31,6 +31,7 @@ public class HomeFragment extends Fragment {
         final Button btn_weapons = root.findViewById(R.id.btn_weapons);
         final Button btn_maps = root.findViewById(R.id.btn_maps);
         final Button btn_collection = root.findViewById(R.id.btn_collection);
+        final Button btn_news = root.findViewById(R.id.btn_news);
         final Button btn_info = root.findViewById(R.id.btn_info);
         final NavigationView navigationView = getActivity().findViewById(R.id.nav_view);
 
@@ -74,6 +75,16 @@ public class HomeFragment extends Fragment {
                 navigationView.getMenu().getItem(4).setChecked(true);
             }
         });
+        btn_news.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Fragment mFragment = null;
+                mFragment = new InfoFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
+                ((MainActivity) getActivity()).getSupportActionBar().setTitle("News");
+                navigationView.getMenu().getItem(5).setChecked(true);
+            }
+        });
         btn_info.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
@@ -81,9 +92,10 @@ public class HomeFragment extends Fragment {
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("Information");
-                navigationView.getMenu().getItem(5).setChecked(true);
+                navigationView.getMenu().getItem(6).setChecked(true);
             }
         });
+
 
         return root;
     }

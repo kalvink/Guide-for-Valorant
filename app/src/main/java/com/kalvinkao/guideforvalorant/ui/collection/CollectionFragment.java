@@ -25,7 +25,8 @@ import com.kalvinkao.guideforvalorant.ui.collection.titles.Titles;
 import com.kalvinkao.guideforvalorant.ui.weapons.sidearms.Sidearms;
 import com.kalvinkao.guideforvalorant.ui.weapons.sniper.Marshal;
 
-public class CollectionFragment extends Fragment implements OnBackPressed {
+public class
+CollectionFragment extends Fragment implements OnBackPressed {
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
