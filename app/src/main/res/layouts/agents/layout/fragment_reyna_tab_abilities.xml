@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.phoenix.Phoenix">
+    android:background="@color/valorantColor">
 
+    <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:contentDescription="@string/snakebite"
-                        app:srcCompat="@drawable/phoenix_ab1" />
+                        app:srcCompat="@drawable/raze_ab1" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -51,25 +51,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab1"
-                            android:textAlignment="center"
+                            android:text="@string/reyna_ab1"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
-                        <View
-                            android:id="@+id/View"
-                            style="@style/Divider.Horizontal"
-                            android:layout_width="match_parent"
-                            android:layout_weight="1" />
-<!--
-                        <ImageButton
-                            android:id="@+id/playAbility1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:onClick="onButtonShowPopupWindowClick"
-                            app:srcCompat="@android:drawable/ic_media_play" />
--->
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -78,8 +63,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:text="@string/ability_1"
-                            android:textStyle="bold"
-                            tools:ignore="DuplicateIds" />
+                            android:textStyle="bold" />
 
                         <View style="@style/Divider.Horizontal" />
 
@@ -89,8 +73,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:text="@string/cost_200"
-                            android:textStyle="bold"
-                            tools:ignore="DuplicateIds" />
+                            android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -98,7 +81,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab1_desc"
+                            android:text="EQUIP an ethereal, destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it. "
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -133,7 +116,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:contentDescription="@string/viper_ab2"
-                        app:srcCompat="@drawable/phoenix_ab2" />
+                        app:srcCompat="@drawable/raze_ab2" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -147,7 +130,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab2"
+                            android:text="@string/reyna_ab2"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
@@ -164,21 +147,20 @@
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
-                            android:id="@+id/viper_ability1_text_ability"
+                            android:id="@+id/reyna_ab1_desc"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:text="@string/cost_100"
-                            android:textStyle="bold"
-                            tools:ignore="DuplicateIds" />
+                            android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
-                            android:id="@+id/viper_ability2_desc"
+                            android:id="@+id/reyna_ability2_desc"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab2_desc"
+                            android:text="Soul Harvest: Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds. Devour: INSTANTLY consume a nearby soul orb, rapidly healing for a short duration. Health gained through this skill exceeding 100 will decay over time. If EMPRESS is active, this skill will automatically cast and not consume the Soul Orb."
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -216,7 +198,7 @@
                         android:layout_marginEnd="5dp"
                         android:layout_marginBottom="5dp"
                         android:contentDescription="@string/viper_ab3"
-                        app:srcCompat="@drawable/phoenix_ab3" />
+                        app:srcCompat="@drawable/raze_ab3" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -230,7 +212,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab3"
+                            android:text="@string/reyna_ab3"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
@@ -251,9 +233,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/cost_free1perround_refreshed2kill"
-                            android:textStyle="bold"
-                            tools:ignore="DuplicateIds" />
+                            android:text="Cost: Free"
+                            android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -261,7 +242,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab3_desc"
+                            android:text="INSTANTLY consume a nearby Soul Orb, becoming instangible for a short duration. If EMPRESS is active, also become invisible."
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>
@@ -295,7 +276,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:contentDescription="@string/viper_ab4"
-                        app:srcCompat="@drawable/phoenix_ab4" />
+                        app:srcCompat="@drawable/raze_ab4" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -309,7 +290,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab4"
+                            android:text="@string/reyna_ult"
                             android:textSize="30sp"
                             android:textStyle="bold" />
 
@@ -332,8 +313,7 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             android:text="@string/ult_cost6"
-                            android:textStyle="bold"
-                            tools:ignore="DuplicateIds" />
+                            android:textStyle="bold" />
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -341,7 +321,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_margin="5dp"
-                            android:text="@string/phoenix_ab4_desc"
+                            android:text="INSTANTLY enter a frenzy, increasing firing, equip and reload speed dramatically. Gain infinite charges of Soul Harvest abilities. Scoring a kill renews the duration."
                             android:textAlignment="viewStart" />
 
                     </LinearLayout>

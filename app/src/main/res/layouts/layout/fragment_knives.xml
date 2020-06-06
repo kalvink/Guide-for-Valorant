@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/valorantColor"
@@ -12,7 +13,7 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cv_tactical_knife"
+            android:id="@+id/melee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -36,23 +37,25 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cv_tactical_knife"
+                android:id="@+id/melee"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                app:cardElevation="10dp">
+                app:cardElevation="10dp"
+                tools:ignore="DuplicateIds">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/standard"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="TACTICAL KNIFE"
+                    android:text="MELEE"
                     android:textAlignment="center"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -62,7 +65,8 @@
                 android:layout_height="match_parent"
                 android:text="TACTICAL KNIFE"
                 android:textSize="30dp"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -73,7 +77,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <ImageView
                 android:id="@+id/tactical_knife2"
@@ -81,7 +86,8 @@
                 android:layout_height="165dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/knife_imperium" />
+                android:src="@drawable/knife_imperium"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -91,7 +97,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <TextView
                 android:id="@+id/textView6"
@@ -99,7 +106,8 @@
                 android:layout_height="match_parent"
                 android:text="IMPERIUM KNIFE"
                 android:textAlignment="center"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -110,7 +118,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <ImageView
                 android:id="@+id/tactical_knife2"
@@ -118,7 +127,8 @@
                 android:layout_height="165dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/knife_luxe" />
+                android:src="@drawable/knife_luxe"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -128,7 +138,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <TextView
                 android:id="@+id/textView6"
@@ -136,7 +147,8 @@
                 android:layout_height="match_parent"
                 android:text="LUXE KNIFE"
                 android:textAlignment="center"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -147,7 +159,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <ImageView
                 android:id="@+id/tactical_knife2"
@@ -155,7 +168,8 @@
                 android:layout_height="165dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/knife_prism" />
+                android:src="@drawable/knife_prism"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -165,7 +179,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <TextView
                 android:id="@+id/textView6"
@@ -184,7 +199,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <ImageView
                 android:id="@+id/tactical_knife2"
@@ -192,7 +208,8 @@
                 android:layout_height="165dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/knife_reaver" />
+                android:src="@drawable/knife_reaver"
+                tools:ignore="DuplicateIds" />
 
         </androidx.cardview.widget.CardView>
 
@@ -203,7 +220,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="100dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            tools:ignore="DuplicateIds">
 
             <TextView
                 android:id="@+id/textView6"
@@ -211,7 +229,8 @@
                 android:layout_height="match_parent"
                 android:text="REAVER KNIFE"
                 android:textAlignment="center"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                tools:ignore="DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
 

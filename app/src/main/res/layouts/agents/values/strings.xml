@@ -22,14 +22,12 @@
     <string name="tab_text_2">Abilities</string>
     <string name="tab_text_3">Story</string>
 
-
     <string name="overview">Overview</string>
-
-
     <string name="ability">Ability:</string>
     <string name="signature">Signature</string>
     <string name="ultimate">Ultimate</string>
-    <!--viper-->
+
+    <!--Viper-->
     <string name="snakebite">Snakebite</string>
     <string name="viper_ab3">Toxic Screen</string>
     <string name="viper_ab2">Poison Cloud</string>
@@ -55,8 +53,6 @@
 
 
     <string name="origin_china">Origin: China</string>
-    <string name="sage_desc">Description: Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield.</string>
-    <string name="sage_summary">Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. \n\nThe most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
     <string name="barrier_orb">Barrier Orb</string>
     <string name="resurrection">Resurrection</string>
     <string name="brim_ult_desc">Use your map to target a location, launching a devastating orbital strike that pulses for high damage over several seconds.</string>
@@ -78,7 +74,7 @@
     <string name="tab_wep2">Tips</string>
     <string name="tab_wep3">Skins</string>
     <!--SIDE ARMS-->
-    <string name="sidearm">Sidearm</string>
+    <string name="sidearm">Sidearms</string>
     <string name="classic_pistol" translatable="false">[CLASSIC]</string>
     <string name="stats_classic">Primary Fire:  \n- Semi-Automatic  \n- Fire Rate: 6.75 rounds/sec   \n\nAlt. Fire:  \n- 3-Round Burst, spread increase  \n- Fire Rate: 2.22 rounds/sec   \n\nDamage:  \nBody 26 | Head 78 | Leg 22 [0-30m]  \nBody 22 | Head 66 | Leg 18 [30-50m]   \n\nMagazine Capacity: 12  \nWall Penetration: Low   \n\nCost: Free</string>
     <string name="shorty" translatable="false">[SHORTY]</string>
@@ -105,14 +101,14 @@
     <string name="stats_vandal">Primary Fire:  \n- Full-Automatic  \n- Fire Rate: 9.25 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.25x), slight spread reduction  \n- Fire Rate: 8.32 rounds/second    \n\nDamage:  \nBody 39 | Head 156 | Leg 33 [0-50m]    \n\nMagazine Capacity: 25  \nWall Penetration: Medium   \n\nCost: 2900</string>
 
     <!--HEAVY-->
-    <string name="heavy">Heavy</string>
+    <string name="heavy">Heavies</string>
     <string name="ares" translatable="false">[ARES]</string>
     <string name="stats_ares">Primary Fire: \n- Full-Automatic \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 10 -> 13 rounds/second (increasing during fire) \n\nDamage: \nBody 30 | Head 72 | Leg 25 [0-30m] \nBody 28 | Head 67 | Leg 23 [30-50m] \n\nMagazine Capacity: 50 \nWall Penetration: High \n\nCost: 1600</string>
     <string name="odin" translatable="false">[ODIN]</string>
     <string name="stats_odin">Primary Fire: \n- Full-Automatic \n- Fire Rate: 12 -> 15.6 rounds/second (increasing during fire) \n\nAlt. Fire: \n- Zoom Mode (1.25x), slight spread reduction \n- Fire Rate: 15.6 rounds/second \n \nDamage: \nBody 38 | Head 95 | Leg 32 [0-30m] \nBody 31 | Head 77 | Leg 26 [30-50m] \n \nMagazine Capacity: 100 \nWall Penetration: High \n\nCost: 3200</string>
 
     <!--SNIPERS-->
-    <string name="sniper">Sniper</string>
+    <string name="sniper">Snipers</string>
     <string name="marshal" translatable="false">[MARSHAL]</string>
     <string name="stats_marshal">Primary Fire:   \n- Semi-Automatic   \n- Fire Rate: 1.5 rounds/second      \n\nAlt. Fire:   \n- Zoom Mode (2.5x), slight spread reduction   \n- Fire Rate: 1.2 rounds/second      \n\nDamage:   \nBody 101 | Head 202 | Leg 85 [0-50m]      \n\nMagazine Capacity: 5   \nWall Penetration: Medium     \n\nCost: 1100</string>
 
@@ -129,23 +125,16 @@
 
     <string name="menu_discord" translatable="false">Discord</string>
     <string name="the_spike">The Spike</string>
-    <string name="cypher_ult_desc">Extract information from the corpse of an enemy, revealing the location of their living allies.</string>
-    <string name="cypher_ab4">Neural Theft</string>
-    <string name="cypher_ability3">Place a remote camera. After placing, reactivate to view the video feed. Left click while in camera to fire a tracking dart. Recharges when picked up or killed.</string>
-    <string name="cypher_ab3">Spycam</string>
-    <string name="cypher_ability2desc">Toss out a remote activation trap. Reactivate to create a cage that slows enemies who pass through it. Look at a trap and press USE to detonate it, or hold ACTIVATE to detonate all.</string>
-    <string name="cyper_ab1desc">Place a stealthed tripwire between two walls. Triggering enemies are restrained and revealed for a short time. If the trap is not destroyed, it activates to daze the trapped victim. Can be picked up.</string>
-    <string name="sage_ab1">Barrier Orb</string>
-    <string name="sage_ab2">Slow Orb</string>
-    <string name="sage_ab3">Healing Orb</string>
-    <string name="sage_ab4">Resurrection</string>
 
-    <string name="brim_ab1">Stim Beacon</string>
-    <string name="brim_ab2">Incendiary</string>
-    <string name="brim_ab3">Sky Smoke</string>
-    <string name="brim_ab4">Orbital Strike</string>
+    <string name="ability_cost_35s">Cost: Free (35s cooldown)</string>
+    <string name="cost_100">Cost: 100</string>
+    <string name="cost_200">Cost: 200</string>
+    <string name="cost_300">Cost: 300</string>
+    <string name="ult_cost7">Cost: 7 charges</string>
 
-    <string name="sova_desc">Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</string>
+
+
+
 
 
     <!--real: ca-app-pub-8016302998575950/6459684456-->
@@ -165,27 +154,16 @@
     <string name="cypher_ab2">Cyber Cage</string>
     <string name="type_sentinel">Type: Sentinel</string>
     <string name="type_duelist">Type: Duelist</string>
-    <string name="jett_ab1">Cloudburst</string>
-    <string name="jett_ab2">Updraft</string>
-    <string name="jett_ab3">Tailwind</string>
-    <string name="jett_ab4">Blade Storm</string>
+
     <string name="omen_ab1">Shrouded Step</string>
     <string name="omen_ab2">Paranoia</string>
     <string name="omen_ab3">Dark Cover</string>
     <string name="omen_ab4">From the Shadows</string>
-    <string name="phoenix_ab1">Blaze</string>
-    <string name="phoenix_ab2">Curveball</string>
-    <string name="phoenix_ab3">Hot Hands</string>
-    <string name="phoenix_ab4">Run it Back</string>
-    <string name="sova_ab1">Owl Drone</string>
-    <string name="sova_ab2">Shock Bolt</string>
-    <string name="sova_ab3">Recon Bolt</string>
-    <string name="sova_ab4">Hunter\'s Fury</string>
+
+
     <string name="viper_ab1">Snake Bite</string>
-    <string name="raze_ab1">Boom Bot</string>
-    <string name="raze_ab2">Blast Pack</string>
-    <string name="raze_ab3">Paint Shells</string>
-    <string name="raze_ab4">Showstopper</string>
+
+
     <string name="stats_shorty">Primary Fire: \n- Semi-Automatic \n- Fire Rate: 3.3 rounds/second    \n\nDamage (12 pellets):  \nBody 12 | Head 36 | Leg 10 [0-9m]  \nBody 8 | Head 24 | Leg 6 [9-15m]  \nBody 3 | Head 9 | Leg 2 [0-9m]    \n\nMagazine Capacity: 2  \nWall Penetration: Low   \n\nCost: 200</string>
     <string name="stats_spectre">Primary Fire: \n- Full-Automatic \n- Fire Rate: 13.33 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.15x) slight spread reduction  \n- Fire Rate: 12 rounds/second   \n\nDamage:  \nBody 26 | Head 78 | Leg 22 [0-20m]  \nBody 22 | Head 66 | Leg 18 [20-50m]    \n\nMagazine Capacity: 30  \nWall Penetration: Medium   \n\nCost: 1600</string>
     <string name="stats_stinger">Primary Fire: \n- Full-Automatic \n- Fire Rate: 18 rounds/second    \n\nAlt. Fire:  \n- Zoom Mode (1.15x) 4-Round Burst, spread reduction  \n- Fire Rate: 4 rounds/second   \n\nDamage:  \nBody 27 | Head 67 | Leg 23 [0-20m]  \nBody 25 | Head 62 | Leg 21 [20-50m]    \n\nMagazine Capacity: 20  \nWall Penetration: Low   \n\nCost: 1000</string>
@@ -195,70 +173,126 @@
     <string name="stats_judge">Primary Fire: \n- Full-Automatic \n- Fire Rate: 3.5 rounds/second    \n\nDamage (12 pellets):  \nBody 17 | Head 34 | Leg 14 [0-10m]  \nBody 13 | Head 26 | Leg 11 [10-15m]  \nBody 10 | Head 20 | Leg 9 [15-50m]    \n\nMagazine Capacity: 7  \nWall Penetration: Medium   \n\nCost: 1500</string>
     <string name="info_features">Features:\n• 128-tick servers\n• at least 30 frames per second on most min-spec computers (even dating back a decade)\n• 60-144+ FPS on modern gaming rigs\n• a global spread of datacenters aimed at less than 35ms for players in major cities around the world\n• Strong focus on netcode and anti-cheat system</string>
     <string name="knives">KNIVES</string>
-    <string name="breach_summary">Breach fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</string>
+
+    <!--Breach-->
+    <string name="breach_summary">The bionic Swede Breach fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</string>
     <string name="breach_ab1_desc">Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.</string>
     <string name="breach_ab2_desc">EQUIP a blind charge. FIRE the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it.</string>
     <string name="breach_ab3_desc">EQUIP a seismic blast. HOLD FIRE to increase the distance. RELEASE to set off the quake, dazing all players in its zone and in a line up to the zone.</string>
     <string name="breach_ab4_desc">EQUIP a Seismic Charge. FIRE to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.</string>
-    <string name="ult_cost7">Cost: 7 charges</string>
+
+
+    <!--Brimstone-->
+    <string name="brim_ab1">Stim Beacon</string>
+    <string name="brim_ab2">Incendiary</string>
+    <string name="brim_ab3">Sky Smoke</string>
+    <string name="brim_ab4">Orbital Strike</string>
+
     <string name="brim_ab1_desc">EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.</string>
     <string name="brim_ab2_desc">EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.</string>
     <string name="brim_ab3_desc">EQUIP a tactical map. FIRE to set locations where Brimstone\'s smoke clouds will land. ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.</string>
     <string name="brim_ab4_desc">EQUIP a tactical map. FIRE to launch a lingering orbital strike laster at the selected location, dealing high damage-over-time to players caught in the selected area.</string>
     <string name="ult_cost6">Cost: 6 charges</string>
     <string name="brim_ab3_cost">Cost: 1 free per round, 100 for extra charges</string>
+
+    <!--Cypher-->
+    <string name="cypher_ult_desc">Extract information from the corpse of an enemy, revealing the location of their living allies.</string>
+    <string name="cypher_ab4">Neural Theft</string>
+    <string name="cypher_ability3">Place a remote camera. After placing, reactivate to view the video feed. Left click while in camera to fire a tracking dart. Recharges when picked up or killed.</string>
+    <string name="cypher_ab3">Spycam</string>
+    <string name="cypher_ability2desc">Toss out a remote activation trap. Reactivate to create a cage that slows enemies who pass through it. Look at a trap and press USE to detonate it, or hold ACTIVATE to detonate all.</string>
+    <string name="cyper_ab1desc">Place a stealthed tripwire between two walls. Triggering enemies are restrained and revealed for a short time. If the trap is not destroyed, it activates to daze the trapped victim. Can be picked up.</string>
+
     <string name="cypher_ab1_desc">EQUIP a trapwire. FIRE to place a desctuctible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.</string>
     <string name="cypher_ab2_desc">EQUIP a cyber cage. FIRE to toss the cyber cage in front of Cypher. ACTIVATE to create a zone that blocks vision and slows enemies who pass through it.</string>
     <string name="cypher_ab3_desc">EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera\'s view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.</string>
     <string name="cypher_ab3_cost">Cost: Placeable once per round. Can be picked up and re-placed</string>
     <string name="cypher_ab4_desc">INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.</string>
+
+    <!--Sage-->
+
+    <string name="sage_summary">The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off forceful assaults, she provides a calm center to a hellish battlefield. \n\nThe most prominent support character to date hails from China and brings orbs that heal allies, slow enemies, and create barriers out of the ground to impede the flow of a match. Her ultimate ability allows her to resurrect a fallen ally, which is significant in a game with no respawns.</string>
+    <string name="sage_ab1">Barrier Orb</string>
+    <string name="sage_ab2">Slow Orb</string>
+    <string name="sage_ab3">Healing Orb</string>
+    <string name="sage_ab4">Resurrection</string>
+
     <string name="sage_ab1_desc">EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter.</string>
     <string name="sage_ab2_desc">EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.</string>
     <string name="sage_ab3_desc">EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.</string>
     <string name="sage_ab4_desc">EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.</string>
-    <string name="ability_cost_35s">Cost: Free (35s cooldown)</string>
-    <string name="cost_200">Cost: 200</string>
-    <string name="cost_100">Cost: 100</string>
+
+
+
+    <!--Raze-->
+    <string name="raze_summary">Raze loves explosives. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of boom.</string>
+    <string name="raze_ab1">Boom Bot</string>
+    <string name="raze_ab2">Blast Pack</string>
+    <string name="raze_ab3">Paint Shells</string>
+    <string name="raze_ab4">Showstopper</string>
     <string name="raze_ab1_desc">EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in it frontal cone and chase them, exploding for heavy damage if it reaches them.</string>
     <string name="raze_ab2_desc">INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit.</string>
     <string name="raze_ab3_desc">EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.</string>
-    <string name="cost_1free_200extra">Cost: 1 Free per round. 200 for extra charges.</string>
     <string name="raze_ab4_desc">EQUIP a rocket launcher. FIRE shoots a rocket that does massive area damage on contact with anything.</string>
+
+    <string name="cost_1free_200extra">Cost: 1 Free per round. 200 for extra charges.</string>
+
+    <!--Phoenix-->
+    <string name="phoenix_ab1">Blaze</string>
+    <string name="phoenix_ab2">Curveball</string>
+    <string name="phoenix_ab3">Hot Hands</string>
+    <string name="phoenix_ab4">Run it Back</string>
+
     <string name="phoenix_ab1_desc">EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.</string>
     <string name="phoenix_ab2_desc">EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.</string>
     <string name="phoenix_ab3_desc">EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.</string>
     <string name="cost_free1perround_refreshed2kill">Cost: Free, once per round. Refreshed on 2 kills.</string>
     <string name="phoenix_ab4_desc">INSTANTLY place a marker at Phoenix\'s location. while this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.</string>
+
+    <!--Omen-->
     <string name="omen_ab1_desc">EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.</string>
     <string name="omen_ab2_desc">INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.</string>
     <string name="omen_ab3_desc">EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key while targeting to move the marker closer.</string>
     <string name="cost_2freecharges_30scd">Cost: Free. 2 charges, 30s cooldown on charge refresh.</string>
     <string name="omen_ab4_desc">EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.</string>
+
+    <!--Jett-->
+    <string name="jett_ab1">Cloudburst</string>
+    <string name="jett_ab2">Updraft</string>
+    <string name="jett_ab3">Tailwind</string>
+    <string name="jett_ab4">Blade Storm</string>
+
     <string name="jett_ab1_desc">INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surfact. HOLD the ability key to curve the smoke in the direction of your crosshair.</string>
     <string name="jett_ab2_desc">INSTANTLY propel Jett high into the air.</string>
     <string name="jett_ab3_desc">INSTANTLY propel Jett in the direction she is moving. If Jett is standing still she will propel forward.</string>
     <string name="jett_ab4_desc">EQUIP a set of highly accurate throwing knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target.</string>
+
+    <!--Sova-->
+    <string name="sova_ab1">Owl Drone</string>
+    <string name="sova_ab2">Shock Bolt</string>
+    <string name="sova_ab3">Recon Bolt</string>
+    <string name="sova_ab4">Hunter\'s Fury</string>
     <string name="sova_ab1_desc">EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.</string>
-    <string name="cost_300">Cost: 300</string>
     <string name="sova_ab2_desc">EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of teh projectile. ALTERNATE FIRE to add up to two bounces to this arrow.</string>
     <string name="sova_ab3_desc">EQUIP a bow with recon boly. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projective. ALTERNATE FIRE to add up to two bounces to this arrow.</string>
     <string name="sova_ab4_desc">EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.</string>
     <string name="origin_russia">Origin: Russia</string>
-    <string name="sova_summary">Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide. \n\nAn archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls.</string>
-    <string name="raze_summary">Raze loves explosives. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of boom.</string>
+    <string name="sova_summary">Born from the eternal winter of Russia\'s tundra. Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide. \n\nAn archery expert, he can equip his bow with different bolts that reveal enemy locations or shock nearby adversaries. He can also deploy a recon drone to survey the battlefield, while his ultimate lets him fire three deadly arrow shots through walls.</string>
     <string name="origin_brazil">Origin: Brazil</string>
     <string name="origin_united_kingdom">Origin: United Kingdom</string>
-    <string name="phoenix_summary">Phoenix’s star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms. \n\nThe fiery Brit can wield the power of flame to essentially reshape the battlefield how he sees fit. With exploding fireballs that damage enemies and heal him, a vision-blocking wall of fire, and a blinding fire burst, Phoenix is great at manipulating the flow of the match. His ultimate grants him the ability to be reborn if he\'s killed during its duration, galvanizing him to make bold moves he wouldn\'t otherwise make.</string>
+    <string name="phoenix_summary">Hailing from the U.K., Phoenix’s star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he’s got backup or not, he’s rushing in to fight on his own terms. \n\nThe fiery Brit can wield the power of flame to essentially reshape the battlefield how he sees fit. With exploding fireballs that damage enemies and heal him, a vision-blocking wall of fire, and a blinding fire burst, Phoenix is great at manipulating the flow of the match. His ultimate grants him the ability to be reborn if he\'s killed during its duration, galvanizing him to make bold moves he wouldn\'t otherwise make.</string>
     <string name="omen_summary">Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as foes scramble to uncover where it might strike next. \n\nA man with mysterious origins, Omen is focused on hindering the vision of his enemies with things like an orb that strikes those in his sights with nearsightedness and another that bursts to obscure the vision of everyone nearby. He can also teleport a short distance, or use his ultimate to teleport anywhere on the map as a shadow.</string>
     <string name="origin_unknown">Origin: Unknown</string>
     <string name="origin_south_korea">Origin: South Korea</string>
-    <string name="jett_summary">Jett’s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them. \n\nJett wields several throwing knives that deal moderate damage and kill on headshots. Getting a kill replenishes your daggers and you can choose to throw them one at a time or throw all remaining daggers in a short-ranged burst.</string>
+    <string name="jett_summary">Representing her home country of South Korea, Jett’s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them. \n\nJett wields several throwing knives that deal moderate damage and kill on headshots. Getting a kill replenishes your daggers and you can choose to throw them one at a time or throw all remaining daggers in a short-ranged burst.</string>
     <string name="origin_morocco">Origin: Morocco</string>
     <string name="origin_united_states">Origin: United States</string>
-    <string name="brim_summary">Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander. \n \nBrimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn\'t move out of the radius fast enough.</string>
+    <string name="brim_summary">Joining from the USA, Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander. \n \nBrimstone is a powerful commander that utilizes incendiary grenades, smokescreen airstrikes, and rapid-fire-inducing stim beacons to damage enemies and buff teammates. His impressive Orbital Strike ultimate summons an enormous laser that destroys anyone who doesn\'t move out of the radius fast enough.</string>
     <!--Languages-->
     <string name="languages" translatable="false">Languages</string>
     <string name="language_prompt" translatable="false">Select a Language</string>
+
+    <!--AGENT TIPS-->
     <string name="omentip1">Omen\'s [C] Shrouded Step is great for catching people off-guard from unexpected locations like the top of boxes, corners, and otherwise impossible to cross sight lines. \n\nNever cast this into an open sight line, the recovery animation leaves you vulnerable.</string>
     <string name="omentip2">[Q] A great way to take an advantageous fight is prepping your entry with a [Q] Paranoia to blind the enemy first.</string>
     <string name="omentip3">[E] Dark Cover can be cast through walls. Keep an eye on the minimap while charging as it will show you the location of where the shroud will appear. \n\n(This is extra useful at the start of a round to shroud an ult orb or hallway.)</string>
@@ -298,8 +332,44 @@
     <string name="razetip2">[Q] Blast Pack can be used to boost yourself on top of unreachable boxes to catch your opponents off guard.</string>
     <string name="razetip3">[E] Paint Shells is good at catching trapped opponents or injuring opponents before you enter a fight.</string>
     <string name="razetip4">[X] Showstopper can one shot the opponent or even kill multiple if they are clumped up together.</string>
+
+
     <string name="actions_patch_notes">Patch Notes</string>
     <string name="news">News</string>
+    <string name="origin_mexico">Origin: Mexico</string>
+
+    <!--REYNA-->
+    <string name="reyna">REYNA</string>
+    <string name="reyna_ab1">Leer</string>
+    <string name="reyna_ab2">Devour</string>
+    <string name="reyna_ab3">Dismiss</string>
+    <string name="reyna_ult">Empress</string>
+    <string name="reyna_summary">Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her sharply dependant on performance. \n\nReyna is an agent with an aggressive, duel-centric playstyle. Reyna\'s unique mechanic are the so-called Soul Orbs, which drop when she kills an opponent and which, upon consumption, give her various bonuses from massive healing to becoming intagible and invisible. \n\nReyna\'s ultimate ability is Empress, which turns her into a rapid-fire death machine, dramatically increasing all her combat stats. Every kill renews Empress\' duration, and a skilled Reyna player can wipe away the entire team in one swift offense.</string>
+    <string name="standard_vandal">STANDARD VANDAL</string>
+    <string name="price">Price:</string>
+    <string name="_1275">1275</string>
+    <string name="dot_exe_vandal">DOT EXE VANDAL</string>
+    <string name="luxe_vandal">LUXE VANDAL</string>
+    <string name="_875">875</string>
+    <string name="purchase_from_store_rotation">Purchase from store rotation.</string>
+    <string name="prime_vandal">PRIME VANDAL</string>
+    <string name="_1775">1775</string>
+    <string name="aristocrat_vandal">ARISTOCRAT VANDAL</string>
+    <string name="_1000">1000</string>
+    <string name="battlepass_price">Battlepass Price:</string>
+    <string name="purchase_from_store_rotation_npurchase_individually_for_1775_or_prime_bundle_for_7100">Purchase from store rotation. \nPurchase individually for 1775 or Prime bundle for 7100.</string>
+    <string name="prime_vandal_lv_6">PRIME VANDAL LV.6</string>
+    <string name="_15">15</string>
+    <string name="prism_phantom">PRISM PHANTOM</string>
+    <string name="avalanche_vandal">AVALANCHE VANDAL</string>
+    <string name="avalanche_phantom">AVALANCHE PHANTOM</string>
+    <string name="retired_beta_skins">RETIRED BETA SKINS</string>
+    <string name="galleria_phantom">GALLERIA PHANTOM</string>
+    <string name="kingdom_phantom">KINGDOM PHANTOM</string>
+    <string name="rush_phantom">RUSH PHANTOM</string>
+    <string name="n_a">N/A</string>
+
+
     <string-array name="language_arrays">
         <item>English</item>
         <item>Español</item>

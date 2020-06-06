@@ -3,8 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_weight="0"
-    android:background="@color/valorantColor">
+    android:background="@color/valorantColor"
+    tools:context=".ui.agents.AgentsFragment">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -96,11 +98,13 @@
                 android:src="@drawable/icon_raze" />
 
             <ImageButton
-                android:id="@+id/btn_sage"
+                android:id="@+id/btn_reyna"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@drawable/icon_sage" />
+                android:contentDescription="Reyna"
+                android:src="@drawable/icon_reyna" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -110,11 +114,26 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/btn_sage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/icon_sage" />
+
+            <ImageButton
                 android:id="@+id/btn_sova"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/icon_sova" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/btn_viper"
@@ -123,6 +142,7 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/viper"
                 android:src="@drawable/icon_viper" />
+
         </LinearLayout>
 
         <androidx.cardview.widget.CardView

@@ -14,67 +14,122 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="195dp"
+            android:layout_height="196dp"
+            android:layout_weight="1"
             android:background="#FFFFFF"
             android:foreground="@drawable/weapons">
+
         </androidx.cardview.widget.CardView>
 
-        <Button
-            android:id="@+id/btn_wep_sidearm"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/sidearm"
-            android:textSize="30sp" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btn_wep_smg"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/smgs"
-            android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn_wep_sidearm"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/sidearm"
+                android:textSize="30sp"
+                android:layout_margin="5dp"/>
 
-        <Button
-            android:id="@+id/btn_wep_shotguns"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/shotguns"
-            android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn_wep_smg"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/smgs"
+                android:textSize="30sp" />
 
-        <Button
-            android:id="@+id/btn_wep_rifles"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/rifles"
-            android:textSize="30sp" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_wep_sniper"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/sniper"
-            android:textSize="30sp" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btn_wep_heavy"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/heavy"
-            android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn_wep_shotguns"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/shotguns"
+                android:textSize="30sp" />
 
-        <Button
-            android:id="@+id/btn_wep_shields"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/shields"
-            android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn_wep_rifles"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/rifles"
+                android:textSize="30sp" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_wep_knife"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/knives"
-            android:textSize="30sp"
-            android:layout_marginBottom="30dp"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_wep_sniper"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/sniper"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_wep_heavy"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/heavy"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_wep_shields"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/shields"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_wep_knife"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="@string/knives"
+                android:textSize="30sp" />
+        </LinearLayout>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

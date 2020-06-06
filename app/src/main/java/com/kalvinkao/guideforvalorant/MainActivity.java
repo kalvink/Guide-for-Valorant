@@ -30,6 +30,8 @@ import java.util.List;
 
 /*ALL CODE COPYRIGHTED TO KALVIN KAO
 * https://github.com/kalvink
+* Contact me on the discord:
+* https://discord.gg/hTyH7hM
 */
 
 public class MainActivity extends AppCompatActivity {

@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:contentDescription="@string/operator"
-                android:src="@drawable/vandal_ar762" />
+                android:src="@drawable/standard_vandal" />
 
         </LinearLayout>
 
