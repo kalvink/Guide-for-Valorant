@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,8 +18,596 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="SMG-9 SPECTRE"
-            android:textSize="30dp" />
+            android:text="@string/standard_spectre"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/standard_spectre"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/kingdom_spectre"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/kingdom_spectre"
+                android:src="@drawable/kingdom_spectre"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_875"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/luxe_spectre"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/luxe_spectre"
+                android:src="@drawable/luxe_spectre"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_875"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/prime_spectre"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/prime_spectre"
+                android:src="@drawable/prime_spectre"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_1775"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/prime_spectre_lv_5"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/prime_spectre"
+                android:src="@drawable/prime_spectre_v1"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/rp"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_15"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/prime_spectre_lv_6"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/prime_spectre"
+                android:src="@drawable/prime_spectre_v2"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/rp"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_15"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/prime_spectre_lv_7"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/prime_spectre"
+                android:src="@drawable/prime_spectre_v3"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/rp"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_15"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <!-- RETIRED BETA SKINS -->
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFAB00"
+            android:gravity="center"
+            android:text="@string/retired_beta_skins"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/avalanche_spectre"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -34,7 +623,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="160dp"
-                android:src="@drawable/spectre_smg9" />
+                android:src="@drawable/spectre_avalanche"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -43,8 +633,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="AVALANCHE SPECTRE"
-            android:textSize="30dp" />
+            android:text="@string/red_luxe_spectre"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -60,7 +651,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="160dp"
-                android:src="@drawable/spectre_avalanche" />
+                android:src="@drawable/spectre_luxe"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -69,8 +661,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="LUXE SPECTRE"
-            android:textSize="30dp" />
+            android:text="@string/luxe_spectre_lv_2"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -86,7 +679,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="160dp"
-                android:src="@drawable/spectre_luxe" />
+                android:src="@drawable/spectre_luxe2"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -95,8 +689,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="LUXE SPECTRE LV.2"
-            android:textSize="30dp" />
+            android:text="@string/luxe_spectre_lv_3"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -112,7 +707,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="160dp"
-                android:src="@drawable/spectre_luxe2" />
+                android:src="@drawable/spectre_luxe3"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -121,8 +717,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="LUXE SPECTRE LV.3"
-            android:textSize="30dp" />
+            android:text="@string/luxe_spectre_lv_4"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds,TooManyViews" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -138,33 +735,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="160dp"
-                android:src="@drawable/spectre_luxe3" />
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="LUXE SPECTRE LV.4"
-            android:textSize="30dp" />
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
-            app:cardCornerRadius="2dp"
-            app:cardElevation="30dp">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="160dp"
-                android:src="@drawable/spectre_luxe4" />
+                android:src="@drawable/spectre_luxe4"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -174,7 +746,8 @@
             android:background="#FFFFFF"
             android:gravity="center"
             android:text="PRISM SPECTRE"
-            android:textSize="30dp" />
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds,HardcodedText" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -190,7 +763,8 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="160dp"
-                android:src="@drawable/spectre_prism" />
+                android:src="@drawable/spectre_prism"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

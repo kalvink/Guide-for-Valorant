@@ -36,9 +36,10 @@
             <ImageView
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="180dp"
-                android:contentDescription="@string/operator"
-                android:src="@drawable/spectre_smg9"/>
+                android:layout_height="150dp"
+                android:contentDescription="@string/spectre"
+                android:src="@drawable/standard_spectre"
+                />
 
         </LinearLayout>
 

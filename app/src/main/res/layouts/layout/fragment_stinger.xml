@@ -37,8 +37,8 @@
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="180dp"
-                android:contentDescription="@string/operator"
-                android:src="@drawable/stinger_cqsbr" />
+                android:contentDescription="@string/stinger"
+                android:src="@drawable/standard_stinger" />
 
         </LinearLayout>
 

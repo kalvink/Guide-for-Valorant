@@ -5,8 +5,7 @@
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/valorantColor"
-    tools:context=".ui.agents.viper.main.PlaceholderFragment">
+    android:background="@color/valorantColor">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,49 +18,297 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="ACS-12 JUDGE"
-            android:textSize="30dp" />
+            android:text="@string/standard_judge"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
-            app:cardCornerRadius="2dp"
-            app:cardElevation="30dp">
+            app:cardElevation="10dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:src="@drawable/judge_acs12" />
+                android:layout_height="130dp"
+                android:src="@drawable/standard_judge"
+                tools:ignore="DuplicateIds" />
+
         </androidx.cardview.widget.CardView>
+
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF" />
+
+        <!--Break-->
+
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="LUXE JUDGE"
-            android:textSize="30dp" />
+            android:text="@string/dot_exe_judge"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
-            app:cardCornerRadius="2dp"
-            app:cardElevation="30dp">
+            app:cardElevation="10dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:src="@drawable/judge_luxe" />
+                android:layout_height="130dp"
+                android:contentDescription="@string/galleria_phantom"
+                android:src="@drawable/dotexe_judge"
+                tools:ignore="DuplicateIds" />
+
         </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/battlepass_price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_875"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purchase Battlepass and unlocked at tier 45."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/luxe_judge"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:src="@drawable/luxe_judge"
+                tools:ignore="ContentDescription,DuplicateIds" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_875"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds,InefficientWeight" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+        <!--Break-->
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/rush_judge"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:src="@drawable/rush_judge"
+                tools:ignore="ContentDescription,DuplicateIds" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_875"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds,InefficientWeight" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+        <!--Break-->
     </LinearLayout>
 </ScrollView>

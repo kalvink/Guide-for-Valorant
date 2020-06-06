@@ -35,11 +35,11 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/stinger_icon"
+                android:id="@+id/ghost"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:contentDescription="@string/operator"
-                android:src="@drawable/ghost_lp15" />
+                android:contentDescription="@string/ghost"
+                android:src="@drawable/standard_ghost" />
 
         </LinearLayout>
 

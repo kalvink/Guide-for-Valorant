@@ -37,9 +37,9 @@
             <ImageView
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:contentDescription="@string/operator"
-                android:src="@drawable/ares_lswrf" />
+                android:layout_height="100dp"
+                android:contentDescription="@string/ares"
+                android:src="@drawable/standard_ares" />
 
         </LinearLayout>
 
@@ -67,7 +67,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="@string/stats_ares" />
+            android:text="@string/stats_ares"
+            android:layout_margin="10dp"
+            />
 
         <TextView
             android:id="@+id/recoil_pattern"

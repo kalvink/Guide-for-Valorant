@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Relative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,8 +18,155 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="BSW-460 OPERATOR"
-            android:textSize="30dp" />
+            android:text="@string/standard_operator"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/standard_op"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF" />
+
+        <!--Break-->
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/luxe_operator"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:contentDescription="@string/dot_exe_ghost"
+                android:src="@drawable/luxe_op"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/price"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="34dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/vp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="@string/_875"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider70"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase_from_store_rotation"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            tools:ignore="DuplicateIds" />
+
+        <!--Break-->
+
+        <!--Break-->
+
+        <!--Break-->
+
+        <!--Break-->
+
+        <!--Break-->
+
+        <!-- RETIRED BETA SKINS -->
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FFAB00"
+            android:gravity="center"
+            android:text="@string/retired_beta_skins"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="RED LUXE OPERATOR"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -26,15 +174,15 @@
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
             android:layout_marginBottom="40sp"
-
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_bsw460" />
+                android:src="@drawable/operator_luxe"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -43,8 +191,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="LUXE OPERATOR"
-            android:textSize="30dp" />
+            android:text="@string/luxe_operator_lv_3"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -52,67 +201,15 @@
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
             android:layout_marginBottom="40sp"
-
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_luxe" />
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="LUXE OPERATOR LV.2"
-            android:textSize="30dp" />
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
-            app:cardCornerRadius="2dp"
-            app:cardElevation="30dp">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="130dp"
-                android:src="@drawable/operator_luxe2" />
-        </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:gravity="center"
-            android:text="LUXE OPERATOR LV.3"
-            android:textSize="30dp" />
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
-            app:cardCornerRadius="2dp"
-            app:cardElevation="30dp">
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="130dp"
-                android:src="@drawable/operator_luxe3" />
+                android:src="@drawable/operator_luxe3"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -122,7 +219,8 @@
             android:background="#FFFFFF"
             android:gravity="center"
             android:text="LUXE OPERATOR LV.4"
-            android:textSize="30dp" />
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -130,15 +228,15 @@
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
             android:layout_marginBottom="40sp"
-
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_luxe4" />
+                android:src="@drawable/operator_luxe4"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -147,24 +245,25 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="PRISM OPERATOR"
-            android:textSize="30dp" />
+            android:text="@string/prism_operator"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
+            android:layout_marginBottom="80sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_prism" />
+                android:src="@drawable/operator_prism"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -173,24 +272,25 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="REAVER OPERATOR"
-            android:textSize="30dp" />
+            android:text="@string/reaver_operator"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
+            android:layout_marginBottom="80sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_reaver" />
+                android:src="@drawable/operator_reaver"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -199,53 +299,52 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="REAVER OPERATOR LV.5"
-            android:textSize="30dp" />
+            android:text="@string/reaver_operator_lv_5"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
-
+            android:layout_marginBottom="80sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_reaver5" />
-
+                android:src="@drawable/operator_reaver5"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="RONIN OPERATOR"
-            android:textSize="30dp" />
+            android:text="@string/ronin_operator"
+            android:textSize="30sp"
+            tools:ignore="DuplicateIds" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="100sp"
-
+            android:layout_marginBottom="80sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/operator_ronin" />
+                android:src="@drawable/operator_ronin"
+                tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
-
 </ScrollView>

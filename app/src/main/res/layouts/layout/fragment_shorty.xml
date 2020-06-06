@@ -36,9 +36,10 @@
             <ImageView
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:contentDescription="@string/operator"
-                android:src="@drawable/shorty_dbs20" />
+                android:layout_height="200dp"
+                android:contentDescription="@string/shorty"
+                android:src="@drawable/standard_shorty"
+                />
 
         </LinearLayout>
 

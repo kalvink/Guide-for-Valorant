@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="120dp"
                 android:contentDescription="@string/odin"
-                android:src="@drawable/odin_hmg50" />
+                android:src="@drawable/standard_odin" />
 
         </LinearLayout>
 

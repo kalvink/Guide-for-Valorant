@@ -35,11 +35,11 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/stinger_icon"
+                android:id="@+id/icon_guardian"
                 android:layout_width="wrap_content"
                 android:layout_height="120dp"
-                android:contentDescription="@string/operator"
-                android:src="@drawable/guardian_dmr04" />
+                android:contentDescription="@string/guardian"
+                android:src="@drawable/standard_guardian" />
 
         </LinearLayout>
 
