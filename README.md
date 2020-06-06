@@ -6,6 +6,8 @@ Version 0.8 (June, 2020):
 - Added Reyna
 - Redesigning layouts
 - Added weapon tips
+- Added all new weapon skins and a section for retired beta skins
+- Added News section
 
 Version 0.7 (May 15, 2020):
 - Bug Fixes
