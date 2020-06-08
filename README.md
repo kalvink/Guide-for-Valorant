@@ -1,7 +1,7 @@
 # Guide for Valorant
 
 https://play.google.com/store/apps/details?id=com.kalvinkao.guideforvalorant&hl=en_CA
-![alt text](https://lh3.googleusercontent.com/paSi9J3L-O3XL62rE7g2xAwSW2RTqm9mB6WTt0e3LOyu42-BHMjOtUwX5atTgq4cnJjd=w1920-h937-rw)
+![alt text](https://lh3.googleusercontent.com/paSi9J3L-O3XL62rE7g2xAwSW2RTqm9mB6WTt0e3LOyu42-BHMjOtUwX5atTgq4cnJjd=w720-h310-rw)
 ![alt text](https://lh3.googleusercontent.com/2N7rUGv0Oxy6I0pru_DhcEi_TncTVWqHe0cucsw2HXShUTNKCeP5TI0xrHeLYYRKFoQN=w720-h310-rw)
 
 Version 0.8 (June 8, 2020):
