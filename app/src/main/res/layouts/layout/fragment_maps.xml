@@ -18,6 +18,12 @@
                 android:layout_height="150dp"
                 android:src="@drawable/map_bind" />
 
+            <ImageView
+                android:id="@+id/btn_bind2"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                android:src="@drawable/minimap_bind" />
+
             <View
                 android:id="@+id/divider68"
                 android:layout_width="match_parent"
@@ -31,6 +37,12 @@
                 android:layout_height="150dp"
                 android:src="@drawable/map_haven" />
 
+            <ImageView
+                android:id="@+id/btn_bind3"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                android:src="@drawable/minimap_haven" />
+
             <View
                 android:id="@+id/divider69"
                 android:layout_width="match_parent"
@@ -44,6 +56,12 @@
                 android:layout_height="150dp"
                 android:src="@drawable/map_split" />
 
+            <ImageView
+                android:id="@+id/btn_bind4"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                android:src="@drawable/minimap_split" />
+
             <View
                 android:id="@+id/divider69"
                 android:layout_width="match_parent"
@@ -52,9 +70,29 @@
                 android:background="#FFFFFF" />
 
             <ImageView
-                android:id="@+id/btn_ascent"
+                android:id="@+id/btn_ascent2"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:src="@drawable/map_split" />
+                android:src="@drawable/ascent" />
+
+            <ImageView
+                android:id="@+id/btn_bind5"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                android:src="@drawable/ascent_minimap" />
+
+            <View
+                android:id="@+id/divider73"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF" />
+
+
+            <!--     <ImageView
+                     android:id="@+id/btn_ascent"
+                     android:layout_width="match_parent"
+                     android:layout_height="150dp"
+                     android:src="@drawable/map_split" /> -->
         </LinearLayout>
     </ScrollView>

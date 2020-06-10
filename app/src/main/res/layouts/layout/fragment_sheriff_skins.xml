@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_1275"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
@@ -164,42 +164,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/price"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="34dp"
-                android:layout_height="30dp"
-                android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
-                tools:ignore="ContentDescription,DuplicateIds" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/_875"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-        </LinearLayout>
-
         <View
             android:id="@+id/divider70"
             android:layout_width="match_parent"
@@ -211,7 +175,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from finishing Jett's contract."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -258,37 +222,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/price"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="34dp"
-                android:layout_height="30dp"
-                android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
-                tools:ignore="ContentDescription,DuplicateIds" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/_875"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-        </LinearLayout>
+            android:orientation="horizontal"/>
 
         <View
             android:id="@+id/divider70"
@@ -301,7 +235,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from finishing Brimstone's contract."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -344,42 +278,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/price"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="34dp"
-                android:layout_height="30dp"
-                android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
-                tools:ignore="ContentDescription,DuplicateIds" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/_875"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-        </LinearLayout>
-
         <View
             android:id="@+id/divider70"
             android:layout_width="match_parent"
@@ -391,7 +289,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from finishing Sova's contract."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -464,7 +362,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="80sp"
+            android:layout_marginBottom="100sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 

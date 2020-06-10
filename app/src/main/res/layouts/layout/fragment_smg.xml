@@ -40,7 +40,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/stinger"
-                    android:textSize="35sp" />
+                    android:textSize="30sp" />
 
             </LinearLayout>
 
@@ -79,7 +79,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/spectre"
-                    android:textSize="35sp" />
+                    android:textSize="30sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

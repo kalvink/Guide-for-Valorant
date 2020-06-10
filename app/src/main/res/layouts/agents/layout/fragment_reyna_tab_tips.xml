@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="15dp"
-                android:text="@string/razetip1"
+                android:text="Reyna is one of the strongest duelist thanks to her ability to empower herself with her ultimate to increase fire rate, reload rate, and automatically absorb every orb to over heal, with the additional ability to use Dismiss on orbs as well to go invisible and intangible."
                 android:textColor="#000000"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="15dp"
-                android:text="@string/razetip2"
+                android:text="Reyna can over heal to a total of 150 hp with the addition of 50 armor resulting in 200 hp."
                 android:textColor="#000000"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
@@ -66,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="15dp"
-                android:text="@string/razetip3"
+                android:text="Reyna's Leer ability is great for entering fights or helping your teammates. \n\n It is one of the best abilities for entry fragging."
                 android:textColor="#000000"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="90dp"
             app:cardCornerRadius="2dp"
             app:cardElevation="20dp">
 
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="15dp"
-                android:text="@string/razetip4"
+                android:text="Reyna is great for strong mechanical players who can frag a lot. Since her kit is reliant on fragging, she will not be good for those who cannot frag."
                 android:textColor="#000000"
                 android:textSize="20sp" />
         </androidx.cardview.widget.CardView>

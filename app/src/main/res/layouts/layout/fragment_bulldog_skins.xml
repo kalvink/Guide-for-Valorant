@@ -103,7 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_1275"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
@@ -209,7 +209,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Obtained from Battlepass. Unlocked at tier 10."
+            android:text="Obtained from Ignition: Act 1 Premium Battlepass. \nUnlocked at Tier 10."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -343,7 +343,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="40sp"
+            android:layout_marginBottom="100sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 

@@ -191,7 +191,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_1775"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
@@ -210,7 +210,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="@string/purchase_from_store_rotation_npurchase_individually_for_1775_or_prime_bundle_for_7100"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -270,7 +270,7 @@
                 android:layout_width="34dp"
                 android:layout_height="30dp"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
+                app:srcCompat="@drawable/rp"
                 tools:ignore="ContentDescription,DuplicateIds" />
 
             <TextView
@@ -278,7 +278,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_15"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
@@ -297,7 +297,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="1. Purchase from store \nUnlock levels 2-5 with Radianite Points"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -358,7 +358,7 @@
                 android:layout_width="34dp"
                 android:layout_height="30dp"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
+                app:srcCompat="@drawable/rp"
                 tools:ignore="ContentDescription,DuplicateIds" />
 
             <TextView
@@ -366,7 +366,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_15"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
@@ -385,7 +385,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="1. Purchase from store \n2. Unlock levels 1-6 with Radianite Points."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -446,7 +446,7 @@
                 android:layout_width="34dp"
                 android:layout_height="30dp"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
+                app:srcCompat="@drawable/rp"
                 tools:ignore="ContentDescription,DuplicateIds" />
 
             <TextView
@@ -454,7 +454,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_15"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
@@ -473,7 +473,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="1. Buy from store \nUnlock levels 2-7 with Radianite Points"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -483,7 +483,7 @@
             android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="100dp"
             android:background="#FFFFFF"
             tools:ignore="DuplicateIds" />
         <!--Break-->

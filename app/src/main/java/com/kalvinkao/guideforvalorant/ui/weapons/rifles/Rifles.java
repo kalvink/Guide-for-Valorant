@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -23,10 +24,10 @@ public class Rifles extends Fragment implements OnBackPressed {
         final View root = inflater.inflate(R.layout.fragment_rifles, container, false);
 
         MainActivity.previousTitle = "Weapons";
-        final CardView bulldog = root.findViewById(R.id.cv_bulldog);
-        final CardView guardian = root.findViewById(R.id.cv_guardian);
-        final CardView phantom = root.findViewById(R.id.cv_phantom);
-        final CardView vandal = root.findViewById(R.id.cv_vandal);
+        final ImageView bulldog = root.findViewById(R.id.iv_bd);
+        final ImageView guardian = root.findViewById(R.id.iv_guardian);
+        final ImageView phantom = root.findViewById(R.id.iv_phantom);
+        final ImageView vandal = root.findViewById(R.id.iv_vandal);
 
         bulldog.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

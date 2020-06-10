@@ -209,7 +209,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Obtained from Ignition: Act 1 Battlepass. \n Unlocked at Tier 25."
+            android:text="Obtained from Ignition: Act 1 Premium Battlepass. \n Unlocked at Tier 25."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -278,7 +278,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/n_a"
+                android:text="@string/_875"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />

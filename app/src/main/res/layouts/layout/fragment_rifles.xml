@@ -13,153 +13,70 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cv_bulldog"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            app:cardElevation="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/bulldog"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/bulldog" />
-
-                <TextView
-                    android:id="@+id/textView14"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/bulldog"
-                    android:textSize="15sp" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:id="@+id/iv_bd"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/bd" />
 
         <View
             android:id="@+id/divider38"
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_weight="1"
-            android:background="#FFFFFF" />
+            android:background="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cv_guardian"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            app:cardElevation="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/guardian"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/guardian" />
-
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/guardian"
-                    android:textSize="15sp" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:id="@+id/iv_guardian"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/guardian"
+            android:layout_marginBottom="7.5dp"/>
 
         <View
             android:id="@+id/divider39"
             android:layout_width="match_parent"
             android:layout_height="2dp"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="#FFFFFF" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cv_phantom"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            app:cardElevation="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/phantom"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/phantom" />
-
-                <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/phantom"
-                    android:textSize="15sp" />
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:id="@+id/iv_phantom"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/phantom" />
 
         <View
             android:id="@+id/divider40"
             android:layout_width="match_parent"
             android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
             android:layout_weight="1"
             android:background="#FFFFFF" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cv_vandal"
+        <ImageView
+            android:id="@+id/iv_vandal"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/vandal"
+            android:layout_marginBottom="10dp"/>
+
+        <View
+            android:id="@+id/divider71"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            app:cardElevation="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/vandal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/vandal" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="@string/vandal"
-                    android:textSize="15sp" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

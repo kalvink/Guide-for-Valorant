@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/price"
+                android:text="@string/battlepass_price"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_1000"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
@@ -121,7 +121,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from Ignition: Act 1 Premium Battlepass. \nUnlocked at Tier 5."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -391,7 +391,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="1. Purchase from store \n2. Unlock levels 2-5 with Radianite Points"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -481,7 +481,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="1. Purchase from store \n2. Unlock levels 2-6 with Radianite Points"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -569,7 +569,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="1. Purchase from store \n2. Unlock levels 2-7 with Radianite Points"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"

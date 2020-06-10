@@ -121,7 +121,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Obtain from Battlepass. Unlocked at tier"
+            android:text="Obtained from Ignition: Act 1 Premium Battlepass. \nUnlocked at Tier 30."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"

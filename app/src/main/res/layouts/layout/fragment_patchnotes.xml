@@ -33,10 +33,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Version 0.8 (June, 2020):
+                android:text="Version 0.8 (June 8, 2020):
             \n - Added Reyna
+            \n - Added new map Ascent
             \n - Redesigning layouts
-            \n - Added weapon tips"
+            \n - Added weapon tips
+            \n - Added all new weapon skins and a section for retired beta skins
+            \n - Added News section"
+                android:textAlignment="textStart"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:id="@+id/patchnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Version 0.9 (June 8, 2020):
+                \n - Added Reyna
+                \n - Added new map Ascent
+                \n - Redesigning layouts
+                \n - Added weapon tips
+                \n - Added all new weapon skins and a section for retired beta skins
+                \n - Added News section"
                 android:textAlignment="textStart"
                 tools:ignore="DuplicateIds" />
 
@@ -194,8 +221,7 @@
                 app:adUnitId="@string/ad_unit_id"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-            </com.google.android.gms.ads.AdView>
+                app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
 
         </RelativeLayout>
     </LinearLayout>

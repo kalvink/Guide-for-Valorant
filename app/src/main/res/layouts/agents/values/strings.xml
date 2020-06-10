@@ -361,7 +361,6 @@
     <string name="prime_vandal_lv_6">PRIME VANDAL LV.6</string>
     <string name="_15">15</string>
     <string name="prism_phantom">PRISM PHANTOM</string>
-    <string name="avalanche_vandal">AVALANCHE VANDAL</string>
     <string name="avalanche_phantom">AVALANCHE PHANTOM</string>
     <string name="retired_beta_skins">RETIRED BETA SKINS</string>
     <string name="galleria_phantom">GALLERIA PHANTOM</string>
@@ -450,6 +449,21 @@
     <string name="standard_stinger">STANDARD STINGER</string>
     <string name="aristocrat_stinger">ARISTOCRAT STINGER</string>
     <string name="couture_stinger">COUTURE STINGER</string>
+    <string name="free">Free</string>
+    <string name="standard_knife">STANDARD KNIFE</string>
+    <string name="imperium_knife">IMPERIUM KNIFE</string>
+    <string name="red_luxe_knife">RED LUXE KNIFE</string>
+    <string name="prism_knife">PRISM KNIFE</string>
+    <string name="reaver_knife">REAVER KNIFE</string>
+    <string name="prime_vandal_lv_5">PRIME VANDAL LV.5</string>
+    <string name="prime_vandal_lv_7">PRIME VANDAL LV.7</string>
+    <string name="avalanche_vandal">AVALANCHE VANDAL</string>
+    <string name="luxe_vandal_lv_4">LUXE VANDAL LV.4</string>
+    <string name="reaver_vandal">REAVER VANDAL</string>
+    <string name="kingdom_knife">KINGDOM KNIFE</string>
+    <string name="luxe_knife">LUXE KNIFE</string>
+    <string name="prime_axe">PRIME AXE</string>
+    <string name="_3550">3550</string>
 
 
     <string-array name="language_arrays">

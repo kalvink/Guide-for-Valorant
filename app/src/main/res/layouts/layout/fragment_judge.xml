@@ -38,7 +38,7 @@
                 android:id="@+id/stinger_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
-                android:contentDescription="@string/operator"
+                android:contentDescription="@string/judge"
                 android:src="@drawable/standard_judge" />
 
         </LinearLayout>

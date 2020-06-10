@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/price"
+                android:text="@string/battlepass_price"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_875"
+                android:text="@string/_1000"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
 
@@ -121,7 +121,7 @@
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from Ignition: Act 1 Premium Battlepass. \nUnlocked at Tier 35."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -162,42 +162,6 @@
                 tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/battlepass_price"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="34dp"
-                android:layout_height="30dp"
-                android:layout_weight="0"
-                app:srcCompat="@drawable/vp"
-                tools:ignore="ContentDescription,DuplicateIds" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/_1000"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-        </LinearLayout>
-
         <View
             android:id="@+id/divider6"
             android:layout_width="match_parent"
@@ -210,7 +174,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Obtained from Battlepass. Unlocked at tier 10."
+            android:text="Obtained from finishing Cypher's contract."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -261,7 +225,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/battlepass_price"
+                android:text="@string/price"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
@@ -279,7 +243,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:text="@string/_1000"
+                android:text="@string/_875"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="DuplicateIds" />
@@ -338,43 +302,6 @@
                 tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/price"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="34dp"
-                android:layout_height="30dp"
-                android:layout_weight="0"
-                android:contentDescription="@string/valorant_points"
-                app:srcCompat="@drawable/vp"
-                tools:ignore="DuplicateIds" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/_875"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-        </LinearLayout>
-
         <View
             android:id="@+id/divider6"
             android:layout_width="match_parent"
@@ -387,7 +314,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from finishing Omen's conrtact."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -426,43 +353,6 @@
                 tools:ignore="ContentDescription,DuplicateIds" />
         </androidx.cardview.widget.CardView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/price"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="34dp"
-                android:layout_height="30dp"
-                android:layout_weight="0"
-                android:contentDescription="@string/valorant_points"
-                app:srcCompat="@drawable/vp"
-                tools:ignore="DuplicateIds" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
-                android:text="@string/_1775"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds" />
-
-        </LinearLayout>
-
         <View
             android:id="@+id/divider6"
             android:layout_width="match_parent"
@@ -475,7 +365,7 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purchase_from_store_rotation"
+            android:text="Obtained from finishing Reyna's contract."
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -599,7 +489,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="80sp"
+            android:layout_marginBottom="100sp"
             app:cardCornerRadius="2dp"
             app:cardElevation="30dp">
 

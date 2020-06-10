@@ -36,8 +36,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
-                        android:contentDescription="@string/snakebite"
-                        app:srcCompat="@drawable/raze_ab1" />
+                        app:srcCompat="@drawable/reyna_ab1"
+                        tools:ignore="ContentDescription" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -74,6 +74,7 @@
                             android:layout_margin="5dp"
                             android:text="@string/cost_200"
                             android:textStyle="bold" />
+
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -115,8 +116,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
-                        android:contentDescription="@string/viper_ab2"
-                        app:srcCompat="@drawable/raze_ab2" />
+                        app:srcCompat="@drawable/reyna_ab2"
+                        tools:ignore="ContentDescription" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -153,6 +154,7 @@
                             android:layout_margin="5dp"
                             android:text="@string/cost_100"
                             android:textStyle="bold" />
+
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -197,8 +199,8 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="5dp"
                         android:layout_marginBottom="5dp"
-                        android:contentDescription="@string/viper_ab3"
-                        app:srcCompat="@drawable/raze_ab3" />
+                        app:srcCompat="@drawable/reyna_ab3"
+                        tools:ignore="ContentDescription" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -235,6 +237,7 @@
                             android:layout_margin="5dp"
                             android:text="Cost: Free"
                             android:textStyle="bold" />
+
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView
@@ -275,8 +278,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
-                        android:contentDescription="@string/viper_ab4"
-                        app:srcCompat="@drawable/raze_ab4" />
+                        app:srcCompat="@drawable/reyna_ab4"
+                        tools:ignore="ContentDescription" />
 
                     <View style="@style/Divider.Vertical" />
 
@@ -314,6 +317,7 @@
                             android:layout_margin="5dp"
                             android:text="@string/ult_cost6"
                             android:textStyle="bold" />
+
                         <View style="@style/Divider.Horizontal" />
 
                         <TextView

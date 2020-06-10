@@ -17,6 +17,7 @@ import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
 import com.kalvinkao.guideforvalorant.ui.info.InfoFragment;
 import com.kalvinkao.guideforvalorant.ui.maps.MapsFragment;
 import com.kalvinkao.guideforvalorant.ui.collection.CollectionFragment;
+import com.kalvinkao.guideforvalorant.ui.news.NewsFragment;
 import com.kalvinkao.guideforvalorant.ui.weapons.WeaponsFragment;
 
 public class HomeFragment extends Fragment {
@@ -78,7 +79,7 @@ public class HomeFragment extends Fragment {
         btn_news.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
-                mFragment = new InfoFragment();
+                mFragment = new NewsFragment();
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
                 ((MainActivity) getActivity()).getSupportActionBar().setTitle("News");
