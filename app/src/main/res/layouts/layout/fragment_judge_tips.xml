@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="60sp"
 
             app:cardCornerRadius="2dp"
             app:cardElevation="20dp">
@@ -36,9 +36,11 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Coming Soon"
+                android:text="\n\nThe Judge is the most expensive shotgun in the game at 1500 credits. \n\nIt shoots 12 bullets with high falloff like other shotguns. At 10 or fewer meters, 9 bullets are needed to oneshot an armored agent, while all 12 are needed at 10-15 meters if they strike the body. Any bullets that hit the head deal double damage.
+\n\nWhile it does less damage per bullet than the Bucky, it makes up for it with its severely reduced spread and higher fire rate making the gun much more forgiving. Crouching reduces the spread much more with the Judge than it does with the Bucky. \n\n"
                 android:textColor="#000000"
-                android:textSize="40sp" />
+                android:textSize="20sp"
+                />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

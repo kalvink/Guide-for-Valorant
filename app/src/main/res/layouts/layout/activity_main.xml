@@ -28,7 +28,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-    <!--    <com.google.android.gms.ads.AdView
+       <com.google.android.gms.ads.AdView
             android:id="@+id/adViewBot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
             app:adSize="SMART_BANNER"
             app:adUnitId="@string/ad_unit_id">
         </com.google.android.gms.ads.AdView>
-        -->
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

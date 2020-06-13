@@ -42,7 +42,7 @@ public class Credits extends AppCompatActivity {
 
         // Riot Credits
         TextView art_credits = (TextView) findViewById(R.id.credits_text1);
-        String creditTxt = "Valorant Illustrations, Assets, and In Game Screenshots by: <a href='https://www.riotgames.com/'>Riot Games</a>. <br><br>Incompliance with Riot's <a href='https://www.riotgames.com/en/legal'>Legal Use</a>";
+        String creditTxt = "Valorant Illustrations, Assets, and In Game Screenshots by: <a href='https://www.riotgames.com/'>Riot Games</a>. <br><br>Incompliance with Riot's <a href='https://www.riotgames.com/en/legal'>Legal Use</a> <br><br> Icons: <a target=\"_blank\" href=\"https://icons8.com/icons/set/bomb\">Atomic Bomb icon</a> icon by <a target=\"_blank\" href=\"https://icons8.com\">Icons8</a> ";
         art_credits.setText(Html.fromHtml(creditTxt));
         art_credits.setMovementMethod(LinkMovementMethod.getInstance());
 

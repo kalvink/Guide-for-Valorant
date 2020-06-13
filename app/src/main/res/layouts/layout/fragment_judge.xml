@@ -67,41 +67,8 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="10dp"
-            android:text="@string/stats_judge" />
-
-        <TextView
-            android:id="@+id/recoil_pattern"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#212121"
-            android:text="@string/recoil_pattern"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="5sp"
-            android:layout_marginEnd="5sp"
-            android:layout_marginBottom="100dp"
-
-            app:cardCornerRadius="2dp"
-            app:cardElevation="20dp">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:paddingLeft="2dp"
-                android:paddingTop="2dp"
-                android:paddingEnd="2dp"
-                android:paddingRight="2dp"
-                android:text="Coming Soon"
-                android:textColor="#000000" />
-        </androidx.cardview.widget.CardView>
+            android:text="@string/stats_judge"
+            android:layout_marginBottom="100dp"/>
 
     </LinearLayout>
 </ScrollView>

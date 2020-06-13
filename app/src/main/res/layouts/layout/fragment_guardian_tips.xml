@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="5sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="100sp"
 
             app:cardCornerRadius="2dp"
             app:cardElevation="20dp">
@@ -36,9 +36,13 @@
                 android:paddingTop="2dp"
                 android:paddingEnd="2dp"
                 android:paddingRight="2dp"
-                android:text="Coming Soon"
+                android:text="\nThe Guardian is a semi automatic rifle that sits at a moderate price of 2,700 compared to other rifles. The Guardian is unique for being the only semi automatic rifle, and having a 1.5x zoom, as well as the highest damage per bullet compared to any other rifles.
+
+\n\nThe Guardian, though being semi-automatic, can still fire decently fast at 6.5 rounds per second. The Guardian shines at one aspect, its damage per bullet. It is a 4 to the legs, 3 to the body and 1 to the head at any range.
+
+\n\nThe Rifle shines on the defensive side, as with its extreme damage per bullet and 1.5x zoom makes it a dangerous rifle to peek, especially since it's a guaranteed one tap to the head.\n"
                 android:textColor="#000000"
-                android:textSize="40sp" />
+                android:textSize="20sp" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

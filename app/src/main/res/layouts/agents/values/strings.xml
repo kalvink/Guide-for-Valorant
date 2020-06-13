@@ -464,6 +464,9 @@
     <string name="luxe_knife">LUXE KNIFE</string>
     <string name="prime_axe">PRIME AXE</string>
     <string name="_3550">3550</string>
+    <string name="start">Start</string>
+    <string name="bombtime_45">45</string>
+    <string name="bomb_timer">Bomb Timer</string>
 
 
     <string-array name="language_arrays">

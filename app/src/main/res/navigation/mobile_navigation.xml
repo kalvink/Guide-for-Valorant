@@ -30,7 +30,7 @@
             app:destination="@id/nav_discord" />
         <action
             android:id="@+id/action_nav_home_to_newsFragment"
-            app:destination="@id/nav_news" />
+            app:destination="@id/nav_bombtimer" />
     </fragment>
     <fragment
         android:id="@+id/nav_agents"
@@ -59,7 +59,7 @@
         android:name="com.kalvinkao.guideforvalorant.ui.discord.Discord"
         android:label="Discord" />
     <fragment
-        android:id="@+id/nav_news"
-        android:name="com.kalvinkao.guideforvalorant.ui.news.NewsFragment"
-        android:label="@string/news" />
+        android:id="@+id/nav_bombtimer"
+        android:name="com.kalvinkao.guideforvalorant.ui.bombtimer.BombTimer"
+        android:label="Bomb Timer" />
 </navigation>

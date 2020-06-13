@@ -17,7 +17,7 @@ import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
 import com.kalvinkao.guideforvalorant.ui.info.InfoFragment;
 import com.kalvinkao.guideforvalorant.ui.maps.MapsFragment;
 import com.kalvinkao.guideforvalorant.ui.collection.CollectionFragment;
-import com.kalvinkao.guideforvalorant.ui.news.NewsFragment;
+import com.kalvinkao.guideforvalorant.ui.bombtimer.BombTimer;
 import com.kalvinkao.guideforvalorant.ui.weapons.WeaponsFragment;
 
 public class HomeFragment extends Fragment {
@@ -32,7 +32,7 @@ public class HomeFragment extends Fragment {
         final Button btn_weapons = root.findViewById(R.id.btn_weapons);
         final Button btn_maps = root.findViewById(R.id.btn_maps);
         final Button btn_collection = root.findViewById(R.id.btn_collection);
-        final Button btn_news = root.findViewById(R.id.btn_news);
+        final Button btn_btimer = root.findViewById(R.id.btn_btimer);
         final Button btn_info = root.findViewById(R.id.btn_info);
         final NavigationView navigationView = getActivity().findViewById(R.id.nav_view);
 
@@ -76,13 +76,13 @@ public class HomeFragment extends Fragment {
                 navigationView.getMenu().getItem(4).setChecked(true);
             }
         });
-        btn_news.setOnClickListener(new View.OnClickListener() {
+        btn_btimer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
-                mFragment = new NewsFragment();
+                mFragment = new BombTimer();
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("News");
+                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Bomb Timer");
                 navigationView.getMenu().getItem(5).setChecked(true);
             }
         });
