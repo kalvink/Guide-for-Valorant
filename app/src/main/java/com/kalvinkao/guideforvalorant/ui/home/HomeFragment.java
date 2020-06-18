@@ -17,7 +17,7 @@ import com.kalvinkao.guideforvalorant.ui.agents.AgentsFragment;
 import com.kalvinkao.guideforvalorant.ui.info.InfoFragment;
 import com.kalvinkao.guideforvalorant.ui.maps.MapsFragment;
 import com.kalvinkao.guideforvalorant.ui.collection.CollectionFragment;
-import com.kalvinkao.guideforvalorant.ui.bombtimer.BombTimer;
+import com.kalvinkao.guideforvalorant.ui.spiketimer.SpikeTimer;
 import com.kalvinkao.guideforvalorant.ui.weapons.WeaponsFragment;
 
 public class HomeFragment extends Fragment {
@@ -79,10 +79,10 @@ public class HomeFragment extends Fragment {
         btn_btimer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Fragment mFragment = null;
-                mFragment = new BombTimer();
+                mFragment = new SpikeTimer();
                 FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, mFragment).addToBackStack(null).commit();
-                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Bomb Timer");
+                ((MainActivity) getActivity()).getSupportActionBar().setTitle("Spike Timer");
                 navigationView.getMenu().getItem(5).setChecked(true);
             }
         });

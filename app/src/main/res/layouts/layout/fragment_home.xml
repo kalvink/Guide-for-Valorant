@@ -90,7 +90,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="91dp"
                 android:background="#FFFFFF"
-                android:text="@string/bomb_timer"
+                android:text="@string/spike_timer"
                 android:textStyle="bold" />
 
 

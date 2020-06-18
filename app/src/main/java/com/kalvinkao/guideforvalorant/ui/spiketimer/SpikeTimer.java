@@ -1,4 +1,4 @@
-package com.kalvinkao.guideforvalorant.ui.bombtimer;
+package com.kalvinkao.guideforvalorant.ui.spiketimer;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -13,16 +13,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.kalvinkao.guideforvalorant.MainActivity;
 import com.kalvinkao.guideforvalorant.R;
 
 
-public class BombTimer extends Fragment {
+public class SpikeTimer extends Fragment {
     public CountDownTimer countDownTimer;
     private final long interval = 100;
     int secondsLeft = 0;
@@ -37,7 +32,7 @@ public class BombTimer extends Fragment {
     /* access modifiers changed from: protected */
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_bombtimer, container, false);
+        View root = inflater.inflate(R.layout.fragment_spiketimer, container, false);
         MainActivity.previousTitle = "Home";
 
 

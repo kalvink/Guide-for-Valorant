@@ -35,7 +35,7 @@
                 android:padding="10dp"
                 android:text="Version 0.9 (June 13, 2020):
             \n - Fixes
-            \n - Added Bomb timer
+            \n - Added Spike timer
             \n - Added all weapon tips
             \n - Removed News"
                 android:textAlignment="textStart"
@@ -219,7 +219,8 @@
                 app:adUnitId="@string/ad_unit_id"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+                app:layout_constraintStart_toStartOf="parent">
+            </com.google.android.gms.ads.AdView>
 
         </RelativeLayout>
     </LinearLayout>

@@ -466,7 +466,7 @@
     <string name="_3550">3550</string>
     <string name="start">Start</string>
     <string name="bombtime_45">45</string>
-    <string name="bomb_timer">Bomb Timer</string>
+    <string name="spike_timer">Spike Timer</string>
 
 
     <string-array name="language_arrays">
