@@ -1,4 +1,8 @@
 # Guide for Valorant
+Guide for Valorant is an unofficial guide app for the game Valorant by Riot Games. Learn all about the game from the convenience of your phone.
+
+Features:
+Information about Agents, Abilities, Weapons, Weapon Skins, Maps, Bomb Timer, Game Information, Collections of Player Cards, Sprays, Titles, Gunbuddies.
 
 https://play.google.com/store/apps/details?id=com.kalvinkao.guideforvalorant&hl=en_CA
 
