@@ -5,7 +5,6 @@ Features:
 Information about Agents, Abilities, Weapons, Weapon Skins, Maps, Bomb Timer, Game Information, Collections of Player Cards, Sprays, Titles, Gunbuddies.
 
 (Taken down due to logo too similar to official game, managed to amass 5000 downloads prior to removal.)
-
 https://play.google.com/store/apps/details?id=com.kalvinkao.guideforvalorant&hl=en_CA 
 
 ![alt text](https://lh3.googleusercontent.com/XK5wgRkI3yyp7zryAipeiiZ-lymzZ7E56SmaeuUvkF5a01p5ZcyPqwHIkUyyaSjfVQiB=w720-h310-rw)
