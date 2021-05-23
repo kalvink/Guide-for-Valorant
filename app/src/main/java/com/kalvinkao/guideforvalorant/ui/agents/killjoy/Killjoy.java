@@ -1,37 +1,37 @@
-package com.kalvinkao.guideforvalorant.ui.actionbar;
+package com.kalvinkao.guideforvalorant.ui.agents.killjoy;
 
 import android.os.Bundle;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.material.tabs.TabLayout;
 import com.kalvinkao.guideforvalorant.R;
+import com.kalvinkao.guideforvalorant.ui.agents.main.PlaceholderFragment;
+import com.kalvinkao.guideforvalorant.ui.agents.main.SectionsPagerAdapter;
 
 import static com.kalvinkao.guideforvalorant.MainActivity.ads_on;
 
 
-public class About extends AppCompatActivity {
+public class Killjoy extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_about);
-
-        // About:
-        TextView about = (TextView) findViewById(R.id.about_txt1);
-        String aboutText = "Guide for Valorant is a fan-made guide app for the first person shooter game Valorant by Riot Games Inc." +
-                "<br><br>For any complaints or feedback, please email me here: <a href=\"mailto:kaokalvin@gmail.com\">kaokalvin@gmail.com</a>";
-        about.setText(Html.fromHtml(aboutText));
-        about.setMovementMethod(LinkMovementMethod.getInstance());
+        setContentView(R.layout.activity_global);
+        PlaceholderFragment.setX(33);
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager.setAdapter(sectionsPagerAdapter);
+        TabLayout tabs = findViewById(R.id.tabs);
+        tabs.setupWithViewPager(viewPager);
         // Bottom Ads
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -42,8 +42,7 @@ public class About extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         if (ads_on) {
             mAdViewBot.loadAd(adRequest);
-        }
-        // Back button
+        }        // Back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

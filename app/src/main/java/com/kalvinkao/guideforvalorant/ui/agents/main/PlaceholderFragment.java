@@ -44,6 +44,8 @@ public class PlaceholderFragment extends Fragment {
             R.layout.fragment_raze, R.layout.fragment_raze_tab_abilities, R.layout.fragment_raze_tab_tips,
             //30-32
             R.layout.fragment_reyna, R.layout.fragment_reyna_tab_abilities, R.layout.fragment_reyna_tab_tips,
+            //33-35
+        //    R.layout.fragment_killjoy, R.layout.fragment_killjoy_tab_abilities, R.layout.fragment_killjoy_tab_tips,
     };
 
 

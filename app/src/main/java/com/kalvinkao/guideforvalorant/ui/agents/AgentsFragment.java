@@ -17,6 +17,7 @@ import com.kalvinkao.guideforvalorant.ui.agents.breach.Breach;
 import com.kalvinkao.guideforvalorant.ui.agents.brimstone.Brimstone;
 import com.kalvinkao.guideforvalorant.ui.agents.cypher.Cypher;
 import com.kalvinkao.guideforvalorant.ui.agents.jett.Jett;
+import com.kalvinkao.guideforvalorant.ui.agents.killjoy.Killjoy;
 import com.kalvinkao.guideforvalorant.ui.agents.omen.Omen;
 import com.kalvinkao.guideforvalorant.ui.agents.phoenix.Phoenix;
 import com.kalvinkao.guideforvalorant.ui.agents.raze.Raze;
@@ -43,6 +44,7 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
         final ImageButton breach = root.findViewById(R.id.btn_breach);
         final ImageButton raze = root.findViewById(R.id.btn_raze);
         final ImageButton reyna = root.findViewById(R.id.btn_reyna);
+        final ImageButton killjoy = root.findViewById(R.id.btn_killjoy);
 
         MainActivity.previousTitle = "Home";
 
@@ -109,6 +111,12 @@ public class AgentsFragment extends Fragment implements OnBackPressed {
         reyna.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), Reyna.class);
+                root.getContext().startActivity(intent);
+            }
+        });
+        killjoy.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Killjoy.class);
                 root.getContext().startActivity(intent);
             }
         });

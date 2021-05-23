@@ -69,18 +69,18 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/btn_killjoy"
+                android:layout_width="189dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/killjoy" />
+
+            <ImageButton
                 android:id="@+id/btn_omen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/icon_omen" />
-
-            <ImageButton
-                android:id="@+id/btn_phoenix"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/icon_phoenix" />
 
         </LinearLayout>
 
@@ -90,12 +90,27 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/btn_phoenix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/icon_phoenix" />
+
+            <ImageButton
                 android:id="@+id/btn_raze"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="Raze"
                 android:src="@drawable/icon_raze" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/btn_reyna"
@@ -105,14 +120,6 @@
                 android:contentDescription="Reyna"
                 android:src="@drawable/icon_reyna" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
             <ImageButton
                 android:id="@+id/btn_sage"
                 android:layout_width="wrap_content"
@@ -120,13 +127,6 @@
                 android:layout_weight="1"
                 android:src="@drawable/icon_sage" />
 
-            <ImageButton
-                android:id="@+id/btn_sova"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/icon_sova" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -134,6 +134,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_sova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/icon_sova" />
 
             <ImageButton
                 android:id="@+id/btn_viper"
